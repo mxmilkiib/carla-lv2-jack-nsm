@@ -5,9 +5,9 @@ For information about LV2/JACK CV, see [this post](https://linuxmusicians.com/vi
 
 ## Requirements
 For Arch Linux users:
-* https://aur.archlinux.org/packages/carla-debug-git - for fixes/testing
-* https://aur.archlinux.org/packages/jack_mixer-git
-* https://aur.archlinux.org/packages/seq66-git
+* https://aur.archlinux.org/packages/carla-debug-git - host
+* https://aur.archlinux.org/packages/jack_mixer-git - mixer
+* https://aur.archlinux.org/packages/seq66-git - sequencer
 * https://aur.archlinux.org/packages/ams-lv2-git
 * https://aur.archlinux.org/packages/mod-cv-plugins-git
 * https://aur.archlinux.org/packages/zlfo.lv2-git
