@@ -1,0 +1,6714 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE CARLA-PROJECT>
+<CARLA-PROJECT VERSION='2.2'>
+ <EngineSettings>
+  <ForceStereo>false</ForceStereo>
+  <PreferPluginBridges>false</PreferPluginBridges>
+  <PreferUiBridges>false</PreferUiBridges>
+  <UIsAlwaysOnTop>false</UIsAlwaysOnTop>
+  <MaxParameters>1000</MaxParameters>
+  <UIBridgesTimeout>4000</UIBridgesTimeout>
+ </EngineSettings>
+
+ <!-- AMS VCA Lin -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Sawtooth VCA</Name>
+   <URI>http://github.com/blablack/ams-lv2/vcalin</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Gain Offset</Name>
+    <Symbol>gain1</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>2nd Gain Boost</Name>
+    <Symbol>gain2</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>In 1</Name>
+    <Symbol>in1</Symbol>
+    <Value>0.949999988079071</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>In 2</Name>
+    <Symbol>in2</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Output Level</Name>
+    <Symbol>outputLevel</Symbol>
+    <Value>0.5</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- LSP Compressor Stereo -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>LSP Compressor Stereo</Name>
+   <URI>http://lsp-plug.in/plugins/lv2/compressor_stereo</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x1</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Enabled</Name>
+    <Symbol>enabled</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Input gain</Name>
+    <Symbol>g_in</Symbol>
+    <Value>1.00000011920929</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Output gain</Name>
+    <Symbol>g_out</Symbol>
+    <Value>0.0473150946199894</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Pause graph analysis</Name>
+    <Symbol>pause</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Clear graph analysis</Name>
+    <Symbol>clear</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Sidechain type</Name>
+    <Symbol>sct</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Sidechain mode</Name>
+    <Symbol>scm</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Sidechain lookahead</Name>
+    <Symbol>sla</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Sidechain listen</Name>
+    <Symbol>scl</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>Sidechain source</Name>
+    <Symbol>scs</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>Sidechain reactivity</Name>
+    <Symbol>scr</Symbol>
+    <Value>10</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>Sidechain preamp</Name>
+    <Symbol>scp</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>High-pass filter mode</Name>
+    <Symbol>shpm</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>High-pass filter frequency</Name>
+    <Symbol>shpf</Symbol>
+    <Value>10</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>Low-pass filter mode</Name>
+    <Symbol>slpm</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>Low-pass filter frequency</Name>
+    <Symbol>slpf</Symbol>
+    <Value>20000</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>16</Index>
+    <Name>Compression mode</Name>
+    <Symbol>cm</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>17</Index>
+    <Name>Attack level</Name>
+    <Symbol>al</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>18</Index>
+    <Name>Attack time</Name>
+    <Symbol>at</Symbol>
+    <Value>77.0211029052734</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>19</Index>
+    <Name>Relative release level</Name>
+    <Symbol>rrl</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>20</Index>
+    <Name>Release time</Name>
+    <Symbol>rt</Symbol>
+    <Value>65.4108047485352</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>21</Index>
+    <Name>Ratio</Name>
+    <Symbol>cr</Symbol>
+    <Value>5.00790739059448</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>22</Index>
+    <Name>Knee</Name>
+    <Symbol>kn</Symbol>
+    <Value>0.245859444141388</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>23</Index>
+    <Name>Boost threshold</Name>
+    <Symbol>bth</Symbol>
+    <Value>0.000250000011874363</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>24</Index>
+    <Name>Makeup gain</Name>
+    <Symbol>mk</Symbol>
+    <Value>0.436297655105591</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>25</Index>
+    <Name>Dry gain</Name>
+    <Symbol>cdr</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>26</Index>
+    <Name>Wet gain</Name>
+    <Symbol>cwt</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>28</Index>
+    <Name>Sidechain level visibility</Name>
+    <Symbol>slv</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>29</Index>
+    <Name>Envelope level visibility</Name>
+    <Symbol>elv</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>30</Index>
+    <Name>Gain reduction visibility</Name>
+    <Symbol>grv</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>35</Index>
+    <Name>Input level visibility Left</Name>
+    <Symbol>ilv_l</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>36</Index>
+    <Name>Output level visibility Left</Name>
+    <Symbol>olv_l</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>39</Index>
+    <Name>Input level visibility Right</Name>
+    <Symbol>ilv_r</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>40</Index>
+    <Name>Output level visibility Right</Name>
+    <Symbol>olv_r</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Control to CV -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Pulse PW</Name>
+   <URI>http://github.com/blablack/ams-lv2/controltocv</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Input</Name>
+    <Symbol>input</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>-1</MappedMinimum>
+    <MappedMaximum>1</MappedMaximum>
+    <Value>0.44705855846405</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS VCO3 -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Sine</Name>
+   <URI>http://github.com/blablack/ams-lv2/vco3</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Wave Form</Name>
+    <Symbol>waveForm</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Octave</Name>
+    <Symbol>octave</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Tune</Name>
+    <Symbol>tune</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>-1</MappedMinimum>
+    <MappedMaximum>1</MappedMaximum>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Semitone</Name>
+    <Symbol>semitone</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>12</MappedMaximum>
+    <Value>0.447058618068695</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>PW0</Name>
+    <Symbol>pw0</Symbol>
+    <Value>0.100000001490116</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>PW Gain</Name>
+    <Symbol>pwGain</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Edge</Name>
+    <Symbol>edge</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Phi0</Name>
+    <Symbol>phi0</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Exp FM Gain</Name>
+    <Symbol>expFMGain</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>10</MappedMaximum>
+    <Value>0.447058409452438</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>Lin FM Gain</Name>
+    <Symbol>linFMGain</Symbol>
+    <Value>10</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS VCO3 -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Triangle</Name>
+   <URI>http://github.com/blablack/ams-lv2/vco3</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Wave Form</Name>
+    <Symbol>waveForm</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Octave</Name>
+    <Symbol>octave</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Tune</Name>
+    <Symbol>tune</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Semitone</Name>
+    <Symbol>semitone</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>12</MappedMaximum>
+    <Value>0.447058618068695</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>PW0</Name>
+    <Symbol>pw0</Symbol>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>PW Gain</Name>
+    <Symbol>pwGain</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Edge</Name>
+    <Symbol>edge</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Phi0</Name>
+    <Symbol>phi0</Symbol>
+    <Value>5.78039979934692</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Exp FM Gain</Name>
+    <Symbol>expFMGain</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>10</MappedMaximum>
+    <Value>0.447058409452438</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>Lin FM Gain</Name>
+    <Symbol>linFMGain</Symbol>
+    <Value>1.01800000667572</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS VCO3 -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Saw</Name>
+   <URI>http://github.com/blablack/ams-lv2/vco3</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Wave Form</Name>
+    <Symbol>waveForm</Symbol>
+    <Value>5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Octave</Name>
+    <Symbol>octave</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Tune</Name>
+    <Symbol>tune</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Semitone</Name>
+    <Symbol>semitone</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>12</MappedMaximum>
+    <Value>0.447058618068695</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>PW0</Name>
+    <Symbol>pw0</Symbol>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>PW Gain</Name>
+    <Symbol>pwGain</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Edge</Name>
+    <Symbol>edge</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>1</MappedMinimum>
+    <MappedMaximum>10</MappedMaximum>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Phi0</Name>
+    <Symbol>phi0</Symbol>
+    <Value>2.08030009269714</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Exp FM Gain</Name>
+    <Symbol>expFMGain</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>10</MappedMaximum>
+    <Value>0.447058409452438</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>Lin FM Gain</Name>
+    <Symbol>linFMGain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS VCO3 -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Pluse</Name>
+   <URI>http://github.com/blablack/ams-lv2/vco3</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Wave Form</Name>
+    <Symbol>waveForm</Symbol>
+    <Value>3</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Octave</Name>
+    <Symbol>octave</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Tune</Name>
+    <Symbol>tune</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Semitone</Name>
+    <Symbol>semitone</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>12</MappedMaximum>
+    <Value>0.447058618068695</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>PW0</Name>
+    <Symbol>pw0</Symbol>
+    <Value>0.497687846422195</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>PW Gain</Name>
+    <Symbol>pwGain</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Edge</Name>
+    <Symbol>edge</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>1</MappedMinimum>
+    <MappedMaximum>10</MappedMaximum>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Phi0</Name>
+    <Symbol>phi0</Symbol>
+    <Value>0.691130042076111</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Exp FM Gain</Name>
+    <Symbol>expFMGain</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>10</MappedMaximum>
+    <Value>0.447058409452438</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>Lin FM Gain</Name>
+    <Symbol>linFMGain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS VCA Exp -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Sine VCA Exp</Name>
+   <URI>http://github.com/blablack/ams-lv2/vcaexp</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Gain Offset</Name>
+    <Symbol>gain1</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>2nd Gain Boost</Name>
+    <Symbol>gain2</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>In 1 Level</Name>
+    <Symbol>in1</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>In 2 Level</Name>
+    <Symbol>in2</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Output Level</Name>
+    <Symbol>outputLevel</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS Mixer 8 channels -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS Mixer 8 channels</Name>
+   <URI>http://github.com/blablack/ams-lv2/mixer_8ch</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <Volume>1.27</Volume>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Gain</Name>
+    <Symbol>gain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Volume 1</Name>
+    <Symbol>volume1</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Volume 2</Name>
+    <Symbol>volume2</Symbol>
+    <Value>0.949999988079071</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Volume 3</Name>
+    <Symbol>volume3</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Volume 4</Name>
+    <Symbol>volume4</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Volume 5</Name>
+    <Symbol>volume5</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Volume 6</Name>
+    <Symbol>volume6</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Volume 7</Name>
+    <Symbol>volume7</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Volume 8</Name>
+    <Symbol>volume8</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS VCA Exp -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Pluse VCA</Name>
+   <URI>http://github.com/blablack/ams-lv2/vcaexp</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Gain Offset</Name>
+    <Symbol>gain1</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>2nd Gain Boost</Name>
+    <Symbol>gain2</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>In 1 Level</Name>
+    <Symbol>in1</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>In 2 Level</Name>
+    <Symbol>in2</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Output Level</Name>
+    <Symbol>outputLevel</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS VCA Exp -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS VCA Triangle</Name>
+   <URI>http://github.com/blablack/ams-lv2/vcaexp</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Gain Offset</Name>
+    <Symbol>gain1</Symbol>
+    <Value>0.28999999165535</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>2nd Gain Boost</Name>
+    <Symbol>gain2</Symbol>
+    <Value>0.00999999977648258</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>In 1 Level</Name>
+    <Symbol>in1</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>In 2 Level</Name>
+    <Symbol>in2</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Output Level</Name>
+    <Symbol>outputLevel</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS VCA Exp -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>STSP VCA</Name>
+   <URI>http://github.com/blablack/ams-lv2/vcaexp</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Gain Offset</Name>
+    <Symbol>gain1</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>2nd Gain Boost</Name>
+    <Symbol>gain2</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>In 1 Level</Name>
+    <Symbol>in1</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>In 2 Level</Name>
+    <Symbol>in2</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Output Level</Name>
+    <Symbol>outputLevel</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- 16 Step Sequencer -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>16 Step Sequencer</Name>
+   <URI>http://drobilla.net/plugins/blop/sequencer_16</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Loop Steps</Name>
+    <Symbol>steps</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>1</MappedMinimum>
+    <MappedMaximum>16</MappedMaximum>
+    <Value>11</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Reset on Gate Close</Name>
+    <Symbol>reset</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Closed Gate Value</Name>
+    <Symbol>closed_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Value 0</Name>
+    <Symbol>val00</Symbol>
+    <Value>0.370000004768372</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Value 1</Name>
+    <Symbol>val01</Symbol>
+    <Value>0.319999992847443</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Value 2</Name>
+    <Symbol>val02</Symbol>
+    <Value>0.0359897166490555</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Value 3</Name>
+    <Symbol>val03</Symbol>
+    <Value>0.28999999165535</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Value 4</Name>
+    <Symbol>val04</Symbol>
+    <Value>0.280000001192093</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Value 5</Name>
+    <Symbol>val05</Symbol>
+    <Value>0.0239931456744671</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>Value 6</Name>
+    <Symbol>val06</Symbol>
+    <Value>0.867180824279785</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>Value 7</Name>
+    <Symbol>val07</Symbol>
+    <Value>0.00999999977648258</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>Value 8</Name>
+    <Symbol>val08</Symbol>
+    <Value>0.419880032539368</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>Value 9</Name>
+    <Symbol>val09</Symbol>
+    <Value>0.630676925182343</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>Value 10</Name>
+    <Symbol>val10</Symbol>
+    <Value>0.96829479932785</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>Value 11</Name>
+    <Symbol>val11</Symbol>
+    <Value>0.980291366577148</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>Value 12</Name>
+    <Symbol>val12</Symbol>
+    <Value>0.768637537956238</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>16</Index>
+    <Name>Value 13</Name>
+    <Symbol>val13</Symbol>
+    <Value>0.787763476371765</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>17</Index>
+    <Name>Value 14</Name>
+    <Symbol>val14</Symbol>
+    <Value>0.930000007152557</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>18</Index>
+    <Name>Value 15</Name>
+    <Symbol>val15</Symbol>
+    <Value>0.926015436649323</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Control to CV -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Semitone</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-control</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Control</Name>
+    <Symbol>Control</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>10</MappedMaximum>
+    <Value>0.447058618068695</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Smoothing</Name>
+    <Symbol>Smoothing</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Control to CV -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Exp FM Gain</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-control</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Control</Name>
+    <Symbol>Control</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>10</MappedMaximum>
+    <Value>0.447058618068695</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Smoothing</Name>
+    <Symbol>Smoothing</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Control to CV -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Gain Decay</Name>
+   <URI>http://github.com/blablack/ams-lv2/controltocv</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Input</Name>
+    <Symbol>input</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>-1</MappedMinimum>
+    <MappedMaximum>1</MappedMaximum>
+    <Value>0.44705855846405</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Control to CV -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Saw Edge</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-control</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Control</Name>
+    <Symbol>Control</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>10</MappedMaximum>
+    <Value>0.447058618068695</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Smoothing</Name>
+    <Symbol>Smoothing</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Control to CV -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Pluse Edge</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-control</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Control</Name>
+    <Symbol>Control</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>10</MappedMaximum>
+    <Value>0.447058618068695</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Smoothing</Name>
+    <Symbol>Smoothing</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Pulse VCO -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Wedge Gate Open</Name>
+   <URI>http://drobilla.net/plugins/fomp/pulse_vco</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Octave</Name>
+    <Symbol>octave</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Tune</Name>
+    <Symbol>tune</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Exp FM gain</Name>
+    <Symbol>exp_fm_gain</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Lin FM gain</Name>
+    <Symbol>lin_fm_gain</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>LP filter</Name>
+    <Symbol>lp_filter</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- MIDI-Trigger -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>MIDI-Trigger</Name>
+   <URI>https://github.com/metachronica/audio-dsp-midi-trigger</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x1</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Input gain (dB)</Name>
+    <Symbol>input_gain</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Detector buffer (ms)</Name>
+    <Symbol>detector_buffer</Symbol>
+    <Value>5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Detector gap (ms)</Name>
+    <Symbol>detector_gap</Symbol>
+    <Value>100</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Threshold (dB)</Name>
+    <Symbol>threshold</Symbol>
+    <Value>-20</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>MIDI note</Name>
+    <Symbol>midi_note</Symbol>
+    <Value>60</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Note-off mode</Name>
+    <Symbol>note_off_mode</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Note-off delay (ms)</Name>
+    <Symbol>note_off_delay</Symbol>
+    <Value>100</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Velocity floor value</Name>
+    <Symbol>velocity_floor</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Velocity ceiling value</Name>
+    <Symbol>velocity_ceiling</Symbol>
+    <Value>128</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>Limit RMS for velocity ceiling (dB)</Name>
+    <Symbol>limit_rms_velocity_ceiling</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- EsPhaser -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>EsPhaser</Name>
+   <URI>https://github.com/ryukau/LV2Plugins/tree/master/EsPhaser</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x4</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Enabled</Name>
+    <Symbol>lv2_enabled</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>mix</Name>
+    <Symbol>mix</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>frequency</Name>
+    <Symbol>frequency</Symbol>
+    <Value>0.382205784320831</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>freqSpread</Name>
+    <Symbol>freqSpread</Symbol>
+    <Value>0.327999979257584</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>feedback</Name>
+    <Symbol>feedback</Symbol>
+    <Value>0.23199987411499</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>range</Name>
+    <Symbol>range</Symbol>
+    <Value>88.6046905517578</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>min</Name>
+    <Symbol>min</Symbol>
+    <Value>125.960205078125</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>phase</Name>
+    <Symbol>phase</Symbol>
+    <Value>4.52389335632324</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>stereoOffset</Name>
+    <Symbol>stereoOffset</Symbol>
+    <Value>3.26725625991821</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>cascadeOffset</Name>
+    <Symbol>cascadeOffset</Symbol>
+    <Value>4.41393804550171</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>stage</Name>
+    <Symbol>stage</Symbol>
+    <Value>65</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>smoothness</Name>
+    <Symbol>smoothness</Symbol>
+    <Value>0.0486973002552986</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>tempoSync</Name>
+    <Symbol>tempoSync</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>tempoNumerator</Name>
+    <Symbol>tempoNumerator</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>tempoDenominator</Name>
+    <Symbol>tempoDenominator</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- x42-Autotune -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>x42-Autotune</Name>
+   <URI>http://gareus.org/oss/lv2/fat1</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f1</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Mode</Name>
+    <Symbol>mode</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Filter Channel</Name>
+    <Symbol>channelf</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Tuning</Name>
+    <Symbol>tuning</Symbol>
+    <Value>440</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Bias</Name>
+    <Symbol>bias</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Filter</Name>
+    <Symbol>filter</Symbol>
+    <Value>0.0200000032782555</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Correction</Name>
+    <Symbol>corr</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Offset</Name>
+    <Symbol>offset</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Pitch Bend Range</Name>
+    <Symbol>bendrange</Symbol>
+    <Value>2</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Fast Correction</Name>
+    <Symbol>fastmode</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>C</Name>
+    <Symbol>m00</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>C#</Name>
+    <Symbol>m01</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>D</Name>
+    <Symbol>m02</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>D#</Name>
+    <Symbol>m03</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>E</Name>
+    <Symbol>m04</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>F</Name>
+    <Symbol>m05</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>F#</Name>
+    <Symbol>m06</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>16</Index>
+    <Name>G</Name>
+    <Symbol>m07</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>17</Index>
+    <Name>G#</Name>
+    <Symbol>m08</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>18</Index>
+    <Name>A</Name>
+    <Symbol>m09</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>19</Index>
+    <Name>A#</Name>
+    <Symbol>m10</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>20</Index>
+    <Name>B</Name>
+    <Symbol>m11</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- x42-Autotune -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>x42-Autotune (3)</Name>
+   <URI>http://gareus.org/oss/lv2/fat1</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f1</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Mode</Name>
+    <Symbol>mode</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Filter Channel</Name>
+    <Symbol>channelf</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Tuning</Name>
+    <Symbol>tuning</Symbol>
+    <Value>440</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Bias</Name>
+    <Symbol>bias</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Filter</Name>
+    <Symbol>filter</Symbol>
+    <Value>0.0200000032782555</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Correction</Name>
+    <Symbol>corr</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Offset</Name>
+    <Symbol>offset</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Pitch Bend Range</Name>
+    <Symbol>bendrange</Symbol>
+    <Value>2</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Fast Correction</Name>
+    <Symbol>fastmode</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>C</Name>
+    <Symbol>m00</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>C#</Name>
+    <Symbol>m01</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>D</Name>
+    <Symbol>m02</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>D#</Name>
+    <Symbol>m03</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>E</Name>
+    <Symbol>m04</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>F</Name>
+    <Symbol>m05</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>F#</Name>
+    <Symbol>m06</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>16</Index>
+    <Name>G</Name>
+    <Symbol>m07</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>17</Index>
+    <Name>G#</Name>
+    <Symbol>m08</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>18</Index>
+    <Name>A</Name>
+    <Symbol>m09</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>19</Index>
+    <Name>A#</Name>
+    <Symbol>m10</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>20</Index>
+    <Name>B</Name>
+    <Symbol>m11</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- MIDI Generator -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>MIDI Generator</Name>
+   <URI>http://gareus.org/oss/lv2/midigen</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x1</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Select Sequence</Name>
+    <Symbol>sequence</Symbol>
+    <Value>7</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>BPM</Name>
+    <Symbol>bpm</Symbol>
+    <Value>193.399993896484</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- FDNCymbal -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>FDNCymbal</Name>
+   <URI>https://github.com/ryukau/LV2Plugins/tree/master/FDNCymbal0.2</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Enabled</Name>
+    <Symbol>lv2_enabled</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>seed</Name>
+    <Symbol>seed</Symbol>
+    <Value>7647357</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>retriggerTime</Name>
+    <Symbol>retriggerTime</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>1</MappedMaximum>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>retriggerStick</Name>
+    <Symbol>retriggerStick</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>retriggerTremolo</Name>
+    <Symbol>retriggerTremolo</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>fdn</Name>
+    <Symbol>fdn</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>fdnTime</Name>
+    <Symbol>fdnTime</Symbol>
+    <Value>0.0119882477447391</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>fdnFeedback</Name>
+    <Symbol>fdnFeedback</Symbol>
+    <Value>0.141724228858948</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>fdnCascadeMix</Name>
+    <Symbol>fdnCascadeMix</Symbol>
+    <Value>0.200000002980232</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>allpassMix</Name>
+    <Symbol>allpassMix</Symbol>
+    <Value>0.75</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>allpass1Saturation</Name>
+    <Symbol>allpass1Saturation</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>allpass1Time</Name>
+    <Symbol>allpass1Time</Symbol>
+    <Value>0.00100000004749745</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>allpass1Feedback</Name>
+    <Symbol>allpass1Feedback</Symbol>
+    <Value>0.957157731056213</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>allpass1HighpassCutoff</Name>
+    <Symbol>allpass1HighpassCutoff</Symbol>
+    <Value>10</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>allpass2Time</Name>
+    <Symbol>allpass2Time</Symbol>
+    <Value>0.00100000004749745</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>allpass2Feedback</Name>
+    <Symbol>allpass2Feedback</Symbol>
+    <Value>0.899999976158142</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>16</Index>
+    <Name>allpass2HighpassCutoff</Name>
+    <Symbol>allpass2HighpassCutoff</Symbol>
+    <Value>10</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>17</Index>
+    <Name>tremoloMix</Name>
+    <Symbol>tremoloMix</Symbol>
+    <Value>0.200000002980232</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>18</Index>
+    <Name>tremoloDepth</Name>
+    <Symbol>tremoloDepth</Symbol>
+    <Value>0.800000011920929</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>19</Index>
+    <Name>tremoloFrequency</Name>
+    <Symbol>tremoloFrequency</Symbol>
+    <Value>4</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>20</Index>
+    <Name>tremoloDelayTime</Name>
+    <Symbol>tremoloDelayTime</Symbol>
+    <Value>3.50515474565327e-05</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>21</Index>
+    <Name>randomTremoloDepth</Name>
+    <Symbol>randomTremoloDepth</Symbol>
+    <Value>0.349999994039536</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>22</Index>
+    <Name>randomTremoloFrequency</Name>
+    <Symbol>randomTremoloFrequency</Symbol>
+    <Value>0.349999994039536</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>23</Index>
+    <Name>randomTremoloDelayTime</Name>
+    <Symbol>randomTremoloDelayTime</Symbol>
+    <Value>0.349999994039536</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>24</Index>
+    <Name>stick</Name>
+    <Symbol>stick</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>25</Index>
+    <Name>stickDecay</Name>
+    <Symbol>stickDecay</Symbol>
+    <Value>0.100000001490116</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>26</Index>
+    <Name>stickToneMix</Name>
+    <Symbol>stickToneMix</Symbol>
+    <Value>0.00100000004749745</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>27</Index>
+    <Name>stickPulseMix</Name>
+    <Symbol>stickPulseMix</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>28</Index>
+    <Name>stickVelvetMix</Name>
+    <Symbol>stickVelvetMix</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>29</Index>
+    <Name>smoothness</Name>
+    <Symbol>smoothness</Symbol>
+    <Value>0.00499999988824129</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>30</Index>
+    <Name>gain</Name>
+    <Symbol>gain</Symbol>
+    <Value>1.74229550361633</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>31</Index>
+    <Name>pitchBend</Name>
+    <Symbol>pitchBend</Symbol>
+    <Value>0.5</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS Slew Limiter -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS Slew Limiter</Name>
+   <URI>http://github.com/blablack/ams-lv2/slew</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Time Up</Name>
+    <Symbol>timeUp</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Time Down</Name>
+    <Symbol>timeDown</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>10</MappedMaximum>
+    <Value>10</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS Hysteresis -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS Hysteresis</Name>
+   <URI>http://github.com/blablack/ams-lv2/hysteresis</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Center</Name>
+    <Symbol>center</Symbol>
+    <Value>0.025000000372529</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Overlap</Name>
+    <Symbol>overlap</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Low Slope</Name>
+    <Symbol>lowSlope</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>High Slope</Name>
+    <Symbol>highSlope</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS VC Switch -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS VC Switch</Name>
+   <URI>http://github.com/blablack/ams-lv2/vcswitch</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Switch Level</Name>
+    <Symbol>switchLevel</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Clock Divider -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Clock Divider Faster</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-clock-divider</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Mode</Name>
+    <Symbol>Mode</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>PluginEnabled</Name>
+    <Symbol>PluginEnabled</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- CV Gate -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Kick Gate</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-gate</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>OpeningThreshold</Name>
+    <Symbol>OpeningThreshold</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>ClosingThreshold</Name>
+    <Symbol>ClosingThreshold</Symbol>
+    <Value>0.899999976158142</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>PluginEnabled</Name>
+    <Symbol>PluginEnabled</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- CV Gate -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Snare Gate</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-gate</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>OpeningThreshold</Name>
+    <Symbol>OpeningThreshold</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>ClosingThreshold</Name>
+    <Symbol>ClosingThreshold</Symbol>
+    <Value>0.899999976158142</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>PluginEnabled</Name>
+    <Symbol>PluginEnabled</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS VCO3 -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Snare Sine</Name>
+   <URI>http://github.com/blablack/ams-lv2/vco3</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Wave Form</Name>
+    <Symbol>waveForm</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Octave</Name>
+    <Symbol>octave</Symbol>
+    <Value>3</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Tune</Name>
+    <Symbol>tune</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Semitone</Name>
+    <Symbol>semitone</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>PW0</Name>
+    <Symbol>pw0</Symbol>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>PW Gain</Name>
+    <Symbol>pwGain</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Edge</Name>
+    <Symbol>edge</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Phi0</Name>
+    <Symbol>phi0</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Exp FM Gain</Name>
+    <Symbol>expFMGain</Symbol>
+    <Value>0.979919672012329</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>Lin FM Gain</Name>
+    <Symbol>linFMGain</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS Noise2 -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Snare Noise</Name>
+   <URI>http://github.com/blablack/ams-lv2/noise2</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Noise Type</Name>
+    <Symbol>noiseType</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Random Rate</Name>
+    <Symbol>rate</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Random Level</Name>
+    <Symbol>level</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- ADSR Envelope -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Freq Env (2)</Name>
+   <URI>http://drobilla.net/plugins/blop/adsr</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Trigger Threshold</Name>
+    <Symbol>thresh</Symbol>
+    <Value>0.28999999165535</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Attack Time</Name>
+    <Symbol>attack</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Decay Time</Name>
+    <Symbol>decay</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>1</MappedMaximum>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Sustain Level</Name>
+    <Symbol>sustain</Symbol>
+    <Value>0.244966447353363</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Release Time</Name>
+    <Symbol>release</Symbol>
+    <Value>0.265100657939911</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS VCA Exp -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Snare Sine Gain</Name>
+   <URI>http://github.com/blablack/ams-lv2/vcaexp</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Gain Offset</Name>
+    <Symbol>gain1</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>2nd Gain Boost</Name>
+    <Symbol>gain2</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>In 1 Level</Name>
+    <Symbol>in1</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>In 2 Level</Name>
+    <Symbol>in2</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Output Level</Name>
+    <Symbol>outputLevel</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS VCA Exp -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS VCA Exp (3)</Name>
+   <URI>http://github.com/blablack/ams-lv2/vcaexp</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Gain Offset</Name>
+    <Symbol>gain1</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>2nd Gain Boost</Name>
+    <Symbol>gain2</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>In 1 Level</Name>
+    <Symbol>in1</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>In 2 Level</Name>
+    <Symbol>in2</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Output Level</Name>
+    <Symbol>outputLevel</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS LFO -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS LFO</Name>
+   <URI>http://github.com/blablack/ams-lv2/lfo</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Freq</Name>
+    <Symbol>freq</Symbol>
+    <Value>0.200000002980232</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Phi0</Name>
+    <Symbol>phi0</Symbol>
+    <Value>3.84999990463257</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Attenuverter Booster -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Attenuverter Booster</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-attenuverter</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Multiplier</Name>
+    <Symbol>Multiplier</Symbol>
+    <Value>10</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Offset</Name>
+    <Symbol>Offset</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Mode</Name>
+    <Symbol>Mode</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Smoothing</Name>
+    <Symbol>Smoothing</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>PluginEnabled</Name>
+    <Symbol>PluginEnabled</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS Noise2 -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS Noise2 (2)</Name>
+   <URI>http://github.com/blablack/ams-lv2/noise2</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Noise Type</Name>
+    <Symbol>noiseType</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Random Rate</Name>
+    <Symbol>rate</Symbol>
+    <Value>5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Random Level</Name>
+    <Symbol>level</Symbol>
+    <Value>0.5</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS VCA Exp -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS VCA Exp (2)</Name>
+   <URI>http://github.com/blablack/ams-lv2/vcaexp</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Gain Offset</Name>
+    <Symbol>gain1</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>2nd Gain Boost</Name>
+    <Symbol>gain2</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>In 1 Level</Name>
+    <Symbol>in1</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>In 2 Level</Name>
+    <Symbol>in2</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Output Level</Name>
+    <Symbol>outputLevel</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- CV Gate -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Hi-hat Gate</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-gate</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>OpeningThreshold</Name>
+    <Symbol>OpeningThreshold</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>ClosingThreshold</Name>
+    <Symbol>ClosingThreshold</Symbol>
+    <Value>0.899999976158142</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>PluginEnabled</Name>
+    <Symbol>PluginEnabled</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- ADSR Envelope -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Freq Env (3)</Name>
+   <URI>http://drobilla.net/plugins/blop/adsr</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Trigger Threshold</Name>
+    <Symbol>thresh</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Attack Time</Name>
+    <Symbol>attack</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Decay Time</Name>
+    <Symbol>decay</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>1</MappedMaximum>
+    <Value>0.00999999977648258</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Sustain Level</Name>
+    <Symbol>sustain</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Release Time</Name>
+    <Symbol>release</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>1</MappedMaximum>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Moog High-Pass Filter 1 -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Moog High-Pass Filter 1</Name>
+   <URI>http://drobilla.net/plugins/fomp/mvchpf1</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Input gain</Name>
+    <Symbol>in_gain</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Frequency</Name>
+    <Symbol>freq</Symbol>
+    <Value>0.0610451139509678</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Exp FM gain</Name>
+    <Symbol>exp_gm_gain</Symbol>
+    <Value>1.94377505779266</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Output gain</Name>
+    <Symbol>out_gain</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Control to CV -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Freq Decay</Name>
+   <URI>http://github.com/blablack/ams-lv2/controltocv</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Input</Name>
+    <Symbol>input</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>-1</MappedMinimum>
+    <MappedMaximum>1</MappedMaximum>
+    <Value>0.44705855846405</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- LSP Compressor Stereo -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>LSP Compressor Stereo (2)</Name>
+   <URI>http://lsp-plug.in/plugins/lv2/compressor_stereo</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x1</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Enabled</Name>
+    <Symbol>enabled</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Input gain</Name>
+    <Symbol>g_in</Symbol>
+    <Value>1.00000023841858</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Output gain</Name>
+    <Symbol>g_out</Symbol>
+    <Value>1.00000011920929</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Pause graph analysis</Name>
+    <Symbol>pause</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Clear graph analysis</Name>
+    <Symbol>clear</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Sidechain type</Name>
+    <Symbol>sct</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Sidechain mode</Name>
+    <Symbol>scm</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Sidechain lookahead</Name>
+    <Symbol>sla</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Sidechain listen</Name>
+    <Symbol>scl</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>Sidechain source</Name>
+    <Symbol>scs</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>Sidechain reactivity</Name>
+    <Symbol>scr</Symbol>
+    <Value>10</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>Sidechain preamp</Name>
+    <Symbol>scp</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>High-pass filter mode</Name>
+    <Symbol>shpm</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>High-pass filter frequency</Name>
+    <Symbol>shpf</Symbol>
+    <Value>10</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>Low-pass filter mode</Name>
+    <Symbol>slpm</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>Low-pass filter frequency</Name>
+    <Symbol>slpf</Symbol>
+    <Value>20000</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>16</Index>
+    <Name>Compression mode</Name>
+    <Symbol>cm</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>17</Index>
+    <Name>Attack level</Name>
+    <Symbol>al</Symbol>
+    <Value>0.35894250869751</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>18</Index>
+    <Name>Attack time</Name>
+    <Symbol>at</Symbol>
+    <Value>375.380737304688</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>19</Index>
+    <Name>Relative release level</Name>
+    <Symbol>rrl</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>20</Index>
+    <Name>Release time</Name>
+    <Symbol>rt</Symbol>
+    <Value>100</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>21</Index>
+    <Name>Ratio</Name>
+    <Symbol>cr</Symbol>
+    <Value>17.4525394439697</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>22</Index>
+    <Name>Knee</Name>
+    <Symbol>kn</Symbol>
+    <Value>0.209674060344696</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>23</Index>
+    <Name>Boost threshold</Name>
+    <Symbol>bth</Symbol>
+    <Value>3.62357568519656e-05</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>24</Index>
+    <Name>Makeup gain</Name>
+    <Symbol>mk</Symbol>
+    <Value>1.00000131130219</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>25</Index>
+    <Name>Dry gain</Name>
+    <Symbol>cdr</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>26</Index>
+    <Name>Wet gain</Name>
+    <Symbol>cwt</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>28</Index>
+    <Name>Sidechain level visibility</Name>
+    <Symbol>slv</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>29</Index>
+    <Name>Envelope level visibility</Name>
+    <Symbol>elv</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>30</Index>
+    <Name>Gain reduction visibility</Name>
+    <Symbol>grv</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>35</Index>
+    <Name>Input level visibility Left</Name>
+    <Symbol>ilv_l</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>36</Index>
+    <Name>Output level visibility Left</Name>
+    <Symbol>olv_l</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>39</Index>
+    <Name>Input level visibility Right</Name>
+    <Symbol>ilv_r</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>40</Index>
+    <Name>Output level visibility Right</Name>
+    <Symbol>olv_r</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Glame Lowpass Filter -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Glame Lowpass Filter</Name>
+   <URI>http://plugin.org.uk/swh-plugins/lowpass_iir</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Cutoff Frequency</Name>
+    <Symbol>cutoff</Symbol>
+    <Value>0.00520833348855376</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Stages(2 poles per stage)</Name>
+    <Symbol>stages</Symbol>
+    <Value>3</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Glame Lowpass Filter -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Glame Lowpass Filter (2)</Name>
+   <URI>http://plugin.org.uk/swh-plugins/lowpass_iir</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Cutoff Frequency</Name>
+    <Symbol>cutoff</Symbol>
+    <Value>0.00520833348855376</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Stages(2 poles per stage)</Name>
+    <Symbol>stages</Symbol>
+    <Value>3</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- CV Gate -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Cra Cymb Gate</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-gate</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>OpeningThreshold</Name>
+    <Symbol>OpeningThreshold</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>ClosingThreshold</Name>
+    <Symbol>ClosingThreshold</Symbol>
+    <Value>0.899999976158142</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>PluginEnabled</Name>
+    <Symbol>PluginEnabled</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- CV to Audio -->
+ <Plugin>
+  <Info>
+   <Type>INTERNAL</Type>
+   <Name>CV to Audio</Name>
+   <Label>cv2audio</Label>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Briwall Limiter</Name>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- CV_Gate16 -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Control of Kick</Name>
+   <URI>https://github.com/ryukau/LV2Plugins/tree/master/CV_Gate16</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>gain1</Name>
+    <Symbol>gain1</Symbol>
+    <Value>0.452941179275513</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>gain2</Name>
+    <Symbol>gain2</Symbol>
+    <Value>0.447058796882629</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>gain3</Name>
+    <Symbol>gain3</Symbol>
+    <Value>0.447058796882629</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>gain4</Name>
+    <Symbol>gain4</Symbol>
+    <Value>0.447058796882629</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>gain5</Name>
+    <Symbol>gain5</Symbol>
+    <Value>0.447058796882629</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>gain6</Name>
+    <Symbol>gain6</Symbol>
+    <Value>0.447058796882629</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>gain7</Name>
+    <Symbol>gain7</Symbol>
+    <Value>0.447058796882629</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>gain8</Name>
+    <Symbol>gain8</Symbol>
+    <Value>0.447058796882629</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>gain9</Name>
+    <Symbol>gain9</Symbol>
+    <Value>0.447058796882629</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>gain10</Name>
+    <Symbol>gain10</Symbol>
+    <Value>0.447058796882629</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>gain11</Name>
+    <Symbol>gain11</Symbol>
+    <Value>0.447058796882629</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>gain12</Name>
+    <Symbol>gain12</Symbol>
+    <Value>0.452941179275513</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>gain13</Name>
+    <Symbol>gain13</Symbol>
+    <Value>0.452941179275513</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>gain14</Name>
+    <Symbol>gain14</Symbol>
+    <Value>0.458823502063751</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>gain15</Name>
+    <Symbol>gain15</Symbol>
+    <Value>0.464705884456635</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>gain16</Name>
+    <Symbol>gain16</Symbol>
+    <Value>0.470588207244873</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>16</Index>
+    <Name>delay1</Name>
+    <Symbol>delay1</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>17</Index>
+    <Name>delay2</Name>
+    <Symbol>delay2</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>18</Index>
+    <Name>delay3</Name>
+    <Symbol>delay3</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>19</Index>
+    <Name>delay4</Name>
+    <Symbol>delay4</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>20</Index>
+    <Name>delay5</Name>
+    <Symbol>delay5</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>21</Index>
+    <Name>delay6</Name>
+    <Symbol>delay6</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>22</Index>
+    <Name>delay7</Name>
+    <Symbol>delay7</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>23</Index>
+    <Name>delay8</Name>
+    <Symbol>delay8</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>24</Index>
+    <Name>delay9</Name>
+    <Symbol>delay9</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>25</Index>
+    <Name>delay10</Name>
+    <Symbol>delay10</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>26</Index>
+    <Name>delay11</Name>
+    <Symbol>delay11</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>27</Index>
+    <Name>delay12</Name>
+    <Symbol>delay12</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>28</Index>
+    <Name>delay13</Name>
+    <Symbol>delay13</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>29</Index>
+    <Name>delay14</Name>
+    <Symbol>delay14</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>30</Index>
+    <Name>delay15</Name>
+    <Symbol>delay15</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>31</Index>
+    <Name>delay16</Name>
+    <Symbol>delay16</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>32</Index>
+    <Name>type1</Name>
+    <Symbol>type1</Symbol>
+    <Value>2</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>33</Index>
+    <Name>type2</Name>
+    <Symbol>type2</Symbol>
+    <Value>2</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>34</Index>
+    <Name>type3</Name>
+    <Symbol>type3</Symbol>
+    <Value>2</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>35</Index>
+    <Name>type4</Name>
+    <Symbol>type4</Symbol>
+    <Value>2</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>36</Index>
+    <Name>type5</Name>
+    <Symbol>type5</Symbol>
+    <Value>2</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>37</Index>
+    <Name>type6</Name>
+    <Symbol>type6</Symbol>
+    <Value>2</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>38</Index>
+    <Name>type7</Name>
+    <Symbol>type7</Symbol>
+    <Value>2</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>39</Index>
+    <Name>type8</Name>
+    <Symbol>type8</Symbol>
+    <Value>2</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>40</Index>
+    <Name>type9</Name>
+    <Symbol>type9</Symbol>
+    <Value>2</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>41</Index>
+    <Name>type10</Name>
+    <Symbol>type10</Symbol>
+    <Value>2</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>42</Index>
+    <Name>type11</Name>
+    <Symbol>type11</Symbol>
+    <Value>2</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>43</Index>
+    <Name>type12</Name>
+    <Symbol>type12</Symbol>
+    <Value>2</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>44</Index>
+    <Name>type13</Name>
+    <Symbol>type13</Symbol>
+    <Value>2</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>45</Index>
+    <Name>type14</Name>
+    <Symbol>type14</Symbol>
+    <Value>2</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>46</Index>
+    <Name>type15</Name>
+    <Symbol>type15</Symbol>
+    <Value>2</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>47</Index>
+    <Name>type16</Name>
+    <Symbol>type16</Symbol>
+    <Value>2</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>48</Index>
+    <Name>masterGain</Name>
+    <Symbol>masterGain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>49</Index>
+    <Name>delayMultiply</Name>
+    <Symbol>delayMultiply</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>50</Index>
+    <Name>delayTempoSync</Name>
+    <Symbol>delayTempoSync</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Control to CV -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Gain Level</Name>
+   <URI>http://github.com/blablack/ams-lv2/controltocv</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Input</Name>
+    <Symbol>input</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>-1</MappedMinimum>
+    <MappedMaximum>1</MappedMaximum>
+    <Value>0.452940940856934</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Control to CV -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Gain Curve</Name>
+   <URI>http://github.com/blablack/ams-lv2/controltocv</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Input</Name>
+    <Symbol>input</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>-1</MappedMinimum>
+    <MappedMaximum>1</MappedMaximum>
+    <Value>0.44705855846405</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Control to CV -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Freq Level</Name>
+   <URI>http://github.com/blablack/ams-lv2/controltocv</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Input</Name>
+    <Symbol>input</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>-1</MappedMinimum>
+    <MappedMaximum>1</MappedMaximum>
+    <Value>0.44705855846405</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Control to CV -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Freq Curve</Name>
+   <URI>http://github.com/blablack/ams-lv2/controltocv</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Input</Name>
+    <Symbol>input</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>-1</MappedMinimum>
+    <MappedMaximum>1</MappedMaximum>
+    <Value>0.44705855846405</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- CV_PolyLoopEnvelope2 -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Gain Env</Name>
+   <URI>https://github.com/ryukau/LV2Plugins/tree/master/CV_PolyLoopEnvelope2</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>gain</Name>
+    <Symbol>gain</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>rate</Name>
+    <Symbol>rate</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>rateKeyFollow</Name>
+    <Symbol>rateKeyFollow</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>rateSlideTime</Name>
+    <Symbol>rateSlideTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>loopStart</Name>
+    <Symbol>loopStart</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>loopEnd</Name>
+    <Symbol>loopEnd</Symbol>
+    <Value>2</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>releaseTime</Name>
+    <Symbol>releaseTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>releaseCurve</Name>
+    <Symbol>releaseCurve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>s0DecayTime</Name>
+    <Symbol>s0DecayTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>s1DecayTime</Name>
+    <Symbol>s1DecayTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>s0HoldTime</Name>
+    <Symbol>s0HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>s1HoldTime</Name>
+    <Symbol>s1HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>s0Level</Name>
+    <Symbol>s0Level</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>s1Level</Name>
+    <Symbol>s1Level</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>s0Curve</Name>
+    <Symbol>s0Curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>s1Curve</Name>
+    <Symbol>s1Curve</Symbol>
+    <Value>1.02399826049805</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- CV_PolyLoopEnvelope2 -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Freq Env</Name>
+   <URI>https://github.com/ryukau/LV2Plugins/tree/master/CV_PolyLoopEnvelope2</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>gain</Name>
+    <Symbol>gain</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>rate</Name>
+    <Symbol>rate</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>rateKeyFollow</Name>
+    <Symbol>rateKeyFollow</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>rateSlideTime</Name>
+    <Symbol>rateSlideTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>loopStart</Name>
+    <Symbol>loopStart</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>loopEnd</Name>
+    <Symbol>loopEnd</Symbol>
+    <Value>2</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>releaseTime</Name>
+    <Symbol>releaseTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>releaseCurve</Name>
+    <Symbol>releaseCurve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>s0DecayTime</Name>
+    <Symbol>s0DecayTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>s1DecayTime</Name>
+    <Symbol>s1DecayTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>s0HoldTime</Name>
+    <Symbol>s0HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>s1HoldTime</Name>
+    <Symbol>s1HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>s0Level</Name>
+    <Symbol>s0Level</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>s1Level</Name>
+    <Symbol>s1Level</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>s0Curve</Name>
+    <Symbol>s0Curve</Symbol>
+    <Value>0.384000778198242</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>s1Curve</Name>
+    <Symbol>s1Curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- CV_LinearADSREnvelope -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>MIDI to CV trigger (2)</Name>
+   <URI>https://github.com/ryukau/LV2Plugins/tree/master/CV_LinearADSREnvelope</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>gain</Name>
+    <Symbol>gain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>attack</Name>
+    <Symbol>attack</Symbol>
+    <Value>9.99999974737875e-05</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>decay</Name>
+    <Symbol>decay</Symbol>
+    <Value>9.99999974737875e-05</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>sustain</Name>
+    <Symbol>sustain</Symbol>
+    <Value>9.99999974737875e-05</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>release</Name>
+    <Symbol>release</Symbol>
+    <Value>0.00100000004749745</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- CV_LinearADSREnvelope -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>MIDI to CV trigger (4)</Name>
+   <URI>https://github.com/ryukau/LV2Plugins/tree/master/CV_LinearADSREnvelope</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>gain</Name>
+    <Symbol>gain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>attack</Name>
+    <Symbol>attack</Symbol>
+    <Value>9.99999974737875e-05</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>decay</Name>
+    <Symbol>decay</Symbol>
+    <Value>9.99999974737875e-05</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>sustain</Name>
+    <Symbol>sustain</Symbol>
+    <Value>9.99999974737875e-05</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>release</Name>
+    <Symbol>release</Symbol>
+    <Value>0.00100000004749745</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- CV_LinearADSREnvelope -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>MIDI to CV trigger (5)</Name>
+   <URI>https://github.com/ryukau/LV2Plugins/tree/master/CV_LinearADSREnvelope</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>gain</Name>
+    <Symbol>gain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>attack</Name>
+    <Symbol>attack</Symbol>
+    <Value>9.99999974737875e-05</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>decay</Name>
+    <Symbol>decay</Symbol>
+    <Value>9.99999974737875e-05</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>sustain</Name>
+    <Symbol>sustain</Symbol>
+    <Value>9.99999974737875e-05</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>release</Name>
+    <Symbol>release</Symbol>
+    <Value>0.00100000004749745</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- CV_LinearADSREnvelope -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>MIDI to CV trigger (6)</Name>
+   <URI>https://github.com/ryukau/LV2Plugins/tree/master/CV_LinearADSREnvelope</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>gain</Name>
+    <Symbol>gain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>attack</Name>
+    <Symbol>attack</Symbol>
+    <Value>9.99999974737875e-05</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>decay</Name>
+    <Symbol>decay</Symbol>
+    <Value>9.99999974737875e-05</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>sustain</Name>
+    <Symbol>sustain</Symbol>
+    <Value>9.99999974737875e-05</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>release</Name>
+    <Symbol>release</Symbol>
+    <Value>0.00100000004749745</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- CV_LinearADSREnvelope -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>MIDI to CV trigger (7)</Name>
+   <URI>https://github.com/ryukau/LV2Plugins/tree/master/CV_LinearADSREnvelope</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>gain</Name>
+    <Symbol>gain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>attack</Name>
+    <Symbol>attack</Symbol>
+    <Value>9.99999974737875e-05</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>decay</Name>
+    <Symbol>decay</Symbol>
+    <Value>9.99999974737875e-05</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>sustain</Name>
+    <Symbol>sustain</Symbol>
+    <Value>9.99999974737875e-05</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>release</Name>
+    <Symbol>release</Symbol>
+    <Value>0.00100000004749745</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- CV_LinearADSREnvelope -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>MIDI to CV trigger (8)</Name>
+   <URI>https://github.com/ryukau/LV2Plugins/tree/master/CV_LinearADSREnvelope</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>gain</Name>
+    <Symbol>gain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>attack</Name>
+    <Symbol>attack</Symbol>
+    <Value>9.99999974737875e-05</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>decay</Name>
+    <Symbol>decay</Symbol>
+    <Value>9.99999974737875e-05</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>sustain</Name>
+    <Symbol>sustain</Symbol>
+    <Value>9.99999974737875e-05</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>release</Name>
+    <Symbol>release</Symbol>
+    <Value>0.00100000004749745</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- CV_LinearADSREnvelope -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>MIDI to CV trigger (9)</Name>
+   <URI>https://github.com/ryukau/LV2Plugins/tree/master/CV_LinearADSREnvelope</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>gain</Name>
+    <Symbol>gain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>attack</Name>
+    <Symbol>attack</Symbol>
+    <Value>9.99999974737875e-05</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>decay</Name>
+    <Symbol>decay</Symbol>
+    <Value>9.99999974737875e-05</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>sustain</Name>
+    <Symbol>sustain</Symbol>
+    <Value>9.99999974737875e-05</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>release</Name>
+    <Symbol>release</Symbol>
+    <Value>0.00100000004749745</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- MIDI Simple Channel Filter -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>MIDI Simple Channel Filter</Name>
+   <URI>http://gareus.org/oss/lv2/midifilter#onechannelfilter</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f1</Options>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Channel</Name>
+    <Symbol>channel</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- MIDI Simple Channel Filter -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>MIDI Simple Channel Filter (2)</Name>
+   <URI>http://gareus.org/oss/lv2/midifilter#onechannelfilter</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f1</Options>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Channel</Name>
+    <Symbol>channel</Symbol>
+    <Value>2</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- MIDI Simple Channel Filter -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>MIDI Simple Channel Filter (4)</Name>
+   <URI>http://gareus.org/oss/lv2/midifilter#onechannelfilter</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f1</Options>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Channel</Name>
+    <Symbol>channel</Symbol>
+    <Value>2</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- MIDI Simple Channel Filter -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>MIDI Simple Channel Filter (5)</Name>
+   <URI>http://gareus.org/oss/lv2/midifilter#onechannelfilter</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f1</Options>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Channel</Name>
+    <Symbol>channel</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- MIDI Simple Channel Filter -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>MIDI Simple Channel Filter (6)</Name>
+   <URI>http://gareus.org/oss/lv2/midifilter#onechannelfilter</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f1</Options>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Channel</Name>
+    <Symbol>channel</Symbol>
+    <Value>2</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- MIDI Simple Channel Filter -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>MIDI Simple Channel Filter (7)</Name>
+   <URI>http://gareus.org/oss/lv2/midifilter#onechannelfilter</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f1</Options>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Channel</Name>
+    <Symbol>channel</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- MIDI Simple Channel Filter -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>MIDI Simple Channel Filter (8)</Name>
+   <URI>http://gareus.org/oss/lv2/midifilter#onechannelfilter</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f1</Options>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Channel</Name>
+    <Symbol>channel</Symbol>
+    <Value>2</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- MIDI to CV -->
+ <Plugin>
+  <Info>
+   <Type>INTERNAL</Type>
+   <Name>MIDI to CV</Name>
+   <Label>midi2cv</Label>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x100</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Octave</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Semitone</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Cent</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Retrigger</Name>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- CV_PolyLoopEnvelope2 -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Gain Env (2)</Name>
+   <URI>https://github.com/ryukau/LV2Plugins/tree/master/CV_PolyLoopEnvelope2</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>gain</Name>
+    <Symbol>gain</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>rate</Name>
+    <Symbol>rate</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>rateKeyFollow</Name>
+    <Symbol>rateKeyFollow</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>rateSlideTime</Name>
+    <Symbol>rateSlideTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>loopStart</Name>
+    <Symbol>loopStart</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>loopEnd</Name>
+    <Symbol>loopEnd</Symbol>
+    <Value>2</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>releaseTime</Name>
+    <Symbol>releaseTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>releaseCurve</Name>
+    <Symbol>releaseCurve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>s0DecayTime</Name>
+    <Symbol>s0DecayTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>s1DecayTime</Name>
+    <Symbol>s1DecayTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>s0HoldTime</Name>
+    <Symbol>s0HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>s1HoldTime</Name>
+    <Symbol>s1HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>s0Level</Name>
+    <Symbol>s0Level</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>s1Level</Name>
+    <Symbol>s1Level</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>s0Curve</Name>
+    <Symbol>s0Curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>s1Curve</Name>
+    <Symbol>s1Curve</Symbol>
+    <Value>1.02399826049805</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- CV_PolyLoopEnvelope2 -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Freq Env (4)</Name>
+   <URI>https://github.com/ryukau/LV2Plugins/tree/master/CV_PolyLoopEnvelope2</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>gain</Name>
+    <Symbol>gain</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>rate</Name>
+    <Symbol>rate</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>rateKeyFollow</Name>
+    <Symbol>rateKeyFollow</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>rateSlideTime</Name>
+    <Symbol>rateSlideTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>loopStart</Name>
+    <Symbol>loopStart</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>loopEnd</Name>
+    <Symbol>loopEnd</Symbol>
+    <Value>2</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>releaseTime</Name>
+    <Symbol>releaseTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>releaseCurve</Name>
+    <Symbol>releaseCurve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>s0DecayTime</Name>
+    <Symbol>s0DecayTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>s1DecayTime</Name>
+    <Symbol>s1DecayTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>s0HoldTime</Name>
+    <Symbol>s0HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>s1HoldTime</Name>
+    <Symbol>s1HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>s0Level</Name>
+    <Symbol>s0Level</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>s1Level</Name>
+    <Symbol>s1Level</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>s0Curve</Name>
+    <Symbol>s0Curve</Symbol>
+    <Value>0.384000778198242</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>s1Curve</Name>
+    <Symbol>s1Curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- CV_LinearADSREnvelope -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>MIDI to CV trigger (3)</Name>
+   <URI>https://github.com/ryukau/LV2Plugins/tree/master/CV_LinearADSREnvelope</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>gain</Name>
+    <Symbol>gain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>attack</Name>
+    <Symbol>attack</Symbol>
+    <Value>9.99999974737875e-05</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>decay</Name>
+    <Symbol>decay</Symbol>
+    <Value>9.99999974737875e-05</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>sustain</Name>
+    <Symbol>sustain</Symbol>
+    <Value>9.99999974737875e-05</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>release</Name>
+    <Symbol>release</Symbol>
+    <Value>0.00100000004749745</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- CV_LinearADSREnvelope -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>MIDI to CV trigger (11)</Name>
+   <URI>https://github.com/ryukau/LV2Plugins/tree/master/CV_LinearADSREnvelope</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>gain</Name>
+    <Symbol>gain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>attack</Name>
+    <Symbol>attack</Symbol>
+    <Value>9.99999974737875e-05</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>decay</Name>
+    <Symbol>decay</Symbol>
+    <Value>9.99999974737875e-05</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>sustain</Name>
+    <Symbol>sustain</Symbol>
+    <Value>9.99999974737875e-05</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>release</Name>
+    <Symbol>release</Symbol>
+    <Value>0.00100000004749745</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- MIDI Simple Channel Filter -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>MIDI Simple Channel Filter (9)</Name>
+   <URI>http://gareus.org/oss/lv2/midifilter#onechannelfilter</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f1</Options>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Channel</Name>
+    <Symbol>channel</Symbol>
+    <Value>2</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- MIDI Simple Channel Filter -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>MIDI Simple Channel Filter (10)</Name>
+   <URI>http://gareus.org/oss/lv2/midifilter#onechannelfilter</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f1</Options>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Channel</Name>
+    <Symbol>channel</Symbol>
+    <Value>2</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- CV Gate -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Tom Gate</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-gate</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>OpeningThreshold</Name>
+    <Symbol>OpeningThreshold</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>ClosingThreshold</Name>
+    <Symbol>ClosingThreshold</Symbol>
+    <Value>0.899999976158142</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>PluginEnabled</Name>
+    <Symbol>PluginEnabled</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- MIDI Simple Channel Filter -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>MIDI Simple Channel Filter (3)</Name>
+   <URI>http://gareus.org/oss/lv2/midifilter#onechannelfilter</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f1</Options>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Channel</Name>
+    <Symbol>channel</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- CV_LinearADSREnvelope -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>MIDI to CV trigger (12)</Name>
+   <URI>https://github.com/ryukau/LV2Plugins/tree/master/CV_LinearADSREnvelope</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>gain</Name>
+    <Symbol>gain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>attack</Name>
+    <Symbol>attack</Symbol>
+    <Value>9.99999974737875e-05</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>decay</Name>
+    <Symbol>decay</Symbol>
+    <Value>9.99999974737875e-05</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>sustain</Name>
+    <Symbol>sustain</Symbol>
+    <Value>9.99999974737875e-05</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>release</Name>
+    <Symbol>release</Symbol>
+    <Value>0.00100000004749745</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- MIDI Simple Channel Filter -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>MIDI Simple Channel Filter (11)</Name>
+   <URI>http://gareus.org/oss/lv2/midifilter#onechannelfilter</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f1</Options>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Channel</Name>
+    <Symbol>channel</Symbol>
+    <Value>2</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS VCO3 -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Sine (2)</Name>
+   <URI>http://github.com/blablack/ams-lv2/vco3</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Wave Form</Name>
+    <Symbol>waveForm</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Octave</Name>
+    <Symbol>octave</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Tune</Name>
+    <Symbol>tune</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>-1</MappedMinimum>
+    <MappedMaximum>1</MappedMaximum>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Semitone</Name>
+    <Symbol>semitone</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>12</MappedMaximum>
+    <Value>0.447058618068695</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>PW0</Name>
+    <Symbol>pw0</Symbol>
+    <Value>0.100000001490116</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>PW Gain</Name>
+    <Symbol>pwGain</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Edge</Name>
+    <Symbol>edge</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Phi0</Name>
+    <Symbol>phi0</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Exp FM Gain</Name>
+    <Symbol>expFMGain</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>10</MappedMaximum>
+    <Value>0.112000003457069</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>Lin FM Gain</Name>
+    <Symbol>linFMGain</Symbol>
+    <Value>10</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS VCA Exp -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Sine VCA Exp (2)</Name>
+   <URI>http://github.com/blablack/ams-lv2/vcaexp</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Gain Offset</Name>
+    <Symbol>gain1</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>2nd Gain Boost</Name>
+    <Symbol>gain2</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>In 1 Level</Name>
+    <Symbol>in1</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>In 2 Level</Name>
+    <Symbol>in2</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Output Level</Name>
+    <Symbol>outputLevel</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- ADSR Envelope -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Cymb Gain Env</Name>
+   <URI>http://drobilla.net/plugins/blop/adsr</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Trigger Threshold</Name>
+    <Symbol>thresh</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Attack Time</Name>
+    <Symbol>attack</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Decay Time</Name>
+    <Symbol>decay</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>1</MappedMaximum>
+    <Value>0.00999999977648258</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Sustain Level</Name>
+    <Symbol>sustain</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Release Time</Name>
+    <Symbol>release</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>1</MappedMaximum>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS Noise2 -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS Noise2 (3)</Name>
+   <URI>http://github.com/blablack/ams-lv2/noise2</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Noise Type</Name>
+    <Symbol>noiseType</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Random Rate</Name>
+    <Symbol>rate</Symbol>
+    <Value>5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Random Level</Name>
+    <Symbol>level</Symbol>
+    <Value>0.5</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS VCA Exp -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS VCA Exp (4)</Name>
+   <URI>http://github.com/blablack/ams-lv2/vcaexp</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Gain Offset</Name>
+    <Symbol>gain1</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>2nd Gain Boost</Name>
+    <Symbol>gain2</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>In 1 Level</Name>
+    <Symbol>in1</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>In 2 Level</Name>
+    <Symbol>in2</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Output Level</Name>
+    <Symbol>outputLevel</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- CV to Audio -->
+ <Plugin>
+  <Info>
+   <Type>INTERNAL</Type>
+   <Name>CV to Audio (2)</Name>
+   <Label>cv2audio</Label>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Briwall Limiter</Name>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS VCO3 -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Sine (3)</Name>
+   <URI>http://github.com/blablack/ams-lv2/vco3</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Wave Form</Name>
+    <Symbol>waveForm</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Octave</Name>
+    <Symbol>octave</Symbol>
+    <Value>5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Tune</Name>
+    <Symbol>tune</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>-1</MappedMinimum>
+    <MappedMaximum>1</MappedMaximum>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Semitone</Name>
+    <Symbol>semitone</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>12</MappedMaximum>
+    <Value>0.447058618068695</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>PW0</Name>
+    <Symbol>pw0</Symbol>
+    <Value>0.100000001490116</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>PW Gain</Name>
+    <Symbol>pwGain</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Edge</Name>
+    <Symbol>edge</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Phi0</Name>
+    <Symbol>phi0</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Exp FM Gain</Name>
+    <Symbol>expFMGain</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>10</MappedMaximum>
+    <Value>0.447058409452438</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>Lin FM Gain</Name>
+    <Symbol>linFMGain</Symbol>
+    <Value>10</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- CV Gate -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Cymb Gate</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-gate</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>OpeningThreshold</Name>
+    <Symbol>OpeningThreshold</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>ClosingThreshold</Name>
+    <Symbol>ClosingThreshold</Symbol>
+    <Value>0.899999976158142</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>PluginEnabled</Name>
+    <Symbol>PluginEnabled</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- MIDI Simple Channel Filter -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>MIDI Simple Channel Filter (12)</Name>
+   <URI>http://gareus.org/oss/lv2/midifilter#onechannelfilter</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f1</Options>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Channel</Name>
+    <Symbol>channel</Symbol>
+    <Value>2</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- CV_LinearADSREnvelope -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>MIDI to CV trigger (10)</Name>
+   <URI>https://github.com/ryukau/LV2Plugins/tree/master/CV_LinearADSREnvelope</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>gain</Name>
+    <Symbol>gain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>attack</Name>
+    <Symbol>attack</Symbol>
+    <Value>9.99999974737875e-05</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>decay</Name>
+    <Symbol>decay</Symbol>
+    <Value>9.99999974737875e-05</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>sustain</Name>
+    <Symbol>sustain</Symbol>
+    <Value>9.99999974737875e-05</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>release</Name>
+    <Symbol>release</Symbol>
+    <Value>0.00100000004749745</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Sherlock MIDI Inspector -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Sherlock MIDI Inspector</Name>
+   <URI>http://open-music-kontrollers.ch/lv2/sherlock#midi_inspector</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f1</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Overwrite</Name>
+    <Symbol>http://open-music-kontrollers.ch/lv2/sherlock#overwrite</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Follow</Name>
+    <Symbol>http://open-music-kontrollers.ch/lv2/sherlock#follow</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Block</Name>
+    <Symbol>http://open-music-kontrollers.ch/lv2/sherlock#block</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Bool</Type>
+    <Key>http://open-music-kontrollers.ch/lv2/sherlock#overwrite</Key>
+    <Value>AAAAAA==</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Bool</Type>
+    <Key>http://open-music-kontrollers.ch/lv2/sherlock#block</Key>
+    <Value>AAAAAA==</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Bool</Type>
+    <Key>http://open-music-kontrollers.ch/lv2/sherlock#follow</Key>
+    <Value>AAAAAA==</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Bool</Type>
+    <Key>http://open-music-kontrollers.ch/lv2/sherlock#pretty</Key>
+    <Value>AAAAAA==</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Bool</Type>
+    <Key>http://open-music-kontrollers.ch/lv2/sherlock#trace</Key>
+    <Value>AAAAAA==</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#URID</Type>
+    <Key>http://open-music-kontrollers.ch/lv2/sherlock#filter</Key>
+    <Value>AAAAAA==</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Bool</Type>
+    <Key>http://open-music-kontrollers.ch/lv2/sherlock#negate</Key>
+    <Value>AAAAAA==</Value>
+   </CustomData>
+  </Data>
+ </Plugin>
+
+ <!-- AMS Mixer 2 channels -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS Mixer 2 channels</Name>
+   <URI>http://github.com/blablack/ams-lv2/mixer_2ch</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Gain</Name>
+    <Symbol>gain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Volume 1</Name>
+    <Symbol>volume1</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Volume 2</Name>
+    <Symbol>volume2</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- MIDI Generator -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>MIDI Generator (2)</Name>
+   <URI>http://gareus.org/oss/lv2/midigen</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x1</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Select Sequence</Name>
+    <Symbol>sequence</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>BPM</Name>
+    <Symbol>bpm</Symbol>
+    <Value>120</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Simple Scope (4 channel) -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Simple Scope (4 channel)</Name>
+   <URI>http://gareus.org/oss/lv2/sisco#4chan</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Int</Type>
+    <Key>http://gareus.org/oss/lv2/sisco#ui_state_grid</Key>
+    <Value>CgAAAA==</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
+    <Key>http://gareus.org/oss/lv2/sisco#ui_state_curs</Key>
+    <Value>BAAAAAcAAACgAAAA4AEAAAEAAAABAAAA</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
+    <Key>http://gareus.org/oss/lv2/sisco#ui_state_trig</Key>
+    <Value>BAAAAAYAAAAAAAAAAAAAAAAASEIAAAA/AAAAAA==</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
+    <Key>http://gareus.org/oss/lv2/sisco#ui_state_chn</Key>
+    <Value>BAAAAAYAAAAAAIA/AAAAAAAAyMIAAIA/AACAPwAAAAAAAMjCAACAPwAAgD8AAAAAAADIwgAAgD8AAIA/AAAAAAAAyMIAAIA/</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Int</Type>
+    <Key>http://gareus.org/oss/lv2/sisco#ui_state_misc</Key>
+    <Value>AAAAAA==</Value>
+   </CustomData>
+  </Data>
+ </Plugin>
+
+ <ExternalPatchbay>
+  <Connection>
+   <Source>PulseAudio JACK Sink:front-left</Source>
+   <Target>system:playback_1</Target>
+  </Connection>
+  <Connection>
+   <Source>PulseAudio JACK Sink:front-right</Source>
+   <Target>system:playback_2</Target>
+  </Connection>
+  <Connection>
+   <Source>jack_mixer.nAJKK:Main Out L</Source>
+   <Target>Carla.nCQND/LSP Compressor Stereo:Input L</Target>
+  </Connection>
+  <Connection>
+   <Source>jack_mixer.nAJKK:Main Out R</Source>
+   <Target>Carla.nCQND/LSP Compressor Stereo:Input R</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Sawtooth VCA:Out</Source>
+   <Target>Carla.nCQND/AMS Mixer 8 channels:In 3</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/LSP Compressor Stereo:Output L</Source>
+   <Target>system:playback_1</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/LSP Compressor Stereo:Output R</Source>
+   <Target>system:playback_2</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Pulse PW:Output</Source>
+   <Target>Carla.nCQND/Pluse:PW</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Sine:Out</Source>
+   <Target>Carla.nCQND/Sine VCA Exp:In 1</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Triangle:Out</Source>
+   <Target>Carla.nCQND/AMS VCA Triangle:In 1</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Saw:Out</Source>
+   <Target>Carla.nCQND/Sawtooth VCA:In 1 Mod</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Pluse:Out</Source>
+   <Target>Carla.nCQND/Pluse VCA:In 1</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Sine VCA Exp:Out</Source>
+   <Target>Carla.nCQND/AMS Mixer 8 channels:In 1</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/AMS Mixer 8 channels:Out</Source>
+   <Target>Carla.nCQND/Glame Lowpass Filter:Input</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/AMS Mixer 8 channels:Out</Source>
+   <Target>Carla.nCQND/Glame Lowpass Filter (2):Input</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Pluse VCA:Out</Source>
+   <Target>Carla.nCQND/AMS Mixer 8 channels:In 4</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/AMS VCA Triangle:Out</Source>
+   <Target>Carla.nCQND/AMS Mixer 8 channels:In 2</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/STSP VCA:Out</Source>
+   <Target>Carla.nCQND/AMS Mixer 8 channels:In 5</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/16 Step Sequencer:Value Out</Source>
+   <Target>Carla.nCQND/Triangle:Sync</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/16 Step Sequencer:Value Out</Source>
+   <Target>Carla.nCQND/Triangle:Frequency</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/16 Step Sequencer:Value Out</Source>
+   <Target>Carla.nCQND/Sine:Sync</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/16 Step Sequencer:Value Out</Source>
+   <Target>Carla.nCQND/Sine:Frequency</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/16 Step Sequencer:Value Out</Source>
+   <Target>Carla.nCQND/Saw:Sync</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/16 Step Sequencer:Value Out</Source>
+   <Target>Carla.nCQND/Saw:Frequency</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/16 Step Sequencer:Value Out</Source>
+   <Target>Carla.nCQND/Pluse:Sync</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/16 Step Sequencer:Value Out</Source>
+   <Target>Carla.nCQND/Pluse:Frequency</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Semitone:CV Output</Source>
+   <Target>Carla.nCQND/Triangle:Semitone</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Semitone:CV Output</Source>
+   <Target>Carla.nCQND/Sine:Semitone</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Semitone:CV Output</Source>
+   <Target>Carla.nCQND/Saw:Semitone</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Semitone:CV Output</Source>
+   <Target>Carla.nCQND/Pluse:Semitone</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Exp FM Gain:CV Output</Source>
+   <Target>Carla.nCQND/Triangle:Exp FM Gain</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Exp FM Gain:CV Output</Source>
+   <Target>Carla.nCQND/Sine:Exp FM Gain</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Exp FM Gain:CV Output</Source>
+   <Target>Carla.nCQND/Saw:Exp FM Gain</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Exp FM Gain:CV Output</Source>
+   <Target>Carla.nCQND/Pluse:Exp FM Gain</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Gain Decay:Output</Source>
+   <Target>Carla.nCQND/Gain Env:Decay1</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Saw Edge:CV Output</Source>
+   <Target>Carla.nCQND/Saw:Edge</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Pluse Edge:CV Output</Source>
+   <Target>Carla.nCQND/Pluse:Edge</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Wedge Gate Open:Output</Source>
+   <Target>Carla.nCQND/16 Step Sequencer:Gate</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/MIDI-Trigger:events-out</Source>
+   <Target>Carla.nCQND/FDNCymbal:events-in</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/EsPhaser:Audio Output 1</Source>
+   <Target>Carla.nCQND/x42-Autotune:Input</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/EsPhaser:Audio Output 2</Source>
+   <Target>Carla.nCQND/x42-Autotune (3):Input</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/x42-Autotune:Output</Source>
+   <Target>jack_mixer.nAJKK:Cymb Cray L</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/x42-Autotune (3):Output</Source>
+   <Target>jack_mixer.nAJKK:Cymb Cray R</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/MIDI Generator:events-out</Source>
+   <Target>Carla.nCQND/x42-Autotune:events-in</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/MIDI Generator:events-out</Source>
+   <Target>Carla.nCQND/x42-Autotune (3):events-in</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/FDNCymbal:Audio Output 1</Source>
+   <Target>Carla.nCQND/EsPhaser:Audio Input 1</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/FDNCymbal:Audio Output 2</Source>
+   <Target>Carla.nCQND/EsPhaser:Audio Input 2</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/AMS Slew Limiter:Out</Source>
+   <Target>Carla.nCQND/AMS Hysteresis:In</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/AMS Hysteresis:Out</Source>
+   <Target>Carla.nCQND/FDNCymbal:retriggerTime</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/AMS VC Switch:Out 1</Source>
+   <Target>Carla.nCQND/AMS Slew Limiter:In</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Kick Gate:CV Output</Source>
+   <Target>Carla.nCQND/16 Step Sequencer:Step Trigger</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Kick Gate:CV Output</Source>
+   <Target>Carla.nCQND/Gain Env:Trig/Gate</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Kick Gate:CV Output</Source>
+   <Target>Carla.nCQND/Freq Env:Trig/Gate</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Snare Gate:CV Output</Source>
+   <Target>Carla.nCQND/Freq Env (2):Driving Signal</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Snare Sine:Out</Source>
+   <Target>Carla.nCQND/Snare Sine Gain:In 1</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Snare Noise:Out</Source>
+   <Target>Carla.nCQND/AMS VCA Exp (3):In 1</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Freq Env (2):Envelope Out</Source>
+   <Target>Carla.nCQND/Snare Sine:Exp FM</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Freq Env (2):Envelope Out</Source>
+   <Target>Carla.nCQND/Snare Sine Gain:Main Gain</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Freq Env (2):Envelope Out</Source>
+   <Target>Carla.nCQND/AMS VCA Exp (3):Main Gain</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Snare Sine Gain:Out</Source>
+   <Target>Carla.nCQND/AMS Mixer 2 channels:In 1</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/AMS VCA Exp (3):Out</Source>
+   <Target>Carla.nCQND/AMS Mixer 2 channels:In 2</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/AMS LFO:Rectangle</Source>
+   <Target>Carla.nCQND/Attenuverter Booster:CV Input</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Attenuverter Booster:CV Output</Source>
+   <Target>Carla.nCQND/AMS Slew Limiter:Time Down</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/AMS Noise2 (2):Out</Source>
+   <Target>Carla.nCQND/AMS VCA Exp (2):In 1</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/AMS VCA Exp (2):Out</Source>
+   <Target>Carla.nCQND/Moog High-Pass Filter 1:Input</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Hi-hat Gate:CV Output</Source>
+   <Target>Carla.nCQND/Freq Env (3):Driving Signal</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Freq Env (3):Envelope Out</Source>
+   <Target>Carla.nCQND/AMS VCA Exp (2):Main Gain</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Moog High-Pass Filter 1:Output</Source>
+   <Target>jack_mixer.nAJKK:Hi-hat L</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Moog High-Pass Filter 1:Output</Source>
+   <Target>jack_mixer.nAJKK:Hi-hat R</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Freq Decay:Output</Source>
+   <Target>Carla.nCQND/Freq Env:Decay1</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/LSP Compressor Stereo (2):Output L</Source>
+   <Target>jack_mixer.nAJKK:Kick L</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/LSP Compressor Stereo (2):Output R</Source>
+   <Target>jack_mixer.nAJKK:Kick R</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Glame Lowpass Filter:Output</Source>
+   <Target>Carla.nCQND/LSP Compressor Stereo (2):Input R</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Glame Lowpass Filter:Output</Source>
+   <Target>Carla.nCQND/LSP Compressor Stereo (2):Input L</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Glame Lowpass Filter (2):Output</Source>
+   <Target>Carla.nCQND/LSP Compressor Stereo (2):Input R</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Cra Cymb Gate:CV Output</Source>
+   <Target>Carla.nCQND/CV to Audio:CV Input</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/CV to Audio:Audio Output</Source>
+   <Target>Carla.nCQND/MIDI-Trigger:Input audio source</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Control of Kick:Output0</Source>
+   <Target>Carla.nCQND/Gain Level:Input</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Control of Kick:Output1</Source>
+   <Target>Carla.nCQND/Gain Decay:Input</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Control of Kick:Output2</Source>
+   <Target>Carla.nCQND/Gain Curve:Input</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Control of Kick:Output3</Source>
+   <Target>Carla.nCQND/Freq Decay:Input</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Control of Kick:Output4</Source>
+   <Target>Carla.nCQND/Freq Level:Input</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Control of Kick:Output5</Source>
+   <Target>Carla.nCQND/Freq Curve:Input</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Control of Kick:Output6</Source>
+   <Target>Carla.nCQND/Exp FM Gain:Control</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Control of Kick:Output7</Source>
+   <Target>Carla.nCQND/Semitone:Control</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Control of Kick:Output8</Source>
+   <Target>Carla.nCQND/Saw Edge:Control</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Control of Kick:Output9</Source>
+   <Target>Carla.nCQND/Pulse PW:Input</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Control of Kick:Output10</Source>
+   <Target>Carla.nCQND/Pluse Edge:Control</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Gain Level:Output</Source>
+   <Target>Carla.nCQND/Gain Env:Gain</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Gain Curve:Output</Source>
+   <Target>Carla.nCQND/Gain Env:Curve1</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Freq Level:Output</Source>
+   <Target>Carla.nCQND/Freq Env:Gain</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Freq Curve:Output</Source>
+   <Target>Carla.nCQND/Freq Env:Curve1</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Gain Env:Output</Source>
+   <Target>Carla.nCQND/Sine VCA Exp:Main Gain</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Gain Env:Output</Source>
+   <Target>Carla.nCQND/Sawtooth VCA:Main Gain</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Gain Env:Output</Source>
+   <Target>Carla.nCQND/STSP VCA:Main Gain</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Gain Env:Output</Source>
+   <Target>Carla.nCQND/Pluse VCA:Main Gain</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Gain Env:Output</Source>
+   <Target>Carla.nCQND/AMS VCA Triangle:Main Gain</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Freq Env:Output</Source>
+   <Target>Carla.nCQND/Triangle:Exp FM</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Freq Env:Output</Source>
+   <Target>Carla.nCQND/Sine:Exp FM</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Freq Env:Output</Source>
+   <Target>Carla.nCQND/Saw:Exp FM</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Freq Env:Output</Source>
+   <Target>Carla.nCQND/Pluse:Exp FM</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/MIDI to CV trigger (2):Output</Source>
+   <Target>Carla.nCQND/Kick Gate:CV Input</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/MIDI to CV trigger (4):Output</Source>
+   <Target>Carla.nCQND/Snare Gate:Gate</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/MIDI to CV trigger (5):Output</Source>
+   <Target>Carla.nCQND/Hi-hat Gate:CV Input</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/MIDI to CV trigger (6):Output</Source>
+   <Target>Carla.nCQND/Hi-hat Gate:Gate</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/MIDI to CV trigger (7):Output</Source>
+   <Target>Carla.nCQND/Tom Gate:CV Input</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/MIDI to CV trigger (8):Output</Source>
+   <Target>Carla.nCQND/Tom Gate:Gate</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/MIDI to CV trigger (9):Output</Source>
+   <Target>Carla.nCQND/Cymb Gate:CV Input</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/MIDI Simple Channel Filter:events-out</Source>
+   <Target>Carla.nCQND/MIDI to CV trigger (2):events-in</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/MIDI Simple Channel Filter (2):events-out</Source>
+   <Target>Carla.nCQND/MIDI to CV:events-in</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/MIDI Simple Channel Filter (4):events-out</Source>
+   <Target>Carla.nCQND/MIDI to CV trigger (4):events-in</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/MIDI Simple Channel Filter (5):events-out</Source>
+   <Target>Carla.nCQND/MIDI to CV trigger (5):events-in</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/MIDI Simple Channel Filter (6):events-out</Source>
+   <Target>Carla.nCQND/MIDI to CV trigger (6):events-in</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/MIDI Simple Channel Filter (7):events-out</Source>
+   <Target>Carla.nCQND/MIDI to CV trigger (7):events-in</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/MIDI Simple Channel Filter (8):events-out</Source>
+   <Target>Carla.nCQND/MIDI to CV trigger (8):events-in</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/MIDI to CV:Gate</Source>
+   <Target>Carla.nCQND/Kick Gate:Gate</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Gain Env (2):Output</Source>
+   <Target>Carla.nCQND/Sine VCA Exp (2):Main Gain</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Freq Env (4):Output</Source>
+   <Target>Carla.nCQND/Sine (2):Exp FM</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/MIDI to CV trigger (3):Output</Source>
+   <Target>Carla.nCQND/Snare Gate:CV Input</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/MIDI to CV trigger (11):Output</Source>
+   <Target>Carla.nCQND/Cra Cymb Gate:CV Input</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/MIDI Simple Channel Filter (9):events-out</Source>
+   <Target>Carla.nCQND/MIDI to CV trigger (9):events-in</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/MIDI Simple Channel Filter (10):events-out</Source>
+   <Target>Carla.nCQND/MIDI to CV trigger (10):events-in</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Tom Gate:CV Output</Source>
+   <Target>Carla.nCQND/Gain Env (2):Trig/Gate</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Tom Gate:CV Output</Source>
+   <Target>Carla.nCQND/Freq Env (4):Trig/Gate</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/MIDI Simple Channel Filter (3):events-out</Source>
+   <Target>Carla.nCQND/MIDI to CV trigger (3):events-in</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/MIDI to CV trigger (12):Output</Source>
+   <Target>Carla.nCQND/Cra Cymb Gate:Gate</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/MIDI Simple Channel Filter (11):events-out</Source>
+   <Target>Carla.nCQND/MIDI to CV trigger (11):events-in</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Sine (2):Out</Source>
+   <Target>Carla.nCQND/Sine VCA Exp (2):In 1</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Sine VCA Exp (2):Out</Source>
+   <Target>jack_mixer.nAJKK:Tom L</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Sine VCA Exp (2):Out</Source>
+   <Target>jack_mixer.nAJKK:Tom R</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Cymb Gain Env:Envelope Out</Source>
+   <Target>Carla.nCQND/AMS VCA Exp (4):Main Gain</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Cymb Gain Env:Envelope Out</Source>
+   <Target>Carla.nCQND/AMS VCA Exp (4):2nd Gain</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/AMS Noise2 (3):Out</Source>
+   <Target>Carla.nCQND/CV to Audio (2):CV Input</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/AMS VCA Exp (4):Out</Source>
+   <Target>jack_mixer.nAJKK:Cymb L</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/AMS VCA Exp (4):Out</Source>
+   <Target>jack_mixer.nAJKK:Cymb R</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/CV to Audio (2):Audio Output</Source>
+   <Target>Carla.nCQND/AMS VCA Exp (4):In 1</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Sine (3):Out</Source>
+   <Target>Carla.nCQND/AMS VCA Exp (4):In 2</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Cymb Gate:CV Output</Source>
+   <Target>Carla.nCQND/Cymb Gain Env:Driving Signal</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/MIDI Simple Channel Filter (12):events-out</Source>
+   <Target>Carla.nCQND/MIDI to CV trigger (12):events-in</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/MIDI to CV trigger (10):Output</Source>
+   <Target>Carla.nCQND/Cymb Gate:Gate</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/AMS Mixer 2 channels:Out</Source>
+   <Target>jack_mixer.nAJKK:Snare L</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/AMS Mixer 2 channels:Out</Source>
+   <Target>jack_mixer.nAJKK:Snare R</Target>
+  </Connection>
+  <Positions>
+   <Position x1="478" y1="287">
+    <Name>system</Name>
+   </Position>
+   <Position x1="4964" y1="2450">
+    <Name>PulseAudio JACK Sink</Name>
+   </Position>
+   <Position x1="478" y1="287">
+    <Name>a2j</Name>
+   </Position>
+   <Position x1="5345" y1="2575">
+    <Name>PulseAudio JACK Source</Name>
+   </Position>
+   <Position x1="3025" y1="922" pluginId="0">
+    <Name>Carla.nCQND/Sawtooth VCA</Name>
+   </Position>
+   <Position x1="4947" y1="2251" pluginId="1">
+    <Name>Carla.nCQND/LSP Compressor Stereo</Name>
+   </Position>
+   <Position x1="1798" y1="1199" pluginId="2">
+    <Name>Carla.nCQND/Pulse PW</Name>
+   </Position>
+   <Position x1="2824" y1="514" pluginId="3">
+    <Name>Carla.nCQND/Sine</Name>
+   </Position>
+   <Position x1="2825" y1="730" pluginId="4">
+    <Name>Carla.nCQND/Triangle</Name>
+   </Position>
+   <Position x1="2836" y1="922" pluginId="5">
+    <Name>Carla.nCQND/Saw</Name>
+   </Position>
+   <Position x1="2833" y1="1133" pluginId="6">
+    <Name>Carla.nCQND/Pluse</Name>
+   </Position>
+   <Position x1="3026" y1="515" pluginId="7">
+    <Name>Carla.nCQND/Sine VCA Exp</Name>
+   </Position>
+   <Position x1="3347" y1="915" pluginId="8">
+    <Name>Carla.nCQND/AMS Mixer 8 channels</Name>
+   </Position>
+   <Position x1="3027" y1="1136" pluginId="9">
+    <Name>Carla.nCQND/Pluse VCA</Name>
+   </Position>
+   <Position x1="3026" y1="729" pluginId="10">
+    <Name>Carla.nCQND/AMS VCA Triangle</Name>
+   </Position>
+   <Position x1="3028" y1="1307" pluginId="11">
+    <Name>Carla.nCQND/STSP VCA</Name>
+   </Position>
+   <Position x1="2374" y1="527" pluginId="12">
+    <Name>Carla.nCQND/16 Step Sequencer</Name>
+   </Position>
+   <Position x1="1798" y1="1051" pluginId="13">
+    <Name>Carla.nCQND/Semitone</Name>
+   </Position>
+   <Position x1="1801" y1="978" pluginId="14">
+    <Name>Carla.nCQND/Exp FM Gain</Name>
+   </Position>
+   <Position x1="1796" y1="566" pluginId="15">
+    <Name>Carla.nCQND/Gain Decay</Name>
+   </Position>
+   <Position x1="1798" y1="1125" pluginId="16">
+    <Name>Carla.nCQND/Saw Edge</Name>
+   </Position>
+   <Position x1="1791" y1="1282" pluginId="17">
+    <Name>Carla.nCQND/Pluse Edge</Name>
+   </Position>
+   <Position x1="2111" y1="509" pluginId="18">
+    <Name>Carla.nCQND/Wedge Gate Open</Name>
+   </Position>
+   <Position x1="2557" y1="3309" pluginId="19">
+    <Name>Carla.nCQND/MIDI-Trigger</Name>
+   </Position>
+   <Position x1="3033" y1="3301" pluginId="20">
+    <Name>Carla.nCQND/EsPhaser</Name>
+   </Position>
+   <Position x1="3342" y1="3269" pluginId="21">
+    <Name>Carla.nCQND/x42-Autotune</Name>
+   </Position>
+   <Position x1="3346" y1="3356" pluginId="22">
+    <Name>Carla.nCQND/x42-Autotune (3)</Name>
+   </Position>
+   <Position x1="3022" y1="3435" pluginId="23">
+    <Name>Carla.nCQND/MIDI Generator</Name>
+   </Position>
+   <Position x1="2808" y1="3300" pluginId="24">
+    <Name>Carla.nCQND/FDNCymbal</Name>
+   </Position>
+   <Position x1="2286" y1="3426" pluginId="25">
+    <Name>Carla.nCQND/AMS Slew Limiter</Name>
+   </Position>
+   <Position x1="2552" y1="3422" pluginId="26">
+    <Name>Carla.nCQND/AMS Hysteresis</Name>
+   </Position>
+   <Position x1="2016" y1="3350" pluginId="27">
+    <Name>Carla.nCQND/AMS VC Switch</Name>
+   </Position>
+   <Position x1="448" y1="3075" pluginId="28">
+    <Name>Carla.nCQND/Clock Divider Faster</Name>
+   </Position>
+   <Position x1="1435" y1="1502" pluginId="29">
+    <Name>Carla.nCQND/Kick Gate</Name>
+   </Position>
+   <Position x1="1418" y1="1746" pluginId="30">
+    <Name>Carla.nCQND/Snare Gate</Name>
+   </Position>
+   <Position x1="2258" y1="1533" pluginId="31">
+    <Name>Carla.nCQND/Snare Sine</Name>
+   </Position>
+   <Position x1="2193" y1="1772" pluginId="32">
+    <Name>Carla.nCQND/Snare Noise</Name>
+   </Position>
+   <Position x1="2035" y1="1666" pluginId="33">
+    <Name>Carla.nCQND/Freq Env (2)</Name>
+   </Position>
+   <Position x1="2471" y1="1559" pluginId="34">
+    <Name>Carla.nCQND/Snare Sine Gain</Name>
+   </Position>
+   <Position x1="2471" y1="1698" pluginId="35">
+    <Name>Carla.nCQND/AMS VCA Exp (3)</Name>
+   </Position>
+   <Position x1="1797" y1="3399" pluginId="36">
+    <Name>Carla.nCQND/AMS LFO</Name>
+   </Position>
+   <Position x1="1999" y1="3470" pluginId="37">
+    <Name>Carla.nCQND/Attenuverter Booster</Name>
+   </Position>
+   <Position x1="2196" y1="1918" pluginId="38">
+    <Name>Carla.nCQND/AMS Noise2 (2)</Name>
+   </Position>
+   <Position x1="2468" y1="1921" pluginId="39">
+    <Name>Carla.nCQND/AMS VCA Exp (2)</Name>
+   </Position>
+   <Position x1="1411" y1="1950" pluginId="40">
+    <Name>Carla.nCQND/Hi-hat Gate</Name>
+   </Position>
+   <Position x1="2205" y1="1985" pluginId="41">
+    <Name>Carla.nCQND/Freq Env (3)</Name>
+   </Position>
+   <Position x1="2774" y1="1922" pluginId="42">
+    <Name>Carla.nCQND/Moog High-Pass Filter 1</Name>
+   </Position>
+   <Position x1="1798" y1="728" pluginId="43">
+    <Name>Carla.nCQND/Freq Decay</Name>
+   </Position>
+   <Position x1="3942" y1="940" pluginId="44">
+    <Name>Carla.nCQND/LSP Compressor Stereo (2)</Name>
+   </Position>
+   <Position x1="3633" y1="919" pluginId="45">
+    <Name>Carla.nCQND/Glame Lowpass Filter</Name>
+   </Position>
+   <Position x1="3627" y1="994" pluginId="46">
+    <Name>Carla.nCQND/Glame Lowpass Filter (2)</Name>
+   </Position>
+   <Position x1="1394" y1="2599" pluginId="47">
+    <Name>Carla.nCQND/Cra Cymb Gate</Name>
+   </Position>
+   <Position x1="2337" y1="3307" pluginId="48">
+    <Name>Carla.nCQND/CV to Audio</Name>
+   </Position>
+   <Position x1="1380" y1="817" pluginId="49">
+    <Name>Carla.nCQND/Control of Kick</Name>
+   </Position>
+   <Position x1="1796" y1="495" pluginId="50">
+    <Name>Carla.nCQND/Gain Level</Name>
+   </Position>
+   <Position x1="1795" y1="638" pluginId="51">
+    <Name>Carla.nCQND/Gain Curve</Name>
+   </Position>
+   <Position x1="1801" y1="818" pluginId="52">
+    <Name>Carla.nCQND/Freq Level</Name>
+   </Position>
+   <Position x1="1801" y1="903" pluginId="53">
+    <Name>Carla.nCQND/Freq Curve</Name>
+   </Position>
+   <Position x1="2395" y1="748" pluginId="54">
+    <Name>Carla.nCQND/Gain Env</Name>
+   </Position>
+   <Position x1="2396" y1="1079" pluginId="55">
+    <Name>Carla.nCQND/Freq Env</Name>
+   </Position>
+   <Position x1="1113" y1="1542" pluginId="56">
+    <Name>Carla.nCQND/MIDI to CV trigger (2)</Name>
+   </Position>
+   <Position x1="1106" y1="1796" pluginId="57">
+    <Name>Carla.nCQND/MIDI to CV trigger (4)</Name>
+   </Position>
+   <Position x1="1112" y1="1951" pluginId="58">
+    <Name>Carla.nCQND/MIDI to CV trigger (5)</Name>
+   </Position>
+   <Position x1="1111" y1="2002" pluginId="59">
+    <Name>Carla.nCQND/MIDI to CV trigger (6)</Name>
+   </Position>
+   <Position x1="1109" y1="2177" pluginId="60">
+    <Name>Carla.nCQND/MIDI to CV trigger (7)</Name>
+   </Position>
+   <Position x1="1110" y1="2227" pluginId="61">
+    <Name>Carla.nCQND/MIDI to CV trigger (8)</Name>
+   </Position>
+   <Position x1="1104" y1="2393" pluginId="62">
+    <Name>Carla.nCQND/MIDI to CV trigger (9)</Name>
+   </Position>
+   <Position x1="765" y1="1490" pluginId="63">
+    <Name>Carla.nCQND/MIDI Simple Channel Filter</Name>
+   </Position>
+   <Position x1="763" y1="1543" pluginId="64">
+    <Name>Carla.nCQND/MIDI Simple Channel Filter (2)</Name>
+   </Position>
+   <Position x1="755" y1="1796" pluginId="65">
+    <Name>Carla.nCQND/MIDI Simple Channel Filter (4)</Name>
+   </Position>
+   <Position x1="761" y1="1949" pluginId="66">
+    <Name>Carla.nCQND/MIDI Simple Channel Filter (5)</Name>
+   </Position>
+   <Position x1="762" y1="2000" pluginId="67">
+    <Name>Carla.nCQND/MIDI Simple Channel Filter (6)</Name>
+   </Position>
+   <Position x1="758" y1="2179" pluginId="68">
+    <Name>Carla.nCQND/MIDI Simple Channel Filter (7)</Name>
+   </Position>
+   <Position x1="759" y1="2231" pluginId="69">
+    <Name>Carla.nCQND/MIDI Simple Channel Filter (8)</Name>
+   </Position>
+   <Position x1="1123" y1="1447" pluginId="70">
+    <Name>Carla.nCQND/MIDI to CV</Name>
+   </Position>
+   <Position x1="2233" y1="2159" pluginId="71">
+    <Name>Carla.nCQND/Gain Env (2)</Name>
+   </Position>
+   <Position x1="2239" y1="2457" pluginId="72">
+    <Name>Carla.nCQND/Freq Env (4)</Name>
+   </Position>
+   <Position x1="1105" y1="1747" pluginId="73">
+    <Name>Carla.nCQND/MIDI to CV trigger (3)</Name>
+   </Position>
+   <Position x1="1098" y1="2603" pluginId="74">
+    <Name>Carla.nCQND/MIDI to CV trigger (11)</Name>
+   </Position>
+   <Position x1="761" y1="2393" pluginId="75">
+    <Name>Carla.nCQND/MIDI Simple Channel Filter (9)</Name>
+   </Position>
+   <Position x1="758" y1="2449" pluginId="76">
+    <Name>Carla.nCQND/MIDI Simple Channel Filter (10)</Name>
+   </Position>
+   <Position x1="1414" y1="2173" pluginId="77">
+    <Name>Carla.nCQND/Tom Gate</Name>
+   </Position>
+   <Position x1="756" y1="1747" pluginId="78">
+    <Name>Carla.nCQND/MIDI Simple Channel Filter (3)</Name>
+   </Position>
+   <Position x1="1097" y1="2651" pluginId="79">
+    <Name>Carla.nCQND/MIDI to CV trigger (12)</Name>
+   </Position>
+   <Position x1="750" y1="2602" pluginId="80">
+    <Name>Carla.nCQND/MIDI Simple Channel Filter (11)</Name>
+   </Position>
+   <Position x1="2488" y1="2358" pluginId="81">
+    <Name>Carla.nCQND/Sine (2)</Name>
+   </Position>
+   <Position x1="2715" y1="2303" pluginId="82">
+    <Name>Carla.nCQND/Sine VCA Exp (2)</Name>
+   </Position>
+   <Position x1="2207" y1="2941" pluginId="83">
+    <Name>Carla.nCQND/Cymb Gain Env</Name>
+   </Position>
+   <Position x1="2281" y1="2870" pluginId="84">
+    <Name>Carla.nCQND/AMS Noise2 (3)</Name>
+   </Position>
+   <Position x1="2786" y1="2902" pluginId="85">
+    <Name>Carla.nCQND/AMS VCA Exp (4)</Name>
+   </Position>
+   <Position x1="2519" y1="2848" pluginId="86">
+    <Name>Carla.nCQND/CV to Audio (2)</Name>
+   </Position>
+   <Position x1="2460" y1="3012" pluginId="87">
+    <Name>Carla.nCQND/Sine (3)</Name>
+   </Position>
+   <Position x1="1409" y1="2401" pluginId="88">
+    <Name>Carla.nCQND/Cymb Gate</Name>
+   </Position>
+   <Position x1="751" y1="2654" pluginId="89">
+    <Name>Carla.nCQND/MIDI Simple Channel Filter (12)</Name>
+   </Position>
+   <Position x1="1102" y1="2447" pluginId="90">
+    <Name>Carla.nCQND/MIDI to CV trigger (10)</Name>
+   </Position>
+   <Position x1="1028" y1="1314" pluginId="91">
+    <Name>Carla.nCQND/Sherlock MIDI Inspector</Name>
+   </Position>
+   <Position x1="2855" y1="1632" pluginId="92">
+    <Name>Carla.nCQND/AMS Mixer 2 channels</Name>
+   </Position>
+   <Position x1="608" y1="605" pluginId="93">
+    <Name>Carla.nCQND/MIDI Generator (2)</Name>
+   </Position>
+   <Position x1="668" y1="1165" pluginId="94">
+    <Name>Carla.nCQND/Simple Scope (4 channel)</Name>
+   </Position>
+   <Position x1="4416" y1="1993">
+    <Name>jack_mixer.nAJKK</Name>
+   </Position>
+  </Positions>
+ </ExternalPatchbay>
+</CARLA-PROJECT>
