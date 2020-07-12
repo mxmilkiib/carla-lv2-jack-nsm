@@ -3,7 +3,7 @@ Some alpha/beta psychedelic funkin' state [LV2](https://github.com/linuxaudio/ne
 
 For information about LV2/JACK CV, see [this post](https://linuxmusicians.com/viewtopic.php?f=1&t=20701). I would not want to be someone using a non-rolling release Linux distribution that doesn't have access to the AUR if I were getting in to all this.
 
-(This is the NSM version of https://github.com/mxmilkb/carla-modular-synth-tests, not all previous projects have been imported to NSM yet.)
+(This is the NSM version of https://github.com/mxmilkb/carla-modular-synth-tests, not all previous projects have been imported yet.)
 
 ## Requirements
 For Arch Linux users:
