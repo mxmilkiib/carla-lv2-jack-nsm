@@ -36,4 +36,4 @@ For Arch Linux users:
 ## Screenshots
 ![boom3.png](https://user-images.githubusercontent.com/108225/87223637-8699b900-c376-11ea-8b5e-4246c39978ec.png)
 
-+ [older](https://github.com/mxmilkiib/carla-modular-synth-tests) [screenshots](https://github.com/mxmilkiib/carla-modular-synth-tests/issues/1)
++ [older](https://github.com/mxmilkiib/carla-modular-synth-tests#screenshots) [screenshots](https://github.com/mxmilkiib/carla-modular-synth-tests/issues/1)
