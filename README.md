@@ -3,6 +3,8 @@ Some alpha/beta psychedelic funkin' state LV2 modular synth test projects in the
 
 For information about LV2/JACK CV, see [this post](https://linuxmusicians.com/viewtopic.php?f=1&t=20701).
 
+This is the NSM version of https://github.com/mxmilkb/carla-modular-synth-tests, not all previous projects have been imported to NSM yet.
+
 ## Requirements
 For Arch Linux users:
 * https://aur.archlinux.org/packages/carla-debug-git - host
