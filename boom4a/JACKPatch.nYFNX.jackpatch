@@ -1,0 +1,261 @@
+Carla.nCQND/16 Step Sequencer:Value Out  |> Carla.nCQND/Pluse:Frequency
+Carla.nCQND/16 Step Sequencer:Value Out  |> Carla.nCQND/Pluse:Sync
+Carla.nCQND/16 Step Sequencer:Value Out  |> Carla.nCQND/Saw:Frequency
+Carla.nCQND/16 Step Sequencer:Value Out  |> Carla.nCQND/Saw:Sync
+Carla.nCQND/16 Step Sequencer:Value Out  |> Carla.nCQND/Sine:Frequency
+Carla.nCQND/16 Step Sequencer:Value Out  |> Carla.nCQND/Sine:Sync
+Carla.nCQND/16 Step Sequencer:Value Out  |> Carla.nCQND/Triangle:Frequency
+Carla.nCQND/16 Step Sequencer:Value Out  |> Carla.nCQND/Triangle:Sync
+Carla.nCQND/AMS Hysteresis:Out           |> Carla.nCQND/FDNCymbal:retriggerTime
+Carla.nCQND/AMS Mixer 2 channels:Out     |> jack_mixer.nAJKK:Snare L
+Carla.nCQND/AMS Mixer 2 channels:Out     |> jack_mixer.nAJKK:Snare R
+Carla.nCQND/AMS Noise2 (2):Out           |> Carla.nCQND/AMS VCA Exp (2):In 1
+Carla.nCQND/AMS Noise2 (3):Out           |> Carla.nCQND/CV to Audio (2):CV Input
+Carla.nCQND/AMS Slew Limiter:Out         |> Carla.nCQND/AMS Hysteresis:In
+Carla.nCQND/AMS Stereo Mixer 8 channels:Out Left |> jack_mixer.nAJKK:Lead Synth L
+Carla.nCQND/AMS Stereo Mixer 8 channels:Out Right |> jack_mixer.nAJKK:Lead Synth R
+Carla.nCQND/AMS VC Envelope II (2):Out   |> Carla.nCQND/Lead Gain 2:Main Gain
+Carla.nCQND/AMS VC Envelope II (2):Out   |> Carla.nCQND/Lead VCF 2:Frequency Mod
+Carla.nCQND/AMS VC Envelope II (2):Out   |> Carla.nCQND/Simple Scope (4 channel):In2
+Carla.nCQND/AMS VC Envelope II (3):Out   |> Carla.nCQND/Lead Gain 3:Main Gain
+Carla.nCQND/AMS VC Envelope II (3):Out   |> Carla.nCQND/Lead VCF 3:Frequency Mod
+Carla.nCQND/AMS VC Envelope II (3):Out   |> Carla.nCQND/Simple Scope (4 channel):In3
+Carla.nCQND/AMS VC Envelope II (4):Out   |> Carla.nCQND/Lead Gain 4:Main Gain
+Carla.nCQND/AMS VC Envelope II (4):Out   |> Carla.nCQND/Lead VCF 4:Frequency Mod
+Carla.nCQND/AMS VC Envelope II (4):Out   |> Carla.nCQND/Simple Scope (4 channel):In4
+Carla.nCQND/AMS VC Envelope II (5):Out   |> Carla.nCQND/Lead Gain 4 (2):Main Gain
+Carla.nCQND/AMS VC Envelope II (5):Out   |> Carla.nCQND/Lead VCF 4 (2):Frequency Mod
+Carla.nCQND/AMS VC Envelope II (6):Out   |> Carla.nCQND/Lead Gain 4 (3):Main Gain
+Carla.nCQND/AMS VC Envelope II (6):Out   |> Carla.nCQND/Lead VCF 4 (3):Frequency Mod
+Carla.nCQND/AMS VC Envelope II (7):Out   |> Carla.nCQND/Lead Gain 4 (4):Main Gain
+Carla.nCQND/AMS VC Envelope II (7):Out   |> Carla.nCQND/Lead VCF 4 (4):Frequency Mod
+Carla.nCQND/AMS VC Envelope II (8):Out   |> Carla.nCQND/Lead Gain 4 (5):Main Gain
+Carla.nCQND/AMS VC Envelope II (8):Out   |> Carla.nCQND/Lead VCF 4 (5):Frequency Mod
+Carla.nCQND/AMS VC Envelope II:Out       |> Carla.nCQND/Lead Gain 1:Main Gain
+Carla.nCQND/AMS VC Envelope II:Out       |> Carla.nCQND/Lead VCF 1:Frequency Mod
+Carla.nCQND/AMS VC Envelope II:Out       |> Carla.nCQND/Simple Scope (4 channel):In1
+Carla.nCQND/AMS VC Switch:Out 1          |> Carla.nCQND/AMS Slew Limiter:In
+Carla.nCQND/AMS VCA Exp (2):Out          |> Carla.nCQND/Moog High-Pass Filter 1:Input
+Carla.nCQND/AMS VCA Exp (3):Out          |> Carla.nCQND/AMS Mixer 2 channels:In 2
+Carla.nCQND/AMS VCA Exp (4):Out          |> jack_mixer.nAJKK:Cymb L
+Carla.nCQND/AMS VCA Exp (4):Out          |> jack_mixer.nAJKK:Cymb R
+Carla.nCQND/AMS VCA Triangle:Out         |> jack_mixer.nAJKK:Kick Tri
+Carla.nCQND/Attenuverter Booster (2):CV Output |> Carla.nCQND/AMS VC Envelope II (2):Decay
+Carla.nCQND/Attenuverter Booster (2):CV Output |> Carla.nCQND/AMS VC Envelope II (3):Decay
+Carla.nCQND/Attenuverter Booster (2):CV Output |> Carla.nCQND/AMS VC Envelope II (4):Decay
+Carla.nCQND/Attenuverter Booster (2):CV Output |> Carla.nCQND/AMS VC Envelope II (5):Decay
+Carla.nCQND/Attenuverter Booster (2):CV Output |> Carla.nCQND/AMS VC Envelope II (6):Decay
+Carla.nCQND/Attenuverter Booster (2):CV Output |> Carla.nCQND/AMS VC Envelope II (7):Decay
+Carla.nCQND/Attenuverter Booster (2):CV Output |> Carla.nCQND/AMS VC Envelope II (8):Decay
+Carla.nCQND/Attenuverter Booster (2):CV Output |> Carla.nCQND/AMS VC Envelope II:Decay
+Carla.nCQND/Attenuverter Booster (3):CV Output |> Carla.nCQND/AMS VC Envelope II (2):Sustain
+Carla.nCQND/Attenuverter Booster (3):CV Output |> Carla.nCQND/AMS VC Envelope II (3):Sustain
+Carla.nCQND/Attenuverter Booster (3):CV Output |> Carla.nCQND/AMS VC Envelope II (4):Sustain
+Carla.nCQND/Attenuverter Booster (3):CV Output |> Carla.nCQND/AMS VC Envelope II (5):Sustain
+Carla.nCQND/Attenuverter Booster (3):CV Output |> Carla.nCQND/AMS VC Envelope II (6):Sustain
+Carla.nCQND/Attenuverter Booster (3):CV Output |> Carla.nCQND/AMS VC Envelope II (7):Sustain
+Carla.nCQND/Attenuverter Booster (3):CV Output |> Carla.nCQND/AMS VC Envelope II (8):Sustain
+Carla.nCQND/Attenuverter Booster (3):CV Output |> Carla.nCQND/AMS VC Envelope II:Sustain
+Carla.nCQND/Attenuverter Booster (4):CV Output |> Carla.nCQND/AMS VC Envelope II (2):Release
+Carla.nCQND/Attenuverter Booster (4):CV Output |> Carla.nCQND/AMS VC Envelope II (3):Release
+Carla.nCQND/Attenuverter Booster (4):CV Output |> Carla.nCQND/AMS VC Envelope II (4):Release
+Carla.nCQND/Attenuverter Booster (4):CV Output |> Carla.nCQND/AMS VC Envelope II (5):Release
+Carla.nCQND/Attenuverter Booster (4):CV Output |> Carla.nCQND/AMS VC Envelope II (6):Release
+Carla.nCQND/Attenuverter Booster (4):CV Output |> Carla.nCQND/AMS VC Envelope II (7):Release
+Carla.nCQND/Attenuverter Booster (4):CV Output |> Carla.nCQND/AMS VC Envelope II (8):Release
+Carla.nCQND/Attenuverter Booster (4):CV Output |> Carla.nCQND/AMS VC Envelope II:Release
+Carla.nCQND/Attenuverter Booster:CV Output |> Carla.nCQND/AMS VC Envelope II (2):Attack
+Carla.nCQND/Attenuverter Booster:CV Output |> Carla.nCQND/AMS VC Envelope II (3):Attack
+Carla.nCQND/Attenuverter Booster:CV Output |> Carla.nCQND/AMS VC Envelope II (4):Attack
+Carla.nCQND/Attenuverter Booster:CV Output |> Carla.nCQND/AMS VC Envelope II (5):Attack
+Carla.nCQND/Attenuverter Booster:CV Output |> Carla.nCQND/AMS VC Envelope II (6):Attack
+Carla.nCQND/Attenuverter Booster:CV Output |> Carla.nCQND/AMS VC Envelope II (7):Attack
+Carla.nCQND/Attenuverter Booster:CV Output |> Carla.nCQND/AMS VC Envelope II (8):Attack
+Carla.nCQND/Attenuverter Booster:CV Output |> Carla.nCQND/AMS VC Envelope II:Attack
+Carla.nCQND/CV to Audio (2):Audio Output |> Carla.nCQND/AMS VCA Exp (4):In 1
+Carla.nCQND/CV to Audio:Audio Output     |> Carla.nCQND/MIDI-Trigger:Input audio source
+Carla.nCQND/CV_LinearMap (2):Output      |> Carla.nCQND/Freq Env:Curve1
+Carla.nCQND/CV_LinearMap:Output          |> Carla.nCQND/CV meter:CV input
+Carla.nCQND/CV_LinearMap:Output          |> Carla.nCQND/Gain Env:Curve1
+Carla.nCQND/Control of Kick:Output0      |> Carla.nCQND/Gain Level:Input
+Carla.nCQND/Control of Kick:Output1      |> Carla.nCQND/Gain Decay:Input
+Carla.nCQND/Control of Kick:Output10     |> Carla.nCQND/Pluse Edge:Control
+Carla.nCQND/Control of Kick:Output2      |> Carla.nCQND/Gain Curve:Input
+Carla.nCQND/Control of Kick:Output3      |> Carla.nCQND/Freq Level:Input
+Carla.nCQND/Control of Kick:Output4      |> Carla.nCQND/Freq Decay:Input
+Carla.nCQND/Control of Kick:Output5      |> Carla.nCQND/Freq Curve:Input
+Carla.nCQND/Control of Kick:Output6      |> Carla.nCQND/Exp FM Gain:Control
+Carla.nCQND/Control of Kick:Output7      |> Carla.nCQND/Semitone:Control
+Carla.nCQND/Control of Kick:Output8      |> Carla.nCQND/Saw Edge:Control
+Carla.nCQND/Control of Kick:Output9      |> Carla.nCQND/Pulse PW:Input
+Carla.nCQND/Control to CV (2):CV Output  |> Carla.nCQND/Attenuverter Booster (3):CV Input
+Carla.nCQND/Control to CV (4):Output     |> Carla.nCQND/Attenuverter Booster:CV Input
+Carla.nCQND/Control to CV (5):Output     |> Carla.nCQND/Attenuverter Booster (2):CV Input
+Carla.nCQND/Control to CV (6):CV Output  |> Carla.nCQND/Attenuverter Booster (4):CV Input
+Carla.nCQND/Cra Cymb Gate:CV Output      |> Carla.nCQND/CV to Audio:CV Input
+Carla.nCQND/Cymb Gain Env:Envelope Out   |> Carla.nCQND/AMS VCA Exp (4):2nd Gain
+Carla.nCQND/Cymb Gain Env:Envelope Out   |> Carla.nCQND/AMS VCA Exp (4):Main Gain
+Carla.nCQND/Cymb Gate:CV Output          |> Carla.nCQND/Cymb Gain Env:Driving Signal
+Carla.nCQND/Dragonfly Hall Reverb:Audio Output 1 |> Carla.nCQND/LSP Compressor Stereo:Input L
+Carla.nCQND/Dragonfly Hall Reverb:Audio Output 2 |> Carla.nCQND/LSP Compressor Stereo:Input R
+Carla.nCQND/EsPhaser:Audio Output 1      |> Carla.nCQND/x42-Autotune:Input
+Carla.nCQND/EsPhaser:Audio Output 2      |> Carla.nCQND/x42-Autotune (3):Input
+Carla.nCQND/Exp FM Gain:CV Output        |> Carla.nCQND/Pluse:Exp FM Gain
+Carla.nCQND/Exp FM Gain:CV Output        |> Carla.nCQND/Saw:Exp FM Gain
+Carla.nCQND/Exp FM Gain:CV Output        |> Carla.nCQND/Sine:Exp FM Gain
+Carla.nCQND/Exp FM Gain:CV Output        |> Carla.nCQND/Triangle:Exp FM Gain
+Carla.nCQND/FDNCymbal:Audio Output 1     |> Carla.nCQND/EsPhaser:Audio Input 1
+Carla.nCQND/FDNCymbal:Audio Output 2     |> Carla.nCQND/EsPhaser:Audio Input 2
+Carla.nCQND/Freq Curve:Output            |> Carla.nCQND/CV_LinearMap (2):Input
+Carla.nCQND/Freq Decay:Output            |> Carla.nCQND/Freq Env:Decay1
+Carla.nCQND/Freq Env (2):Envelope Out    |> Carla.nCQND/AMS VCA Exp (3):Main Gain
+Carla.nCQND/Freq Env (2):Envelope Out    |> Carla.nCQND/Snare Sine Gain:Main Gain
+Carla.nCQND/Freq Env (2):Envelope Out    |> Carla.nCQND/Snare Sine:Exp FM
+Carla.nCQND/Freq Env (3):Envelope Out    |> Carla.nCQND/AMS VCA Exp (2):Main Gain
+Carla.nCQND/Freq Env (4):Output          |> Carla.nCQND/Sine (2):Exp FM
+Carla.nCQND/Freq Env:Output              |> Carla.nCQND/Pluse:Exp FM
+Carla.nCQND/Freq Env:Output              |> Carla.nCQND/Saw:Exp FM
+Carla.nCQND/Freq Env:Output              |> Carla.nCQND/Simple Scope (4 channel) (3):In3
+Carla.nCQND/Freq Env:Output              |> Carla.nCQND/Sine:Exp FM
+Carla.nCQND/Freq Env:Output              |> Carla.nCQND/Triangle:Exp FM
+Carla.nCQND/Freq Level:Output            |> Carla.nCQND/Freq Env:Gain
+Carla.nCQND/Gain Curve:Output            |> Carla.nCQND/CV_LinearMap:Input
+Carla.nCQND/Gain Decay:Output            |> Carla.nCQND/Gain Env:Decay1
+Carla.nCQND/Gain Env (2):Output          |> Carla.nCQND/Sine VCA Exp (2):Main Gain
+Carla.nCQND/Gain Env:Output              |> Carla.nCQND/AMS VCA Triangle:Main Gain
+Carla.nCQND/Gain Env:Output              |> Carla.nCQND/Pluse VCA:Main Gain
+Carla.nCQND/Gain Env:Output              |> Carla.nCQND/STSP VCA:Main Gain
+Carla.nCQND/Gain Env:Output              |> Carla.nCQND/Sawtooth VCA:Main Gain
+Carla.nCQND/Gain Env:Output              |> Carla.nCQND/Simple Scope (4 channel) (3):In2
+Carla.nCQND/Gain Env:Output              |> Carla.nCQND/Sine VCA Exp:Main Gain
+Carla.nCQND/Gain Level:Output            |> Carla.nCQND/Gain Env:Gain
+Carla.nCQND/Hi-hat Gate:CV Output        |> Carla.nCQND/Freq Env (3):Driving Signal
+Carla.nCQND/Kick Gate:CV Output          |> Carla.nCQND/16 Step Sequencer:Step Trigger
+Carla.nCQND/Kick Gate:CV Output          |> Carla.nCQND/Freq Env:Trig/Gate
+Carla.nCQND/Kick Gate:CV Output          |> Carla.nCQND/Gain Env:Trig/Gate
+Carla.nCQND/Kick Gate:CV Output          |> Carla.nCQND/Simple Scope (4 channel) (3):In1
+Carla.nCQND/LSP Compressor Stereo:Output L |> system:playback_1
+Carla.nCQND/LSP Compressor Stereo:Output R |> system:playback_2
+Carla.nCQND/Lead Gain 1:Out              |> Carla.nCQND/AMS Stereo Mixer 8 channels:In 1
+Carla.nCQND/Lead Gain 2:Out              |> Carla.nCQND/AMS Stereo Mixer 8 channels:In 2
+Carla.nCQND/Lead Gain 3:Out              |> Carla.nCQND/AMS Stereo Mixer 8 channels:In 3
+Carla.nCQND/Lead Gain 4 (2):Out          |> Carla.nCQND/AMS Stereo Mixer 8 channels:In 5
+Carla.nCQND/Lead Gain 4 (3):Out          |> Carla.nCQND/AMS Stereo Mixer 8 channels:In 6
+Carla.nCQND/Lead Gain 4 (4):Out          |> Carla.nCQND/AMS Stereo Mixer 8 channels:In 7
+Carla.nCQND/Lead Gain 4 (5):Out          |> Carla.nCQND/AMS Stereo Mixer 8 channels:In 8
+Carla.nCQND/Lead Gain 4:Out              |> Carla.nCQND/AMS Stereo Mixer 8 channels:In 4
+Carla.nCQND/Lead Osc 1:Out               |> Carla.nCQND/Lead VCF 1:In
+Carla.nCQND/Lead Osc 2:Out               |> Carla.nCQND/Lead VCF 2:In
+Carla.nCQND/Lead Osc 3:Out               |> Carla.nCQND/Lead VCF 3:In
+Carla.nCQND/Lead Osc 4 (2):Out           |> Carla.nCQND/Lead VCF 4 (2):In
+Carla.nCQND/Lead Osc 4 (3):Out           |> Carla.nCQND/Lead VCF 4 (3):In
+Carla.nCQND/Lead Osc 4 (4):Out           |> Carla.nCQND/Lead VCF 4 (4):In
+Carla.nCQND/Lead Osc 4 (5):Out           |> Carla.nCQND/Lead VCF 4 (5):In
+Carla.nCQND/Lead Osc 4:Out               |> Carla.nCQND/Lead VCF 4:In
+Carla.nCQND/Lead VCF 1:Out               |> Carla.nCQND/Lead Gain 1:In 1 Mod
+Carla.nCQND/Lead VCF 2:Out               |> Carla.nCQND/Lead Gain 2:In 1 Mod
+Carla.nCQND/Lead VCF 3:Out               |> Carla.nCQND/Lead Gain 3:In 1 Mod
+Carla.nCQND/Lead VCF 4 (2):Out           |> Carla.nCQND/Lead Gain 4 (2):In 1 Mod
+Carla.nCQND/Lead VCF 4 (3):Out           |> Carla.nCQND/Lead Gain 4 (3):In 1 Mod
+Carla.nCQND/Lead VCF 4 (4):Out           |> Carla.nCQND/Lead Gain 4 (4):In 1 Mod
+Carla.nCQND/Lead VCF 4 (5):Out           |> Carla.nCQND/Lead Gain 4 (5):In 1 Mod
+Carla.nCQND/Lead VCF 4:Out               |> Carla.nCQND/Lead Gain 4:In 1 Mod
+Carla.nCQND/MIDI Generator:events-out    |> Carla.nCQND/MIDI Key-Range Filter (2):events-in
+Carla.nCQND/MIDI Generator:events-out    |> Carla.nCQND/MIDI Key-Range Filter:events-in
+Carla.nCQND/MIDI Key-Range Filter (2):events-out |> Carla.nCQND/MIDI to CV Poly (2):events-in
+Carla.nCQND/MIDI Key-Range Filter:events-out |> Carla.nCQND/MIDI to CV Poly:events-in
+Carla.nCQND/MIDI Simple Channel Filter (10):events-out |> Carla.nCQND/MIDI to CV trigger (10):events-in
+Carla.nCQND/MIDI Simple Channel Filter (11):events-out |> Carla.nCQND/MIDI to CV trigger (11):events-in
+Carla.nCQND/MIDI Simple Channel Filter (12):events-out |> Carla.nCQND/MIDI to CV trigger (12):events-in
+Carla.nCQND/MIDI Simple Channel Filter (2):events-out |> Carla.nCQND/MIDI to CV:events-in
+Carla.nCQND/MIDI Simple Channel Filter (3):events-out |> Carla.nCQND/MIDI to CV trigger (3):events-in
+Carla.nCQND/MIDI Simple Channel Filter (4):events-out |> Carla.nCQND/MIDI to CV trigger (4):events-in
+Carla.nCQND/MIDI Simple Channel Filter (5):events-out |> Carla.nCQND/MIDI to CV trigger (5):events-in
+Carla.nCQND/MIDI Simple Channel Filter (6):events-out |> Carla.nCQND/MIDI to CV trigger (6):events-in
+Carla.nCQND/MIDI Simple Channel Filter (7):events-out |> Carla.nCQND/MIDI to CV trigger (7):events-in
+Carla.nCQND/MIDI Simple Channel Filter (8):events-out |> Carla.nCQND/MIDI to CV trigger (8):events-in
+Carla.nCQND/MIDI Simple Channel Filter (9):events-out |> Carla.nCQND/MIDI to CV trigger (9):events-in
+Carla.nCQND/MIDI Simple Channel Filter:events-out |> Carla.nCQND/MIDI to CV trigger (2):events-in
+Carla.nCQND/MIDI to CV Poly (2):Gate 1   |> Carla.nCQND/AMS VC Envelope II (5):Gate
+Carla.nCQND/MIDI to CV Poly (2):Gate 1   |> Carla.nCQND/AMS VC Envelope II (5):Retrigger
+Carla.nCQND/MIDI to CV Poly (2):Gate 2   |> Carla.nCQND/AMS VC Envelope II (6):Gate
+Carla.nCQND/MIDI to CV Poly (2):Gate 2   |> Carla.nCQND/AMS VC Envelope II (6):Retrigger
+Carla.nCQND/MIDI to CV Poly (2):Gate 3   |> Carla.nCQND/AMS VC Envelope II (7):Gate
+Carla.nCQND/MIDI to CV Poly (2):Gate 3   |> Carla.nCQND/AMS VC Envelope II (7):Retrigger
+Carla.nCQND/MIDI to CV Poly (2):Gate 4   |> Carla.nCQND/AMS VC Envelope II (8):Gate
+Carla.nCQND/MIDI to CV Poly (2):Gate 4   |> Carla.nCQND/AMS VC Envelope II (8):Retrigger
+Carla.nCQND/MIDI to CV Poly (2):Pitch 1  |> Carla.nCQND/Lead Osc 4 (2):Frequency
+Carla.nCQND/MIDI to CV Poly (2):Pitch 2  |> Carla.nCQND/Lead Osc 4 (3):Frequency
+Carla.nCQND/MIDI to CV Poly (2):Pitch 3  |> Carla.nCQND/Lead Osc 4 (4):Frequency
+Carla.nCQND/MIDI to CV Poly (2):Pitch 4  |> Carla.nCQND/Lead Osc 4 (5):Frequency
+Carla.nCQND/MIDI to CV Poly:Gate 1       |> Carla.nCQND/AMS VC Envelope II:Gate
+Carla.nCQND/MIDI to CV Poly:Gate 1       |> Carla.nCQND/AMS VC Envelope II:Retrigger
+Carla.nCQND/MIDI to CV Poly:Gate 2       |> Carla.nCQND/AMS VC Envelope II (2):Gate
+Carla.nCQND/MIDI to CV Poly:Gate 2       |> Carla.nCQND/AMS VC Envelope II (2):Retrigger
+Carla.nCQND/MIDI to CV Poly:Gate 3       |> Carla.nCQND/AMS VC Envelope II (3):Gate
+Carla.nCQND/MIDI to CV Poly:Gate 3       |> Carla.nCQND/AMS VC Envelope II (3):Retrigger
+Carla.nCQND/MIDI to CV Poly:Gate 4       |> Carla.nCQND/AMS VC Envelope II (4):Gate
+Carla.nCQND/MIDI to CV Poly:Gate 4       |> Carla.nCQND/AMS VC Envelope II (4):Retrigger
+Carla.nCQND/MIDI to CV Poly:Pitch 1      |> Carla.nCQND/Lead Osc 1:Frequency
+Carla.nCQND/MIDI to CV Poly:Pitch 2      |> Carla.nCQND/Lead Osc 2:Frequency
+Carla.nCQND/MIDI to CV Poly:Pitch 3      |> Carla.nCQND/Lead Osc 3:Frequency
+Carla.nCQND/MIDI to CV Poly:Pitch 4      |> Carla.nCQND/Lead Osc 4:Frequency
+Carla.nCQND/MIDI to CV trigger (10):Output |> Carla.nCQND/Cymb Gate:Gate
+Carla.nCQND/MIDI to CV trigger (11):Output |> Carla.nCQND/Cra Cymb Gate:CV Input
+Carla.nCQND/MIDI to CV trigger (12):Output |> Carla.nCQND/Cra Cymb Gate:Gate
+Carla.nCQND/MIDI to CV trigger (2):Output |> Carla.nCQND/Kick Gate:CV Input
+Carla.nCQND/MIDI to CV trigger (3):Output |> Carla.nCQND/Snare Gate:CV Input
+Carla.nCQND/MIDI to CV trigger (4):Output |> Carla.nCQND/Snare Gate:Gate
+Carla.nCQND/MIDI to CV trigger (5):Output |> Carla.nCQND/Hi-hat Gate:CV Input
+Carla.nCQND/MIDI to CV trigger (6):Output |> Carla.nCQND/Hi-hat Gate:Gate
+Carla.nCQND/MIDI to CV trigger (7):Output |> Carla.nCQND/Tom Gate:CV Input
+Carla.nCQND/MIDI to CV trigger (8):Output |> Carla.nCQND/Tom Gate:Gate
+Carla.nCQND/MIDI to CV trigger (9):Output |> Carla.nCQND/Cymb Gate:CV Input
+Carla.nCQND/MIDI to CV:Gate              |> Carla.nCQND/Kick Gate:Gate
+Carla.nCQND/MIDI-Trigger:events-out      |> Carla.nCQND/FDNCymbal:events-in
+Carla.nCQND/Moog High-Pass Filter 1:Output |> jack_mixer.nAJKK:Hi-hat L
+Carla.nCQND/Moog High-Pass Filter 1:Output |> jack_mixer.nAJKK:Hi-hat R
+Carla.nCQND/Pluse Edge:CV Output         |> Carla.nCQND/Pluse:Edge
+Carla.nCQND/Pluse VCA:Out                |> jack_mixer.nAJKK:Kick Pulse
+Carla.nCQND/Pluse:Out                    |> Carla.nCQND/Pluse VCA:In 1
+Carla.nCQND/Pulse PW:Output              |> Carla.nCQND/Pluse:PW
+Carla.nCQND/STSP VCA:Out                 |> jack_mixer.nAJKK:Kick Mix
+Carla.nCQND/Saw Edge:CV Output           |> Carla.nCQND/Saw:Edge
+Carla.nCQND/Saw:Out                      |> Carla.nCQND/Sawtooth VCA:In 1 Mod
+Carla.nCQND/Sawtooth VCA:Out             |> jack_mixer.nAJKK:Kick Saw
+Carla.nCQND/Semitone:CV Output           |> Carla.nCQND/Pluse:Semitone
+Carla.nCQND/Semitone:CV Output           |> Carla.nCQND/Saw:Semitone
+Carla.nCQND/Semitone:CV Output           |> Carla.nCQND/Sine:Semitone
+Carla.nCQND/Semitone:CV Output           |> Carla.nCQND/Triangle:Semitone
+Carla.nCQND/Sine (2):Out                 |> Carla.nCQND/Sine VCA Exp (2):In 1
+Carla.nCQND/Sine (3):Out                 |> Carla.nCQND/AMS VCA Exp (4):In 2
+Carla.nCQND/Sine VCA Exp (2):Out         |> jack_mixer.nAJKK:Tom L
+Carla.nCQND/Sine VCA Exp (2):Out         |> jack_mixer.nAJKK:Tom R
+Carla.nCQND/Sine VCA Exp:Out             |> jack_mixer.nAJKK:Kick Sine
+Carla.nCQND/Sine:Out                     |> Carla.nCQND/Sine VCA Exp:In 1
+Carla.nCQND/Snare Gate:CV Output         |> Carla.nCQND/Freq Env (2):Driving Signal
+Carla.nCQND/Snare Noise:Out              |> Carla.nCQND/AMS VCA Exp (3):In 1
+Carla.nCQND/Snare Sine Gain:Out          |> Carla.nCQND/AMS Mixer 2 channels:In 1
+Carla.nCQND/Snare Sine:Out               |> Carla.nCQND/Snare Sine Gain:In 1
+Carla.nCQND/Tom Gate:CV Output           |> Carla.nCQND/Freq Env (4):Trig/Gate
+Carla.nCQND/Tom Gate:CV Output           |> Carla.nCQND/Gain Env (2):Trig/Gate
+Carla.nCQND/Triangle:Out                 |> Carla.nCQND/AMS VCA Triangle:In 1
+Carla.nCQND/Wedge Gate Open:Output       |> Carla.nCQND/16 Step Sequencer:Gate
+Carla.nCQND/x42-Autotune (3):Output      |> jack_mixer.nAJKK:Cymb Cray R
+Carla.nCQND/x42-Autotune:Output          |> jack_mixer.nAJKK:Cymb Cray L
+PulseAudio JACK Sink:front-left          |> system:playback_1
+PulseAudio JACK Sink:front-right         |> system:playback_2
+jack_mixer.nAJKK:Main Out L              |> Carla.nCQND/LSP Compressor Stereo:Input L
+jack_mixer.nAJKK:Main Out R              |> Carla.nCQND/LSP Compressor Stereo:Input R
+seq66:qseq66 midi out 0                  |> Carla.nCQND/MIDI Simple Channel Filter (2):events-in
+seq66:qseq66 midi out 0                  |> Carla.nCQND/MIDI Simple Channel Filter:events-in
+seq66:qseq66 midi out 1                  |> Carla.nCQND/MIDI Simple Channel Filter (3):events-in
+seq66:qseq66 midi out 1                  |> Carla.nCQND/MIDI Simple Channel Filter (4):events-in
+seq66:qseq66 midi out 2                  |> Carla.nCQND/MIDI Simple Channel Filter (5):events-in
+seq66:qseq66 midi out 2                  |> Carla.nCQND/MIDI Simple Channel Filter (6):events-in
+seq66:qseq66 midi out 3                  |> Carla.nCQND/MIDI Simple Channel Filter (7):events-in
+seq66:qseq66 midi out 3                  |> Carla.nCQND/MIDI Simple Channel Filter (8):events-in
+seq66:qseq66 midi out 4                  |> Carla.nCQND/MIDI Simple Channel Filter (10):events-in
+seq66:qseq66 midi out 4                  |> Carla.nCQND/MIDI Simple Channel Filter (9):events-in
+seq66:qseq66 midi out 5                  |> Carla.nCQND/MIDI Simple Channel Filter (11):events-in
+seq66:qseq66 midi out 5                  |> Carla.nCQND/MIDI Simple Channel Filter (12):events-in
