@@ -34,6 +34,6 @@ For Arch Linux users:
 * [Modular Synth in Carla with LV2 plugins](https://www.youtube.com/playlist?list=PLi4842O5fEfKwAKxqBCZJs3cFP78ggsd9) - YouTube playlist
 
 ## Screenshots
-![boom3.png](https://user-images.githubusercontent.com/108225/87223637-8699b900-c376-11ea-8b5e-4246c39978ec.png)
+![boom3.png](https://user-images.githubusercontent.com/108225/87382010-e61de180-c58d-11ea-802d-96027df92776.jpg)
 
 + [older](https://github.com/mxmilkiib/carla-modular-synth-tests#screenshots) [screenshots](https://github.com/mxmilkiib/carla-modular-synth-tests/issues/1)
