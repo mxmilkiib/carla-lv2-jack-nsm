@@ -1587,7 +1587,7 @@
     <Index>0</Index>
     <Name>Select Sequence</Name>
     <Symbol>sequence</Symbol>
-    <Value>8</Value>
+    <Value>11</Value>
    </Parameter>
 
    <Parameter>
@@ -2345,56 +2345,6 @@
     <Name>Phi0</Name>
     <Symbol>phi0</Symbol>
     <Value>3.84999990463257</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
- <!-- Attenuverter Booster -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>Attenuverter Booster</Name>
-   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-attenuverter</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Multiplier</Name>
-    <Symbol>Multiplier</Symbol>
-    <Value>10</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Offset</Name>
-    <Symbol>Offset</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>Mode</Name>
-    <Symbol>Mode</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Smoothing</Name>
-    <Symbol>Smoothing</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>4</Index>
-    <Name>PluginEnabled</Name>
-    <Symbol>PluginEnabled</Symbol>
-    <Value>1</Value>
    </Parameter>
   </Data>
  </Plugin>
@@ -3176,7 +3126,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>-1</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.194117784500122</Value>
+    <Value>0.194117546081543</Value>
    </Parameter>
   </Data>
  </Plugin>
@@ -5137,51 +5087,6 @@
   </Data>
  </Plugin>
 
- <!-- Simple Scope (4 channel) -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>Simple Scope (4 channel)</Name>
-   <URI>http://gareus.org/oss/lv2/sisco#4chan</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <CustomData>
-    <Type>http://lv2plug.in/ns/ext/atom#Int</Type>
-    <Key>http://gareus.org/oss/lv2/sisco#ui_state_grid</Key>
-    <Value>CgAAAA==</Value>
-   </CustomData>
-
-   <CustomData>
-    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
-    <Key>http://gareus.org/oss/lv2/sisco#ui_state_curs</Key>
-    <Value>BAAAAAcAAACgAAAA4AEAAAEAAAABAAAA</Value>
-   </CustomData>
-
-   <CustomData>
-    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
-    <Key>http://gareus.org/oss/lv2/sisco#ui_state_trig</Key>
-    <Value>BAAAAAYAAAAAAAAAAAAAAAAASEIAAAA/AAAAAA==</Value>
-   </CustomData>
-
-   <CustomData>
-    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
-    <Key>http://gareus.org/oss/lv2/sisco#ui_state_chn</Key>
-    <Value>BAAAAAYAAAAAAIA/AAAAAAAAyMIAAIA/AACAPwAAAAAAAMjCAACAPwAAgD8AAAAAAADIwgAAgD8AAIA/AAAAAAAAyMIAAIA/</Value>
-   </CustomData>
-
-   <CustomData>
-    <Type>http://lv2plug.in/ns/ext/atom#Int</Type>
-    <Key>http://gareus.org/oss/lv2/sisco#ui_state_misc</Key>
-    <Value>AAAAAA==</Value>
-   </CustomData>
-  </Data>
- </Plugin>
-
  <!-- AMS VCO3 -->
  <Plugin>
   <Info>
@@ -5199,14 +5104,14 @@
     <Index>0</Index>
     <Name>Wave Form</Name>
     <Symbol>waveForm</Symbol>
-    <Value>5</Value>
+    <Value>0</Value>
    </Parameter>
 
    <Parameter>
     <Index>1</Index>
     <Name>Octave</Name>
     <Symbol>octave</Symbol>
-    <Value>3</Value>
+    <Value>0</Value>
    </Parameter>
 
    <Parameter>
@@ -5255,7 +5160,7 @@
     <Index>8</Index>
     <Name>Exp FM Gain</Name>
     <Symbol>expFMGain</Symbol>
-    <Value>0</Value>
+    <Value>1.95000004768372</Value>
    </Parameter>
 
    <Parameter>
@@ -5398,7 +5303,7 @@
     <Index>0</Index>
     <Name>Octave</Name>
     <Symbol>Octave</Symbol>
-    <Value>-2</Value>
+    <Value>0</Value>
    </Parameter>
 
    <Parameter>
@@ -5441,14 +5346,14 @@
     <Index>0</Index>
     <Name>Wave Form</Name>
     <Symbol>waveForm</Symbol>
-    <Value>1</Value>
+    <Value>0</Value>
    </Parameter>
 
    <Parameter>
     <Index>1</Index>
     <Name>Octave</Name>
     <Symbol>octave</Symbol>
-    <Value>3</Value>
+    <Value>0</Value>
    </Parameter>
 
    <Parameter>
@@ -5761,7 +5666,7 @@
     <Index>1</Index>
     <Name>Octave</Name>
     <Symbol>octave</Symbol>
-    <Value>3</Value>
+    <Value>0</Value>
    </Parameter>
 
    <Parameter>
@@ -6083,92 +5988,6 @@
   </Data>
  </Plugin>
 
- <!-- MIDI Key-Range Filter -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>MIDI Key-Range Filter</Name>
-   <URI>http://gareus.org/oss/lv2/midifilter#keyrange</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x3f1</Options>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Filter Channel</Name>
-    <Symbol>channelf</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>Lowest Note</Name>
-    <Symbol>lower</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Highest Note</Name>
-    <Symbol>upper</Symbol>
-    <Value>52</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>4</Index>
-    <Name>Operation Mode</Name>
-    <Symbol>mode</Symbol>
-    <Value>1</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
- <!-- MIDI Key-Range Filter -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>MIDI Key-Range Filter (2)</Name>
-   <URI>http://gareus.org/oss/lv2/midifilter#keyrange</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x3f1</Options>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Filter Channel</Name>
-    <Symbol>channelf</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>Lowest Note</Name>
-    <Symbol>lower</Symbol>
-    <Value>53</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Highest Note</Name>
-    <Symbol>upper</Symbol>
-    <Value>127</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>4</Index>
-    <Name>Operation Mode</Name>
-    <Symbol>mode</Symbol>
-    <Value>1</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
  <!-- AMS Stereo Mixer 8 channels -->
  <Plugin>
   <Info>
@@ -6186,7 +6005,7 @@
     <Index>0</Index>
     <Name>Master Volume</Name>
     <Symbol>masterVolume</Symbol>
-    <Value>0.100000001490116</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -6207,14 +6026,14 @@
     <Index>3</Index>
     <Name>Volume 1</Name>
     <Symbol>volume1</Symbol>
-    <Value>0.550000011920929</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
     <Index>4</Index>
     <Name>Pan 1</Name>
     <Symbol>pan1</Symbol>
-    <Value>0</Value>
+    <Value>-0.150000005960464</Value>
    </Parameter>
 
    <Parameter>
@@ -6235,21 +6054,21 @@
     <Index>7</Index>
     <Name>Volume 2</Name>
     <Symbol>volume2</Symbol>
-    <Value>0.349999994039536</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
     <Index>8</Index>
     <Name>Pan 2</Name>
     <Symbol>pan2</Symbol>
-    <Value>0</Value>
+    <Value>0.100000001490116</Value>
    </Parameter>
 
    <Parameter>
     <Index>9</Index>
     <Name>Mute 3</Name>
     <Symbol>mute3</Symbol>
-    <Value>1</Value>
+    <Value>0</Value>
    </Parameter>
 
    <Parameter>
@@ -6263,14 +6082,14 @@
     <Index>11</Index>
     <Name>Volume 3</Name>
     <Symbol>volume3</Symbol>
-    <Value>0.25</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
     <Index>12</Index>
     <Name>Pan 3</Name>
     <Symbol>pan3</Symbol>
-    <Value>0</Value>
+    <Value>0.349999994039536</Value>
    </Parameter>
 
    <Parameter>
@@ -6291,14 +6110,14 @@
     <Index>15</Index>
     <Name>Volume 4</Name>
     <Symbol>volume4</Symbol>
-    <Value>0.449999988079071</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
     <Index>16</Index>
     <Name>Pan 4</Name>
     <Symbol>pan4</Symbol>
-    <Value>0</Value>
+    <Value>-0.349999994039536</Value>
    </Parameter>
 
    <Parameter>
@@ -6319,14 +6138,14 @@
     <Index>19</Index>
     <Name>Volume 5</Name>
     <Symbol>volume5</Symbol>
-    <Value>0.449999988079071</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
     <Index>20</Index>
     <Name>Pan 5</Name>
     <Symbol>pan5</Symbol>
-    <Value>0</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -6347,14 +6166,14 @@
     <Index>23</Index>
     <Name>Volume 6</Name>
     <Symbol>volume6</Symbol>
-    <Value>0.5</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
     <Index>24</Index>
     <Name>Pan 6</Name>
     <Symbol>pan6</Symbol>
-    <Value>0</Value>
+    <Value>-0.699999988079071</Value>
    </Parameter>
 
    <Parameter>
@@ -6375,14 +6194,14 @@
     <Index>27</Index>
     <Name>Volume 7</Name>
     <Symbol>volume7</Symbol>
-    <Value>0.5</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
     <Index>28</Index>
     <Name>Pan 7</Name>
     <Symbol>pan7</Symbol>
-    <Value>0</Value>
+    <Value>0.699999988079071</Value>
    </Parameter>
 
    <Parameter>
@@ -6403,14 +6222,14 @@
     <Index>31</Index>
     <Name>Volume 8</Name>
     <Symbol>volume8</Symbol>
-    <Value>0.600000023841858</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
     <Index>32</Index>
     <Name>Pan 8</Name>
     <Symbol>pan8</Symbol>
-    <Value>0</Value>
+    <Value>1</Value>
    </Parameter>
   </Data>
  </Plugin>
@@ -6432,7 +6251,7 @@
     <Index>0</Index>
     <Name>Octave</Name>
     <Symbol>Octave</Symbol>
-    <Value>-2</Value>
+    <Value>0</Value>
    </Parameter>
 
    <Parameter>
@@ -6475,14 +6294,14 @@
     <Index>0</Index>
     <Name>Wave Form</Name>
     <Symbol>waveForm</Symbol>
-    <Value>1</Value>
+    <Value>0</Value>
    </Parameter>
 
    <Parameter>
     <Index>1</Index>
     <Name>Octave</Name>
     <Symbol>octave</Symbol>
-    <Value>3</Value>
+    <Value>0</Value>
    </Parameter>
 
    <Parameter>
@@ -6540,83 +6359,6 @@
     <Symbol>linFMGain</Symbol>
     <Value>0</Value>
    </Parameter>
-  </Data>
- </Plugin>
-
- <!-- AMS VC Envelope II -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>AMS VC Envelope II (5)</Name>
-   <URI>http://github.com/blablack/ams-lv2/vcenvii</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Attack Offset</Name>
-    <Symbol>attackOffset</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Decay Offset</Name>
-    <Symbol>decayOffset</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>Sustain Offset</Name>
-    <Symbol>sustainOffset</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Release Offset</Name>
-    <Symbol>releaseOffset</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>4</Index>
-    <Name>Attack Gain</Name>
-    <Symbol>attackGain</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>5</Index>
-    <Name>Decay Gain</Name>
-    <Symbol>decayGain</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>6</Index>
-    <Name>Sustain Gain</Name>
-    <Symbol>sustainGain</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>7</Index>
-    <Name>Release Gain</Name>
-    <Symbol>releaseGain</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <CustomData>
-    <Type>http://kxstudio.sf.net/ns/carla/property</Type>
-    <Key>CarlaSkinIsCompacted</Key>
-    <Value>false</Value>
-   </CustomData>
   </Data>
  </Plugin>
 
@@ -6751,14 +6493,14 @@
     <Index>0</Index>
     <Name>Wave Form</Name>
     <Symbol>waveForm</Symbol>
-    <Value>1</Value>
+    <Value>0</Value>
    </Parameter>
 
    <Parameter>
     <Index>1</Index>
     <Name>Octave</Name>
     <Symbol>octave</Symbol>
-    <Value>3</Value>
+    <Value>0</Value>
    </Parameter>
 
    <Parameter>
@@ -6816,83 +6558,6 @@
     <Symbol>linFMGain</Symbol>
     <Value>0</Value>
    </Parameter>
-  </Data>
- </Plugin>
-
- <!-- AMS VC Envelope II -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>AMS VC Envelope II (6)</Name>
-   <URI>http://github.com/blablack/ams-lv2/vcenvii</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Attack Offset</Name>
-    <Symbol>attackOffset</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Decay Offset</Name>
-    <Symbol>decayOffset</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>Sustain Offset</Name>
-    <Symbol>sustainOffset</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Release Offset</Name>
-    <Symbol>releaseOffset</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>4</Index>
-    <Name>Attack Gain</Name>
-    <Symbol>attackGain</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>5</Index>
-    <Name>Decay Gain</Name>
-    <Symbol>decayGain</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>6</Index>
-    <Name>Sustain Gain</Name>
-    <Symbol>sustainGain</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>7</Index>
-    <Name>Release Gain</Name>
-    <Symbol>releaseGain</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <CustomData>
-    <Type>http://kxstudio.sf.net/ns/carla/property</Type>
-    <Key>CarlaSkinIsCompacted</Key>
-    <Value>false</Value>
-   </CustomData>
   </Data>
  </Plugin>
 
@@ -7034,7 +6699,7 @@
     <Index>1</Index>
     <Name>Octave</Name>
     <Symbol>octave</Symbol>
-    <Value>3</Value>
+    <Value>0</Value>
    </Parameter>
 
    <Parameter>
@@ -7092,83 +6757,6 @@
     <Symbol>linFMGain</Symbol>
     <Value>0</Value>
    </Parameter>
-  </Data>
- </Plugin>
-
- <!-- AMS VC Envelope II -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>AMS VC Envelope II (7)</Name>
-   <URI>http://github.com/blablack/ams-lv2/vcenvii</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Attack Offset</Name>
-    <Symbol>attackOffset</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Decay Offset</Name>
-    <Symbol>decayOffset</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>Sustain Offset</Name>
-    <Symbol>sustainOffset</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Release Offset</Name>
-    <Symbol>releaseOffset</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>4</Index>
-    <Name>Attack Gain</Name>
-    <Symbol>attackGain</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>5</Index>
-    <Name>Decay Gain</Name>
-    <Symbol>decayGain</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>6</Index>
-    <Name>Sustain Gain</Name>
-    <Symbol>sustainGain</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>7</Index>
-    <Name>Release Gain</Name>
-    <Symbol>releaseGain</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <CustomData>
-    <Type>http://kxstudio.sf.net/ns/carla/property</Type>
-    <Key>CarlaSkinIsCompacted</Key>
-    <Value>false</Value>
-   </CustomData>
   </Data>
  </Plugin>
 
@@ -7310,7 +6898,7 @@
     <Index>1</Index>
     <Name>Octave</Name>
     <Symbol>octave</Symbol>
-    <Value>3</Value>
+    <Value>0</Value>
    </Parameter>
 
    <Parameter>
@@ -7368,83 +6956,6 @@
     <Symbol>linFMGain</Symbol>
     <Value>0</Value>
    </Parameter>
-  </Data>
- </Plugin>
-
- <!-- AMS VC Envelope II -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>AMS VC Envelope II (8)</Name>
-   <URI>http://github.com/blablack/ams-lv2/vcenvii</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Attack Offset</Name>
-    <Symbol>attackOffset</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Decay Offset</Name>
-    <Symbol>decayOffset</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>Sustain Offset</Name>
-    <Symbol>sustainOffset</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Release Offset</Name>
-    <Symbol>releaseOffset</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>4</Index>
-    <Name>Attack Gain</Name>
-    <Symbol>attackGain</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>5</Index>
-    <Name>Decay Gain</Name>
-    <Symbol>decayGain</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>6</Index>
-    <Name>Sustain Gain</Name>
-    <Symbol>sustainGain</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>7</Index>
-    <Name>Release Gain</Name>
-    <Symbol>releaseGain</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <CustomData>
-    <Type>http://kxstudio.sf.net/ns/carla/property</Type>
-    <Key>CarlaSkinIsCompacted</Key>
-    <Value>false</Value>
-   </CustomData>
   </Data>
  </Plugin>
 
@@ -7562,340 +7073,6 @@
   </Data>
  </Plugin>
 
- <!-- AMS VC Envelope II -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>AMS VC Envelope II</Name>
-   <URI>http://github.com/blablack/ams-lv2/vcenvii</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Attack Offset</Name>
-    <Symbol>attackOffset</Symbol>
-    <Value>-1.54999995231628</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Decay Offset</Name>
-    <Symbol>decayOffset</Symbol>
-    <Value>-1.85000002384186</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>Sustain Offset</Name>
-    <Symbol>sustainOffset</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Release Offset</Name>
-    <Symbol>releaseOffset</Symbol>
-    <Value>8</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>4</Index>
-    <Name>Attack Gain</Name>
-    <Symbol>attackGain</Symbol>
-    <Value>-8</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>5</Index>
-    <Name>Decay Gain</Name>
-    <Symbol>decayGain</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>6</Index>
-    <Name>Sustain Gain</Name>
-    <Symbol>sustainGain</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>7</Index>
-    <Name>Release Gain</Name>
-    <Symbol>releaseGain</Symbol>
-    <Value>-2.90000009536743</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
- <!-- AMS VC Envelope II -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>AMS VC Envelope II (2)</Name>
-   <URI>http://github.com/blablack/ams-lv2/vcenvii</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Attack Offset</Name>
-    <Symbol>attackOffset</Symbol>
-    <Value>-1.14999997615814</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Decay Offset</Name>
-    <Symbol>decayOffset</Symbol>
-    <Value>-2.24000000953674</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>Sustain Offset</Name>
-    <Symbol>sustainOffset</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Release Offset</Name>
-    <Symbol>releaseOffset</Symbol>
-    <Value>-8</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>4</Index>
-    <Name>Attack Gain</Name>
-    <Symbol>attackGain</Symbol>
-    <Value>-8</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>5</Index>
-    <Name>Decay Gain</Name>
-    <Symbol>decayGain</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>6</Index>
-    <Name>Sustain Gain</Name>
-    <Symbol>sustainGain</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>7</Index>
-    <Name>Release Gain</Name>
-    <Symbol>releaseGain</Symbol>
-    <Value>-2.61999988555908</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
- <!-- AMS VC Envelope II -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>AMS VC Envelope II (3)</Name>
-   <URI>http://github.com/blablack/ams-lv2/vcenvii</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Attack Offset</Name>
-    <Symbol>attackOffset</Symbol>
-    <Value>-8</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Decay Offset</Name>
-    <Symbol>decayOffset</Symbol>
-    <Value>-0.2817362844944</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>Sustain Offset</Name>
-    <Symbol>sustainOffset</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Release Offset</Name>
-    <Symbol>releaseOffset</Symbol>
-    <Value>-8</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>4</Index>
-    <Name>Attack Gain</Name>
-    <Symbol>attackGain</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>5</Index>
-    <Name>Decay Gain</Name>
-    <Symbol>decayGain</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>6</Index>
-    <Name>Sustain Gain</Name>
-    <Symbol>sustainGain</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>7</Index>
-    <Name>Release Gain</Name>
-    <Symbol>releaseGain</Symbol>
-    <Value>1</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
- <!-- Attenuverter Booster -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>Attenuverter Booster (2)</Name>
-   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-attenuverter</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Multiplier</Name>
-    <Symbol>Multiplier</Symbol>
-    <Value>6.42424249649048</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Offset</Name>
-    <Symbol>Offset</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>Mode</Name>
-    <Symbol>Mode</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Smoothing</Name>
-    <Symbol>Smoothing</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>4</Index>
-    <Name>PluginEnabled</Name>
-    <Symbol>PluginEnabled</Symbol>
-    <Value>1</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
- <!-- AMS VC Envelope II -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>AMS VC Envelope II (4)</Name>
-   <URI>http://github.com/blablack/ams-lv2/vcenvii</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Attack Offset</Name>
-    <Symbol>attackOffset</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Decay Offset</Name>
-    <Symbol>decayOffset</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>Sustain Offset</Name>
-    <Symbol>sustainOffset</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Release Offset</Name>
-    <Symbol>releaseOffset</Symbol>
-    <Value>-8</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>4</Index>
-    <Name>Attack Gain</Name>
-    <Symbol>attackGain</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>5</Index>
-    <Name>Decay Gain</Name>
-    <Symbol>decayGain</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>6</Index>
-    <Name>Sustain Gain</Name>
-    <Symbol>sustainGain</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>7</Index>
-    <Name>Release Gain</Name>
-    <Symbol>releaseGain</Symbol>
-    <Value>1</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
  <!-- AMS VCO3 -->
  <Plugin>
   <Info>
@@ -7913,14 +7090,14 @@
     <Index>0</Index>
     <Name>Wave Form</Name>
     <Symbol>waveForm</Symbol>
-    <Value>1</Value>
+    <Value>0</Value>
    </Parameter>
 
    <Parameter>
     <Index>1</Index>
     <Name>Octave</Name>
     <Symbol>octave</Symbol>
-    <Value>4</Value>
+    <Value>0</Value>
    </Parameter>
 
    <Parameter>
@@ -7977,208 +7154,6 @@
     <Name>Lin FM Gain</Name>
     <Symbol>linFMGain</Symbol>
     <Value>0</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
- <!-- Attenuverter Booster -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>Attenuverter Booster (3)</Name>
-   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-attenuverter</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Multiplier</Name>
-    <Symbol>Multiplier</Symbol>
-    <Value>7.99999952316284</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Offset</Name>
-    <Symbol>Offset</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>Mode</Name>
-    <Symbol>Mode</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Smoothing</Name>
-    <Symbol>Smoothing</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>4</Index>
-    <Name>PluginEnabled</Name>
-    <Symbol>PluginEnabled</Symbol>
-    <Value>1</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
- <!-- Attenuverter Booster -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>Attenuverter Booster (4)</Name>
-   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-attenuverter</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Multiplier</Name>
-    <Symbol>Multiplier</Symbol>
-    <Value>7.99999952316284</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Offset</Name>
-    <Symbol>Offset</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>Mode</Name>
-    <Symbol>Mode</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Smoothing</Name>
-    <Symbol>Smoothing</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>4</Index>
-    <Name>PluginEnabled</Name>
-    <Symbol>PluginEnabled</Symbol>
-    <Value>1</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
- <!-- Control to CV -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>Control to CV (2)</Name>
-   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-control</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Control</Name>
-    <Symbol>Control</Symbol>
-    <Value>10</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Smoothing</Name>
-    <Symbol>Smoothing</Symbol>
-    <Value>1</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
- <!-- Control to CV -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>Control to CV (4)</Name>
-   <URI>http://github.com/blablack/ams-lv2/controltocv</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Input</Name>
-    <Symbol>input</Symbol>
-    <Value>-0.780000030994415</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
- <!-- Control to CV -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>Control to CV (5)</Name>
-   <URI>http://github.com/blablack/ams-lv2/controltocv</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Input</Name>
-    <Symbol>input</Symbol>
-    <Value>-0.939999997615814</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
- <!-- Control to CV -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>Control to CV (6)</Name>
-   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-control</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Control</Name>
-    <Symbol>Control</Symbol>
-    <Value>10</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Smoothing</Name>
-    <Symbol>Smoothing</Symbol>
-    <Value>1</Value>
    </Parameter>
   </Data>
  </Plugin>
@@ -9688,56 +8663,6 @@ UGFyYW1ldGVycwAAARZQQVJBTQABAmlkAAEMBWNoZXdfZGVwdGgAdmFsdWUAAQYFMC4yNQAAUEFSQU0A
   </Data>
  </Plugin>
 
- <!-- CV_DoubleFilter -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>CV_DoubleFilter</Name>
-   <URI>https://github.com/ryukau/LV2Plugins/tree/master/CV_DoubleFilter</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x4</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>gain</Name>
-    <Symbol>gain</Symbol>
-    <Value>0.5</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>cutoff</Name>
-    <Symbol>cutoff</Symbol>
-    <Value>2000</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>resonance</Name>
-    <Symbol>resonance</Symbol>
-    <Value>0.100000001490116</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>uniformGain</Name>
-    <Symbol>uniformGain</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>4</Index>
-    <Name>highpass</Name>
-    <Symbol>highpass</Symbol>
-    <Value>0</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
  <!-- Glame Lowpass Filter -->
  <Plugin>
   <Info>
@@ -9861,182 +8786,6 @@ UGFyYW1ldGVycwAAARZQQVJBTQABAmlkAAEMBWNoZXdfZGVwdGgAdmFsdWUAAQYFMC4yNQAAUEFSQU0A
     <Symbol>outputLevel</Symbol>
     <Value>1</Value>
    </Parameter>
-  </Data>
- </Plugin>
-
- <!-- MIDI Channel Filter -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>MIDI Channel Filter</Name>
-   <URI>http://gareus.org/oss/lv2/midifilter#channelfilter</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x3f1</Options>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Channel  1</Name>
-    <Symbol>chn1</Symbol>
-    <MidiChannel>1</MidiChannel>
-    <MappedControlIndex>130</MappedControlIndex>
-    <MappedMinimum>0</MappedMinimum>
-    <MappedMaximum>1</MappedMaximum>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>Channel  2</Name>
-    <Symbol>chn2</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Channel  3</Name>
-    <Symbol>chn3</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>4</Index>
-    <Name>Channel  4</Name>
-    <Symbol>chn4</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>5</Index>
-    <Name>Channel  5</Name>
-    <Symbol>chn5</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>6</Index>
-    <Name>Channel  6</Name>
-    <Symbol>chn6</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>7</Index>
-    <Name>Channel  7</Name>
-    <Symbol>chn7</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>8</Index>
-    <Name>Channel  8</Name>
-    <Symbol>chn8</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>9</Index>
-    <Name>Channel  9</Name>
-    <Symbol>chn9</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>10</Index>
-    <Name>Channel 10</Name>
-    <Symbol>chn10</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>11</Index>
-    <Name>Channel 11</Name>
-    <Symbol>chn11</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>12</Index>
-    <Name>Channel 12</Name>
-    <Symbol>chn12</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>13</Index>
-    <Name>Channel 13</Name>
-    <Symbol>chn13</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>14</Index>
-    <Name>Channel 14</Name>
-    <Symbol>chn14</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>15</Index>
-    <Name>Channel 15</Name>
-    <Symbol>chn15</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>16</Index>
-    <Name>Channel 16</Name>
-    <Symbol>chn16</Symbol>
-    <Value>1</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
- <!-- Simple Scope CV (4 channel) -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>Simple Scope CV (4 channel)</Name>
-   <URI>http://gareus.org/oss/lv2/sisco-cv#4chan</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <CustomData>
-    <Type>http://lv2plug.in/ns/ext/atom#Int</Type>
-    <Key>http://gareus.org/oss/lv2/sisco-cv#ui_state_grid</Key>
-    <Value>CwAAAA==</Value>
-   </CustomData>
-
-   <CustomData>
-    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
-    <Key>http://gareus.org/oss/lv2/sisco-cv#ui_state_curs</Key>
-    <Value>BAAAAAcAAACgAAAA4AEAAAEAAAABAAAA</Value>
-   </CustomData>
-
-   <CustomData>
-    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
-    <Key>http://gareus.org/oss/lv2/sisco-cv#ui_state_trig</Key>
-    <Value>BAAAAAYAAAAAAAAAAAAAAAAASEIAAAA/AAAAAA==</Value>
-   </CustomData>
-
-   <CustomData>
-    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
-    <Key>http://gareus.org/oss/lv2/sisco-cv#ui_state_chn</Key>
-    <Value>BAAAAAYAAAAAAIA/AAAAAAAAEMIAAIA/AACAPwAAAAAAAEDBAACAPwAAgD8AAAAAAABAQQAAgD8AAIA/AAAAAAAAEEIAAIA/</Value>
-   </CustomData>
-
-   <CustomData>
-    <Type>http://lv2plug.in/ns/ext/atom#Int</Type>
-    <Key>http://gareus.org/oss/lv2/sisco-cv#ui_state_misc</Key>
-    <Value>AAAAAA==</Value>
-   </CustomData>
   </Data>
  </Plugin>
 
@@ -10313,6 +9062,3418 @@ UGFyYW1ldGVycwAAARZQQVJBTQABAmlkAAEMBWNoZXdfZGVwdGgAdmFsdWUAAQYFMC4yNQAAUEFSQU0A
   </Data>
  </Plugin>
 
+ <!-- Simple Scope CV (4 channel) -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Simple Scope CV (4 channel) (5)</Name>
+   <URI>http://gareus.org/oss/lv2/sisco-cv#4chan</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Int</Type>
+    <Key>http://gareus.org/oss/lv2/sisco-cv#ui_state_grid</Key>
+    <Value>CgAAAA==</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
+    <Key>http://gareus.org/oss/lv2/sisco-cv#ui_state_curs</Key>
+    <Value>BAAAAAcAAACgAAAA4AEAAAEAAAABAAAA</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
+    <Key>http://gareus.org/oss/lv2/sisco-cv#ui_state_trig</Key>
+    <Value>BAAAAAYAAAAAAAAAAAAAAAAASEIAAAA/AAAAAA==</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
+    <Key>http://gareus.org/oss/lv2/sisco-cv#ui_state_chn</Key>
+    <Value>BAAAAAYAAAAAAIA/AAAAAAAAyMIAAIA/AACAPwAAAAAAAMjCAACAPwAAgD8AAAAAAADIwgAAgD8AAIA/AAAAAAAAyMIAAIA/</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Int</Type>
+    <Key>http://gareus.org/oss/lv2/sisco-cv#ui_state_misc</Key>
+    <Value>AAAAAA==</Value>
+   </CustomData>
+  </Data>
+ </Plugin>
+
+ <!-- MIDI Channel Filter -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>MIDI Channel Filter</Name>
+   <URI>http://gareus.org/oss/lv2/midifilter#channelfilter</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f1</Options>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Channel  1</Name>
+    <Symbol>chn1</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>1</MappedMaximum>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Channel  2</Name>
+    <Symbol>chn2</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Channel  3</Name>
+    <Symbol>chn3</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Channel  4</Name>
+    <Symbol>chn4</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Channel  5</Name>
+    <Symbol>chn5</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Channel  6</Name>
+    <Symbol>chn6</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Channel  7</Name>
+    <Symbol>chn7</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Channel  8</Name>
+    <Symbol>chn8</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>Channel  9</Name>
+    <Symbol>chn9</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>Channel 10</Name>
+    <Symbol>chn10</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>Channel 11</Name>
+    <Symbol>chn11</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>Channel 12</Name>
+    <Symbol>chn12</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>Channel 13</Name>
+    <Symbol>chn13</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>Channel 14</Name>
+    <Symbol>chn14</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>Channel 15</Name>
+    <Symbol>chn15</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>16</Index>
+    <Name>Channel 16</Name>
+    <Symbol>chn16</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- MIDI Split -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>MIDI Split</Name>
+   <URI>http://kxstudio.sf.net/carla/plugins/midisplit</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f1</Options>
+  </Data>
+ </Plugin>
+
+ <!-- midiPolyphony -->
+ <Plugin>
+  <Info>
+   <Type>VST2</Type>
+   <Name>midiPolyphony</Name>
+   <Binary>/usr/lib/vst/pizmidi/midiPolyphony.so</Binary>
+   <UniqueID>1833987193</UniqueID>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f1</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Power</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>LowChannel</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>HighChannel</Name>
+    <Value>0.628571450710297</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>PolyPerChan</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>NotePriority</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Retrigger</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>InChannel</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>SustainPedal</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>ChanMode</Name>
+    <Value>0.628571450710297</Value>
+   </Parameter>
+
+   <CurrentProgramIndex>1</CurrentProgramIndex>
+   <CurrentProgramName>Program 1</CurrentProgramName>
+  </Data>
+ </Plugin>
+
+ <!-- AMS VCO3 -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Lead Osc 4 (6)</Name>
+   <URI>http://github.com/blablack/ams-lv2/vco3</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Wave Form</Name>
+    <Symbol>waveForm</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Octave</Name>
+    <Symbol>octave</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Tune</Name>
+    <Symbol>tune</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Semitone</Name>
+    <Symbol>semitone</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>PW0</Name>
+    <Symbol>pw0</Symbol>
+    <Value>0.358999997377396</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>PW Gain</Name>
+    <Symbol>pwGain</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Edge</Name>
+    <Symbol>edge</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Phi0</Name>
+    <Symbol>phi0</Symbol>
+    <Value>0.0131943002343178</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Exp FM Gain</Name>
+    <Symbol>expFMGain</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>Lin FM Gain</Name>
+    <Symbol>linFMGain</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS VCO3 -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Lead Osc 4 (7)</Name>
+   <URI>http://github.com/blablack/ams-lv2/vco3</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Wave Form</Name>
+    <Symbol>waveForm</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Octave</Name>
+    <Symbol>octave</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Tune</Name>
+    <Symbol>tune</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Semitone</Name>
+    <Symbol>semitone</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>PW0</Name>
+    <Symbol>pw0</Symbol>
+    <Value>0.358999997377396</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>PW Gain</Name>
+    <Symbol>pwGain</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Edge</Name>
+    <Symbol>edge</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Phi0</Name>
+    <Symbol>phi0</Symbol>
+    <Value>0.0131943002343178</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Exp FM Gain</Name>
+    <Symbol>expFMGain</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>Lin FM Gain</Name>
+    <Symbol>linFMGain</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS VCF -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Lead VCF 4 (6)</Name>
+   <URI>http://github.com/blablack/ams-lv2/vcf</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>VCF Type</Name>
+    <Symbol>vcfType</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Input Gain</Name>
+    <Symbol>inputGain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Frequency</Name>
+    <Symbol>freq</Symbol>
+    <Value>5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Exp. FM Gain</Name>
+    <Symbol>expFMGain</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Lin. FM Gain</Name>
+    <Symbol>linFMGain</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Resonance</Name>
+    <Symbol>resonance</Symbol>
+    <Value>0.800000011920929</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Resonance Gain</Name>
+    <Symbol>resonanceGain</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS VCA Lin -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Lead Gain 4 (6)</Name>
+   <URI>http://github.com/blablack/ams-lv2/vcalin</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Gain Offset</Name>
+    <Symbol>gain1</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>2nd Gain Boost</Name>
+    <Symbol>gain2</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>In 1</Name>
+    <Symbol>in1</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>In 2</Name>
+    <Symbol>in2</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Output Level</Name>
+    <Symbol>outputLevel</Symbol>
+    <Value>0.5</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS VCA Lin -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Lead Gain 4 (7)</Name>
+   <URI>http://github.com/blablack/ams-lv2/vcalin</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Gain Offset</Name>
+    <Symbol>gain1</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>2nd Gain Boost</Name>
+    <Symbol>gain2</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>In 1</Name>
+    <Symbol>in1</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>In 2</Name>
+    <Symbol>in2</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Output Level</Name>
+    <Symbol>outputLevel</Symbol>
+    <Value>0.5</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS VCF -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Lead VCF 4 (7)</Name>
+   <URI>http://github.com/blablack/ams-lv2/vcf</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>VCF Type</Name>
+    <Symbol>vcfType</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Input Gain</Name>
+    <Symbol>inputGain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Frequency</Name>
+    <Symbol>freq</Symbol>
+    <Value>5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Exp. FM Gain</Name>
+    <Symbol>expFMGain</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Lin. FM Gain</Name>
+    <Symbol>linFMGain</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Resonance</Name>
+    <Symbol>resonance</Symbol>
+    <Value>0.800000011920929</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Resonance Gain</Name>
+    <Symbol>resonanceGain</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- MIDI to CV Poly -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>MIDI to CV Poly (3)</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/midi-to-cv-poly</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Octave</Name>
+    <Symbol>Octave</Symbol>
+    <Value>-2</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Semitone</Name>
+    <Symbol>Semitone</Symbol>
+    <Value>-12</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Cent</Name>
+    <Symbol>Cent</Symbol>
+    <Value>-100</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Panic</Name>
+    <Symbol>Panic</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- CV_Gate16 -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>CV_Gate16</Name>
+   <URI>https://github.com/ryukau/LV2Plugins/tree/master/CV_Gate16</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>gain1</Name>
+    <Symbol>gain1</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>gain2</Name>
+    <Symbol>gain2</Symbol>
+    <Value>0.135294124484062</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>gain3</Name>
+    <Symbol>gain3</Symbol>
+    <Value>0.0764706134796143</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>gain4</Name>
+    <Symbol>gain4</Symbol>
+    <Value>0.135294139385223</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>gain5</Name>
+    <Symbol>gain5</Symbol>
+    <Value>0.188235282897949</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>gain6</Name>
+    <Symbol>gain6</Symbol>
+    <Value>0.211764693260193</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>gain7</Name>
+    <Symbol>gain7</Symbol>
+    <Value>0.217647075653076</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>gain8</Name>
+    <Symbol>gain8</Symbol>
+    <Value>0.199999988079071</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>gain9</Name>
+    <Symbol>gain9</Symbol>
+    <Value>0.123529434204102</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>gain10</Name>
+    <Symbol>gain10</Symbol>
+    <Value>0.0176470875740051</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>gain11</Name>
+    <Symbol>gain11</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>gain12</Name>
+    <Symbol>gain12</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>gain13</Name>
+    <Symbol>gain13</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>gain14</Name>
+    <Symbol>gain14</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>gain15</Name>
+    <Symbol>gain15</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>gain16</Name>
+    <Symbol>gain16</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>16</Index>
+    <Name>delay1</Name>
+    <Symbol>delay1</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>17</Index>
+    <Name>delay2</Name>
+    <Symbol>delay2</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>18</Index>
+    <Name>delay3</Name>
+    <Symbol>delay3</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>19</Index>
+    <Name>delay4</Name>
+    <Symbol>delay4</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>20</Index>
+    <Name>delay5</Name>
+    <Symbol>delay5</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>21</Index>
+    <Name>delay6</Name>
+    <Symbol>delay6</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>22</Index>
+    <Name>delay7</Name>
+    <Symbol>delay7</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>23</Index>
+    <Name>delay8</Name>
+    <Symbol>delay8</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>24</Index>
+    <Name>delay9</Name>
+    <Symbol>delay9</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>25</Index>
+    <Name>delay10</Name>
+    <Symbol>delay10</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>26</Index>
+    <Name>delay11</Name>
+    <Symbol>delay11</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>27</Index>
+    <Name>delay12</Name>
+    <Symbol>delay12</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>28</Index>
+    <Name>delay13</Name>
+    <Symbol>delay13</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>29</Index>
+    <Name>delay14</Name>
+    <Symbol>delay14</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>30</Index>
+    <Name>delay15</Name>
+    <Symbol>delay15</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>31</Index>
+    <Name>delay16</Name>
+    <Symbol>delay16</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>32</Index>
+    <Name>type1</Name>
+    <Symbol>type1</Symbol>
+    <Value>2</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>33</Index>
+    <Name>type2</Name>
+    <Symbol>type2</Symbol>
+    <Value>2</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>34</Index>
+    <Name>type3</Name>
+    <Symbol>type3</Symbol>
+    <Value>2</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>35</Index>
+    <Name>type4</Name>
+    <Symbol>type4</Symbol>
+    <Value>2</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>36</Index>
+    <Name>type5</Name>
+    <Symbol>type5</Symbol>
+    <Value>2</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>37</Index>
+    <Name>type6</Name>
+    <Symbol>type6</Symbol>
+    <Value>2</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>38</Index>
+    <Name>type7</Name>
+    <Symbol>type7</Symbol>
+    <Value>2</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>39</Index>
+    <Name>type8</Name>
+    <Symbol>type8</Symbol>
+    <Value>2</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>40</Index>
+    <Name>type9</Name>
+    <Symbol>type9</Symbol>
+    <Value>2</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>41</Index>
+    <Name>type10</Name>
+    <Symbol>type10</Symbol>
+    <Value>2</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>42</Index>
+    <Name>type11</Name>
+    <Symbol>type11</Symbol>
+    <Value>2</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>43</Index>
+    <Name>type12</Name>
+    <Symbol>type12</Symbol>
+    <Value>2</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>44</Index>
+    <Name>type13</Name>
+    <Symbol>type13</Symbol>
+    <Value>2</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>45</Index>
+    <Name>type14</Name>
+    <Symbol>type14</Symbol>
+    <Value>2</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>46</Index>
+    <Name>type15</Name>
+    <Symbol>type15</Symbol>
+    <Value>2</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>47</Index>
+    <Name>type16</Name>
+    <Symbol>type16</Symbol>
+    <Value>2</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>48</Index>
+    <Name>masterGain</Name>
+    <Symbol>masterGain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>49</Index>
+    <Name>delayMultiply</Name>
+    <Symbol>delayMultiply</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>50</Index>
+    <Name>delayTempoSync</Name>
+    <Symbol>delayTempoSync</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Simple Scope CV (4 channel) -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Simple Scope CV (4 channel)</Name>
+   <URI>http://gareus.org/oss/lv2/sisco-cv#4chan</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Int</Type>
+    <Key>http://gareus.org/oss/lv2/sisco-cv#ui_state_grid</Key>
+    <Value>CgAAAA==</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
+    <Key>http://gareus.org/oss/lv2/sisco-cv#ui_state_curs</Key>
+    <Value>BAAAAAcAAACgAAAA4AEAAAEAAAABAAAA</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
+    <Key>http://gareus.org/oss/lv2/sisco-cv#ui_state_trig</Key>
+    <Value>BAAAAAYAAAAAAAAAAAAAAAAASEIAAAA/AAAAAA==</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
+    <Key>http://gareus.org/oss/lv2/sisco-cv#ui_state_chn</Key>
+    <Value>BAAAAAYAAAAAAIA/AAAAAAAAyMIAAIA/AACAPwAAAAAAAMjCAACAPwAAgD8AAAAAAADIwgAAgD8AAIA/AAAAAAAAyMIAAIA/</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Int</Type>
+    <Key>http://gareus.org/oss/lv2/sisco-cv#ui_state_misc</Key>
+    <Value>AAAAAA==</Value>
+   </CustomData>
+  </Data>
+ </Plugin>
+
+ <!-- Control to CV -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Attack</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-control</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Control</Name>
+    <Symbol>Control</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>10</MappedMaximum>
+    <Value>0.135294020175934</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Smoothing</Name>
+    <Symbol>Smoothing</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Control to CV -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Decay</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-control</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Control</Name>
+    <Symbol>Control</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>10</MappedMaximum>
+    <Value>0.135294035077095</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Smoothing</Name>
+    <Symbol>Smoothing</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- CV_PolyLoopEnvelope4 -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>CV_PolyLoopEnvelope4</Name>
+   <URI>https://github.com/ryukau/LV2Plugins/tree/master/CV_PolyLoopEnvelope4</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>gain</Name>
+    <Symbol>gain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>rate</Name>
+    <Symbol>rate</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>rateKeyFollow</Name>
+    <Symbol>rateKeyFollow</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>rateSlideTime</Name>
+    <Symbol>rateSlideTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>loopStart</Name>
+    <Symbol>loopStart</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>loopEnd</Name>
+    <Symbol>loopEnd</Symbol>
+    <Value>4</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>releaseTime</Name>
+    <Symbol>releaseTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>releaseCurve</Name>
+    <Symbol>releaseCurve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>s0DecayTime</Name>
+    <Symbol>s0DecayTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>s1DecayTime</Name>
+    <Symbol>s1DecayTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>s2DecayTime</Name>
+    <Symbol>s2DecayTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>s3DecayTime</Name>
+    <Symbol>s3DecayTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>s0HoldTime</Name>
+    <Symbol>s0HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>s1HoldTime</Name>
+    <Symbol>s1HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>s2HoldTime</Name>
+    <Symbol>s2HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>s3HoldTime</Name>
+    <Symbol>s3HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>16</Index>
+    <Name>s0Level</Name>
+    <Symbol>s0Level</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>17</Index>
+    <Name>s1Level</Name>
+    <Symbol>s1Level</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>18</Index>
+    <Name>s2Level</Name>
+    <Symbol>s2Level</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>19</Index>
+    <Name>s3Level</Name>
+    <Symbol>s3Level</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>20</Index>
+    <Name>s0Curve</Name>
+    <Symbol>s0Curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>21</Index>
+    <Name>s1Curve</Name>
+    <Symbol>s1Curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>22</Index>
+    <Name>s2Curve</Name>
+    <Symbol>s2Curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>23</Index>
+    <Name>s3Curve</Name>
+    <Symbol>s3Curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Control to CV -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Delay</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-control</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Control</Name>
+    <Symbol>Control</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>10</MappedMaximum>
+    <Value>1.55948824105765e-17</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Smoothing</Name>
+    <Symbol>Smoothing</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Control to CV -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Hold</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-control</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Control</Name>
+    <Symbol>Control</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>10</MappedMaximum>
+    <Value>0.0764705613255501</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Smoothing</Name>
+    <Symbol>Smoothing</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Control to CV -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Sustain Lev</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-control</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Control</Name>
+    <Symbol>Control</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>10</MappedMaximum>
+    <Value>0.188235178589821</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Smoothing</Name>
+    <Symbol>Smoothing</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Control to CV -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Release</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-control</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Control</Name>
+    <Symbol>Control</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>10</MappedMaximum>
+    <Value>0.217646971344948</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Smoothing</Name>
+    <Symbol>Smoothing</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- CV_PolyLoopEnvelope4 -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>CV_PolyLoopEnvelope4 (2)</Name>
+   <URI>https://github.com/ryukau/LV2Plugins/tree/master/CV_PolyLoopEnvelope4</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>gain</Name>
+    <Symbol>gain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>rate</Name>
+    <Symbol>rate</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>rateKeyFollow</Name>
+    <Symbol>rateKeyFollow</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>rateSlideTime</Name>
+    <Symbol>rateSlideTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>loopStart</Name>
+    <Symbol>loopStart</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>loopEnd</Name>
+    <Symbol>loopEnd</Symbol>
+    <Value>4</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>releaseTime</Name>
+    <Symbol>releaseTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>releaseCurve</Name>
+    <Symbol>releaseCurve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>s0DecayTime</Name>
+    <Symbol>s0DecayTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>s1DecayTime</Name>
+    <Symbol>s1DecayTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>s2DecayTime</Name>
+    <Symbol>s2DecayTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>s3DecayTime</Name>
+    <Symbol>s3DecayTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>s0HoldTime</Name>
+    <Symbol>s0HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>s1HoldTime</Name>
+    <Symbol>s1HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>s2HoldTime</Name>
+    <Symbol>s2HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>s3HoldTime</Name>
+    <Symbol>s3HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>16</Index>
+    <Name>s0Level</Name>
+    <Symbol>s0Level</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>17</Index>
+    <Name>s1Level</Name>
+    <Symbol>s1Level</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>18</Index>
+    <Name>s2Level</Name>
+    <Symbol>s2Level</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>19</Index>
+    <Name>s3Level</Name>
+    <Symbol>s3Level</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>20</Index>
+    <Name>s0Curve</Name>
+    <Symbol>s0Curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>21</Index>
+    <Name>s1Curve</Name>
+    <Symbol>s1Curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>22</Index>
+    <Name>s2Curve</Name>
+    <Symbol>s2Curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>23</Index>
+    <Name>s3Curve</Name>
+    <Symbol>s3Curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- CV_PolyLoopEnvelope4 -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>CV_PolyLoopEnvelope4 (3)</Name>
+   <URI>https://github.com/ryukau/LV2Plugins/tree/master/CV_PolyLoopEnvelope4</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>gain</Name>
+    <Symbol>gain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>rate</Name>
+    <Symbol>rate</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>rateKeyFollow</Name>
+    <Symbol>rateKeyFollow</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>rateSlideTime</Name>
+    <Symbol>rateSlideTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>loopStart</Name>
+    <Symbol>loopStart</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>loopEnd</Name>
+    <Symbol>loopEnd</Symbol>
+    <Value>4</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>releaseTime</Name>
+    <Symbol>releaseTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>releaseCurve</Name>
+    <Symbol>releaseCurve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>s0DecayTime</Name>
+    <Symbol>s0DecayTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>s1DecayTime</Name>
+    <Symbol>s1DecayTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>s2DecayTime</Name>
+    <Symbol>s2DecayTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>s3DecayTime</Name>
+    <Symbol>s3DecayTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>s0HoldTime</Name>
+    <Symbol>s0HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>s1HoldTime</Name>
+    <Symbol>s1HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>s2HoldTime</Name>
+    <Symbol>s2HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>s3HoldTime</Name>
+    <Symbol>s3HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>16</Index>
+    <Name>s0Level</Name>
+    <Symbol>s0Level</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>17</Index>
+    <Name>s1Level</Name>
+    <Symbol>s1Level</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>18</Index>
+    <Name>s2Level</Name>
+    <Symbol>s2Level</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>19</Index>
+    <Name>s3Level</Name>
+    <Symbol>s3Level</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>20</Index>
+    <Name>s0Curve</Name>
+    <Symbol>s0Curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>21</Index>
+    <Name>s1Curve</Name>
+    <Symbol>s1Curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>22</Index>
+    <Name>s2Curve</Name>
+    <Symbol>s2Curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>23</Index>
+    <Name>s3Curve</Name>
+    <Symbol>s3Curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- CV_PolyLoopEnvelope4 -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>CV_PolyLoopEnvelope4 (4)</Name>
+   <URI>https://github.com/ryukau/LV2Plugins/tree/master/CV_PolyLoopEnvelope4</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>gain</Name>
+    <Symbol>gain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>rate</Name>
+    <Symbol>rate</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>rateKeyFollow</Name>
+    <Symbol>rateKeyFollow</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>rateSlideTime</Name>
+    <Symbol>rateSlideTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>loopStart</Name>
+    <Symbol>loopStart</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>loopEnd</Name>
+    <Symbol>loopEnd</Symbol>
+    <Value>4</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>releaseTime</Name>
+    <Symbol>releaseTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>releaseCurve</Name>
+    <Symbol>releaseCurve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>s0DecayTime</Name>
+    <Symbol>s0DecayTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>s1DecayTime</Name>
+    <Symbol>s1DecayTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>s2DecayTime</Name>
+    <Symbol>s2DecayTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>s3DecayTime</Name>
+    <Symbol>s3DecayTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>s0HoldTime</Name>
+    <Symbol>s0HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>s1HoldTime</Name>
+    <Symbol>s1HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>s2HoldTime</Name>
+    <Symbol>s2HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>s3HoldTime</Name>
+    <Symbol>s3HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>16</Index>
+    <Name>s0Level</Name>
+    <Symbol>s0Level</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>17</Index>
+    <Name>s1Level</Name>
+    <Symbol>s1Level</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>18</Index>
+    <Name>s2Level</Name>
+    <Symbol>s2Level</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>19</Index>
+    <Name>s3Level</Name>
+    <Symbol>s3Level</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>20</Index>
+    <Name>s0Curve</Name>
+    <Symbol>s0Curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>21</Index>
+    <Name>s1Curve</Name>
+    <Symbol>s1Curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>22</Index>
+    <Name>s2Curve</Name>
+    <Symbol>s2Curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>23</Index>
+    <Name>s3Curve</Name>
+    <Symbol>s3Curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- CV_PolyLoopEnvelope4 -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>CV_PolyLoopEnvelope4 (5)</Name>
+   <URI>https://github.com/ryukau/LV2Plugins/tree/master/CV_PolyLoopEnvelope4</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>gain</Name>
+    <Symbol>gain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>rate</Name>
+    <Symbol>rate</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>rateKeyFollow</Name>
+    <Symbol>rateKeyFollow</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>rateSlideTime</Name>
+    <Symbol>rateSlideTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>loopStart</Name>
+    <Symbol>loopStart</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>loopEnd</Name>
+    <Symbol>loopEnd</Symbol>
+    <Value>4</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>releaseTime</Name>
+    <Symbol>releaseTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>releaseCurve</Name>
+    <Symbol>releaseCurve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>s0DecayTime</Name>
+    <Symbol>s0DecayTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>s1DecayTime</Name>
+    <Symbol>s1DecayTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>s2DecayTime</Name>
+    <Symbol>s2DecayTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>s3DecayTime</Name>
+    <Symbol>s3DecayTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>s0HoldTime</Name>
+    <Symbol>s0HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>s1HoldTime</Name>
+    <Symbol>s1HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>s2HoldTime</Name>
+    <Symbol>s2HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>s3HoldTime</Name>
+    <Symbol>s3HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>16</Index>
+    <Name>s0Level</Name>
+    <Symbol>s0Level</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>17</Index>
+    <Name>s1Level</Name>
+    <Symbol>s1Level</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>18</Index>
+    <Name>s2Level</Name>
+    <Symbol>s2Level</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>19</Index>
+    <Name>s3Level</Name>
+    <Symbol>s3Level</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>20</Index>
+    <Name>s0Curve</Name>
+    <Symbol>s0Curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>21</Index>
+    <Name>s1Curve</Name>
+    <Symbol>s1Curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>22</Index>
+    <Name>s2Curve</Name>
+    <Symbol>s2Curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>23</Index>
+    <Name>s3Curve</Name>
+    <Symbol>s3Curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- CV_PolyLoopEnvelope4 -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>CV_PolyLoopEnvelope4 (6)</Name>
+   <URI>https://github.com/ryukau/LV2Plugins/tree/master/CV_PolyLoopEnvelope4</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>gain</Name>
+    <Symbol>gain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>rate</Name>
+    <Symbol>rate</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>rateKeyFollow</Name>
+    <Symbol>rateKeyFollow</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>rateSlideTime</Name>
+    <Symbol>rateSlideTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>loopStart</Name>
+    <Symbol>loopStart</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>loopEnd</Name>
+    <Symbol>loopEnd</Symbol>
+    <Value>4</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>releaseTime</Name>
+    <Symbol>releaseTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>releaseCurve</Name>
+    <Symbol>releaseCurve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>s0DecayTime</Name>
+    <Symbol>s0DecayTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>s1DecayTime</Name>
+    <Symbol>s1DecayTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>s2DecayTime</Name>
+    <Symbol>s2DecayTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>s3DecayTime</Name>
+    <Symbol>s3DecayTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>s0HoldTime</Name>
+    <Symbol>s0HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>s1HoldTime</Name>
+    <Symbol>s1HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>s2HoldTime</Name>
+    <Symbol>s2HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>s3HoldTime</Name>
+    <Symbol>s3HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>16</Index>
+    <Name>s0Level</Name>
+    <Symbol>s0Level</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>17</Index>
+    <Name>s1Level</Name>
+    <Symbol>s1Level</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>18</Index>
+    <Name>s2Level</Name>
+    <Symbol>s2Level</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>19</Index>
+    <Name>s3Level</Name>
+    <Symbol>s3Level</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>20</Index>
+    <Name>s0Curve</Name>
+    <Symbol>s0Curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>21</Index>
+    <Name>s1Curve</Name>
+    <Symbol>s1Curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>22</Index>
+    <Name>s2Curve</Name>
+    <Symbol>s2Curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>23</Index>
+    <Name>s3Curve</Name>
+    <Symbol>s3Curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- CV_PolyLoopEnvelope4 -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>CV_PolyLoopEnvelope4 (7)</Name>
+   <URI>https://github.com/ryukau/LV2Plugins/tree/master/CV_PolyLoopEnvelope4</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>gain</Name>
+    <Symbol>gain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>rate</Name>
+    <Symbol>rate</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>rateKeyFollow</Name>
+    <Symbol>rateKeyFollow</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>rateSlideTime</Name>
+    <Symbol>rateSlideTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>loopStart</Name>
+    <Symbol>loopStart</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>loopEnd</Name>
+    <Symbol>loopEnd</Symbol>
+    <Value>4</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>releaseTime</Name>
+    <Symbol>releaseTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>releaseCurve</Name>
+    <Symbol>releaseCurve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>s0DecayTime</Name>
+    <Symbol>s0DecayTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>s1DecayTime</Name>
+    <Symbol>s1DecayTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>s2DecayTime</Name>
+    <Symbol>s2DecayTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>s3DecayTime</Name>
+    <Symbol>s3DecayTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>s0HoldTime</Name>
+    <Symbol>s0HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>s1HoldTime</Name>
+    <Symbol>s1HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>s2HoldTime</Name>
+    <Symbol>s2HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>s3HoldTime</Name>
+    <Symbol>s3HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>16</Index>
+    <Name>s0Level</Name>
+    <Symbol>s0Level</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>17</Index>
+    <Name>s1Level</Name>
+    <Symbol>s1Level</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>18</Index>
+    <Name>s2Level</Name>
+    <Symbol>s2Level</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>19</Index>
+    <Name>s3Level</Name>
+    <Symbol>s3Level</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>20</Index>
+    <Name>s0Curve</Name>
+    <Symbol>s0Curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>21</Index>
+    <Name>s1Curve</Name>
+    <Symbol>s1Curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>22</Index>
+    <Name>s2Curve</Name>
+    <Symbol>s2Curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>23</Index>
+    <Name>s3Curve</Name>
+    <Symbol>s3Curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- CV_PolyLoopEnvelope4 -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>CV_PolyLoopEnvelope4 (8)</Name>
+   <URI>https://github.com/ryukau/LV2Plugins/tree/master/CV_PolyLoopEnvelope4</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>gain</Name>
+    <Symbol>gain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>rate</Name>
+    <Symbol>rate</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>rateKeyFollow</Name>
+    <Symbol>rateKeyFollow</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>rateSlideTime</Name>
+    <Symbol>rateSlideTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>loopStart</Name>
+    <Symbol>loopStart</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>loopEnd</Name>
+    <Symbol>loopEnd</Symbol>
+    <Value>4</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>releaseTime</Name>
+    <Symbol>releaseTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>releaseCurve</Name>
+    <Symbol>releaseCurve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>s0DecayTime</Name>
+    <Symbol>s0DecayTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>s1DecayTime</Name>
+    <Symbol>s1DecayTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>s2DecayTime</Name>
+    <Symbol>s2DecayTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>s3DecayTime</Name>
+    <Symbol>s3DecayTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>s0HoldTime</Name>
+    <Symbol>s0HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>s1HoldTime</Name>
+    <Symbol>s1HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>s2HoldTime</Name>
+    <Symbol>s2HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>s3HoldTime</Name>
+    <Symbol>s3HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>16</Index>
+    <Name>s0Level</Name>
+    <Symbol>s0Level</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>17</Index>
+    <Name>s1Level</Name>
+    <Symbol>s1Level</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>18</Index>
+    <Name>s2Level</Name>
+    <Symbol>s2Level</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>19</Index>
+    <Name>s3Level</Name>
+    <Symbol>s3Level</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>20</Index>
+    <Name>s0Curve</Name>
+    <Symbol>s0Curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>21</Index>
+    <Name>s1Curve</Name>
+    <Symbol>s1Curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>22</Index>
+    <Name>s2Curve</Name>
+    <Symbol>s2Curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>23</Index>
+    <Name>s3Curve</Name>
+    <Symbol>s3Curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- CV_PolyLoopEnvelope4 -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>CV_PolyLoopEnvelope4 (9)</Name>
+   <URI>https://github.com/ryukau/LV2Plugins/tree/master/CV_PolyLoopEnvelope4</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>gain</Name>
+    <Symbol>gain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>rate</Name>
+    <Symbol>rate</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>rateKeyFollow</Name>
+    <Symbol>rateKeyFollow</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>rateSlideTime</Name>
+    <Symbol>rateSlideTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>loopStart</Name>
+    <Symbol>loopStart</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>loopEnd</Name>
+    <Symbol>loopEnd</Symbol>
+    <Value>4</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>releaseTime</Name>
+    <Symbol>releaseTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>releaseCurve</Name>
+    <Symbol>releaseCurve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>s0DecayTime</Name>
+    <Symbol>s0DecayTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>s1DecayTime</Name>
+    <Symbol>s1DecayTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>s2DecayTime</Name>
+    <Symbol>s2DecayTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>s3DecayTime</Name>
+    <Symbol>s3DecayTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>s0HoldTime</Name>
+    <Symbol>s0HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>s1HoldTime</Name>
+    <Symbol>s1HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>s2HoldTime</Name>
+    <Symbol>s2HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>s3HoldTime</Name>
+    <Symbol>s3HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>16</Index>
+    <Name>s0Level</Name>
+    <Symbol>s0Level</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>17</Index>
+    <Name>s1Level</Name>
+    <Symbol>s1Level</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>18</Index>
+    <Name>s2Level</Name>
+    <Symbol>s2Level</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>19</Index>
+    <Name>s3Level</Name>
+    <Symbol>s3Level</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>20</Index>
+    <Name>s0Curve</Name>
+    <Symbol>s0Curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>21</Index>
+    <Name>s1Curve</Name>
+    <Symbol>s1Curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>22</Index>
+    <Name>s2Curve</Name>
+    <Symbol>s2Curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>23</Index>
+    <Name>s3Curve</Name>
+    <Symbol>s3Curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- CV_PolyLoopEnvelope4 -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>CV_PolyLoopEnvelope4 (10)</Name>
+   <URI>https://github.com/ryukau/LV2Plugins/tree/master/CV_PolyLoopEnvelope4</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>gain</Name>
+    <Symbol>gain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>rate</Name>
+    <Symbol>rate</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>rateKeyFollow</Name>
+    <Symbol>rateKeyFollow</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>rateSlideTime</Name>
+    <Symbol>rateSlideTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>loopStart</Name>
+    <Symbol>loopStart</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>loopEnd</Name>
+    <Symbol>loopEnd</Symbol>
+    <Value>4</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>releaseTime</Name>
+    <Symbol>releaseTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>releaseCurve</Name>
+    <Symbol>releaseCurve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>s0DecayTime</Name>
+    <Symbol>s0DecayTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>s1DecayTime</Name>
+    <Symbol>s1DecayTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>s2DecayTime</Name>
+    <Symbol>s2DecayTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>s3DecayTime</Name>
+    <Symbol>s3DecayTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>s0HoldTime</Name>
+    <Symbol>s0HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>s1HoldTime</Name>
+    <Symbol>s1HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>s2HoldTime</Name>
+    <Symbol>s2HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>s3HoldTime</Name>
+    <Symbol>s3HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>16</Index>
+    <Name>s0Level</Name>
+    <Symbol>s0Level</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>17</Index>
+    <Name>s1Level</Name>
+    <Symbol>s1Level</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>18</Index>
+    <Name>s2Level</Name>
+    <Symbol>s2Level</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>19</Index>
+    <Name>s3Level</Name>
+    <Symbol>s3Level</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>20</Index>
+    <Name>s0Curve</Name>
+    <Symbol>s0Curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>21</Index>
+    <Name>s1Curve</Name>
+    <Symbol>s1Curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>22</Index>
+    <Name>s2Curve</Name>
+    <Symbol>s2Curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>23</Index>
+    <Name>s3Curve</Name>
+    <Symbol>s3Curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS Stereo Mixer 2 channels -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS Stereo Mixer 2 channels</Name>
+   <URI>http://github.com/blablack/ams-lv2/stereomixer_2ch</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Master Volume</Name>
+    <Symbol>masterVolume</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Mute 1</Name>
+    <Symbol>mute1</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Solo 1</Name>
+    <Symbol>solo1</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Volume 1</Name>
+    <Symbol>volume1</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Pan 1</Name>
+    <Symbol>pan1</Symbol>
+    <Value>-1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Mute 2</Name>
+    <Symbol>mute2</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Solo 2</Name>
+    <Symbol>solo2</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Volume 2</Name>
+    <Symbol>volume2</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Pan 2</Name>
+    <Symbol>pan2</Symbol>
+    <Value>0.400000005960464</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Control to CV -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Sustain Time</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-control</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Control</Name>
+    <Symbol>Control</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>10</MappedMaximum>
+    <Value>0.211764588952065</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Smoothing</Name>
+    <Symbol>Smoothing</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Simple Scope CV (4 channel) -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Simple Scope CV (4 channel) (2)</Name>
+   <URI>http://gareus.org/oss/lv2/sisco-cv#4chan</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Int</Type>
+    <Key>http://gareus.org/oss/lv2/sisco-cv#ui_state_grid</Key>
+    <Value>CwAAAA==</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
+    <Key>http://gareus.org/oss/lv2/sisco-cv#ui_state_curs</Key>
+    <Value>BAAAAAcAAACgAAAA4AEAAAEAAAABAAAA</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
+    <Key>http://gareus.org/oss/lv2/sisco-cv#ui_state_trig</Key>
+    <Value>BAAAAAYAAAAAAABAAACAPwAASEIAAAA/AAAAAA==</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
+    <Key>http://gareus.org/oss/lv2/sisco-cv#ui_state_chn</Key>
+    <Value>BAAAAAYAAAAAAIA/AAAAAAAAEMIAAIA/AACAPwAAAAAAAEDBAACAPwAAgD8AAAAAAABAQQAAgD8AAIA/AAAAAAAAEEIAAIA/</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Int</Type>
+    <Key>http://gareus.org/oss/lv2/sisco-cv#ui_state_misc</Key>
+    <Value>AAAAAA==</Value>
+   </CustomData>
+  </Data>
+ </Plugin>
+
+ <!-- MIDI Note Transpose -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>MIDI Note Transpose</Name>
+   <URI>http://gareus.org/oss/lv2/midifilter#mapkeyscale</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f1</Options>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Filter Channel</Name>
+    <Symbol>channelf</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>C</Name>
+    <Symbol>k0</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>C#</Name>
+    <Symbol>k1</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>D</Name>
+    <Symbol>k2</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>D#</Name>
+    <Symbol>k3</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>E</Name>
+    <Symbol>k4</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>F</Name>
+    <Symbol>k5</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>F#</Name>
+    <Symbol>k6</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>G</Name>
+    <Symbol>k7</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>G#</Name>
+    <Symbol>k8</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>A</Name>
+    <Symbol>k9</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>A#</Name>
+    <Symbol>k10</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>B</Name>
+    <Symbol>k11</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
  <ExternalPatchbay>
   <Connection>
    <Source>PulseAudio JACK Sink:front-left</Source>
@@ -10323,32 +12484,16 @@ UGFyYW1ldGVycwAAARZQQVJBTQABAmlkAAEMBWNoZXdfZGVwdGgAdmFsdWUAAQYFMC4yNQAAUEFSQU0A
    <Target>system:playback_2</Target>
   </Connection>
   <Connection>
-   <Source>Carla.nCQND/Pluse Edge:CV Output</Source>
-   <Target>Carla.nCQND/Pluse:Edge</Target>
+   <Source>seq66:qseq66 midi out 0</Source>
+   <Target>Carla.nCQND/MIDI Simple Channel Filter:events-in</Target>
   </Connection>
   <Connection>
-   <Source>Carla.nCQND/Wedge Gate Open:Output</Source>
-   <Target>Carla.nCQND/16 Step Sequencer:Gate</Target>
+   <Source>seq66:qseq66 midi out 0</Source>
+   <Target>Carla.nCQND/MIDI Simple Channel Filter (2):events-in</Target>
   </Connection>
   <Connection>
-   <Source>Carla.nCQND/MIDI-Trigger:events-out</Source>
-   <Target>Carla.nCQND/FDNCymbal:events-in</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/EsPhaser:Audio Output 1</Source>
-   <Target>Carla.nCQND/x42-Autotune:Input</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/EsPhaser:Audio Output 2</Source>
-   <Target>Carla.nCQND/x42-Autotune (3):Input</Target>
-  </Connection>
-  <Connection>
-   <Source>jack_mixer.nAJKK:Main Out L</Source>
-   <Target>Carla.nCQND/LSP Compressor:Input L</Target>
-  </Connection>
-  <Connection>
-   <Source>jack_mixer.nAJKK:Main Out R</Source>
-   <Target>Carla.nCQND/LSP Compressor:Input R</Target>
+   <Source>seq66:qseq66 midi out 0</Source>
+   <Target>Carla.nCQND/MIDI to CV (2):events-in</Target>
   </Connection>
   <Connection>
    <Source>jack_mixer.nNMOO:Reverb Buss L</Source>
@@ -10395,12 +12540,12 @@ UGFyYW1ldGVycwAAARZQQVJBTQABAmlkAAEMBWNoZXdfZGVwdGgAdmFsdWUAAQYFMC4yNQAAUEFSQU0A
    <Target>Carla.nCQND/AMS VCA Lin (4):In 1 Mod</Target>
   </Connection>
   <Connection>
-   <Source>Carla.nCQND/AMS VCA Lin (5):Out</Source>
-   <Target>Carla.nCQND/Glame Lowpass Filter (5):Input</Target>
+   <Source>Carla.nCQND/16 Step Sequencer:Value Out</Source>
+   <Target>Carla.nCQND/Triangle:Sync</Target>
   </Connection>
   <Connection>
-   <Source>Carla.nCQND/Glame Lowpass Filter (2):Output</Source>
-   <Target>jack_mixer.nAJKK:Kick Tri</Target>
+   <Source>Carla.nCQND/16 Step Sequencer:Value Out</Source>
+   <Target>Carla.nCQND/Triangle:Frequency</Target>
   </Connection>
   <Connection>
    <Source>Carla.nCQND/16 Step Sequencer:Value Out</Source>
@@ -10412,19 +12557,7 @@ UGFyYW1ldGVycwAAARZQQVJBTQABAmlkAAEMBWNoZXdfZGVwdGgAdmFsdWUAAQYFMC4yNQAAUEFSQU0A
   </Connection>
   <Connection>
    <Source>Carla.nCQND/16 Step Sequencer:Value Out</Source>
-   <Target>Carla.nCQND/AMS Dynamic Waves - 4 Osc:Frequency</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/16 Step Sequencer:Value Out</Source>
-   <Target>Carla.nCQND/Triangle:Sync</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/16 Step Sequencer:Value Out</Source>
    <Target>Carla.nCQND/Saw:Sync</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/16 Step Sequencer:Value Out</Source>
-   <Target>Carla.nCQND/Pluse:Sync</Target>
   </Connection>
   <Connection>
    <Source>Carla.nCQND/16 Step Sequencer:Value Out</Source>
@@ -10432,11 +12565,15 @@ UGFyYW1ldGVycwAAARZQQVJBTQABAmlkAAEMBWNoZXdfZGVwdGgAdmFsdWUAAQYFMC4yNQAAUEFSQU0A
   </Connection>
   <Connection>
    <Source>Carla.nCQND/16 Step Sequencer:Value Out</Source>
-   <Target>Carla.nCQND/Triangle:Frequency</Target>
+   <Target>Carla.nCQND/Pluse:Sync</Target>
   </Connection>
   <Connection>
    <Source>Carla.nCQND/16 Step Sequencer:Value Out</Source>
    <Target>Carla.nCQND/Pluse:Frequency</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/16 Step Sequencer:Value Out</Source>
+   <Target>Carla.nCQND/AMS Dynamic Waves - 4 Osc:Frequency</Target>
   </Connection>
   <Connection>
    <Source>Carla.nCQND/Semitone:CV Output</Source>
@@ -10447,12 +12584,36 @@ UGFyYW1ldGVycwAAARZQQVJBTQABAmlkAAEMBWNoZXdfZGVwdGgAdmFsdWUAAQYFMC4yNQAAUEFSQU0A
    <Target>Carla.nCQND/Gain Env:Decay1</Target>
   </Connection>
   <Connection>
+   <Source>Carla.nCQND/Pluse Edge:CV Output</Source>
+   <Target>Carla.nCQND/Pluse:Edge</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Wedge Gate Open:Output</Source>
+   <Target>Carla.nCQND/16 Step Sequencer:Gate</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/MIDI-Trigger:events-out</Source>
+   <Target>Carla.nCQND/FDNCymbal:events-in</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/EsPhaser:Audio Output 1</Source>
+   <Target>Carla.nCQND/x42-Autotune:Input</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/EsPhaser:Audio Output 2</Source>
+   <Target>Carla.nCQND/x42-Autotune (3):Input</Target>
+  </Connection>
+  <Connection>
    <Source>Carla.nCQND/x42-Autotune:Output</Source>
    <Target>jack_mixer.nAJKK:Cymb Cray L</Target>
   </Connection>
   <Connection>
    <Source>Carla.nCQND/x42-Autotune (3):Output</Source>
    <Target>jack_mixer.nAJKK:Cymb Cray R</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/MIDI Generator:events-out</Source>
+   <Target>Carla.nCQND/midiPolyphony:events-in</Target>
   </Connection>
   <Connection>
    <Source>Carla.nCQND/FDNCymbal:Audio Output 1</Source>
@@ -10519,38 +12680,6 @@ UGFyYW1ldGVycwAAARZQQVJBTQABAmlkAAEMBWNoZXdfZGVwdGgAdmFsdWUAAQYFMC4yNQAAUEFSQU0A
    <Target>Carla.nCQND/AMS Mixer 2 channels:In 2</Target>
   </Connection>
   <Connection>
-   <Source>Carla.nCQND/Attenuverter Booster:CV Output</Source>
-   <Target>Carla.nCQND/AMS VC Envelope II (5):Attack</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/Attenuverter Booster:CV Output</Source>
-   <Target>Carla.nCQND/AMS VC Envelope II (6):Attack</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/Attenuverter Booster:CV Output</Source>
-   <Target>Carla.nCQND/AMS VC Envelope II (7):Attack</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/Attenuverter Booster:CV Output</Source>
-   <Target>Carla.nCQND/AMS VC Envelope II (8):Attack</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/Attenuverter Booster:CV Output</Source>
-   <Target>Carla.nCQND/AMS VC Envelope II:Attack</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/Attenuverter Booster:CV Output</Source>
-   <Target>Carla.nCQND/AMS VC Envelope II (2):Attack</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/Attenuverter Booster:CV Output</Source>
-   <Target>Carla.nCQND/AMS VC Envelope II (3):Attack</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/Attenuverter Booster:CV Output</Source>
-   <Target>Carla.nCQND/AMS VC Envelope II (4):Attack</Target>
-  </Connection>
-  <Connection>
    <Source>Carla.nCQND/AMS Noise2 (2):Out</Source>
    <Target>Carla.nCQND/AMS VCA Exp (2):In 1</Target>
   </Connection>
@@ -10568,11 +12697,11 @@ UGFyYW1ldGVycwAAARZQQVJBTQABAmlkAAEMBWNoZXdfZGVwdGgAdmFsdWUAAQYFMC4yNQAAUEFSQU0A
   </Connection>
   <Connection>
    <Source>Carla.nCQND/Moog High-Pass Filter 1:Output</Source>
-   <Target>jack_mixer.nAJKK:Hi-hat R</Target>
+   <Target>jack_mixer.nAJKK:Hi-hat L</Target>
   </Connection>
   <Connection>
    <Source>Carla.nCQND/Moog High-Pass Filter 1:Output</Source>
-   <Target>jack_mixer.nAJKK:Hi-hat L</Target>
+   <Target>jack_mixer.nAJKK:Hi-hat R</Target>
   </Connection>
   <Connection>
    <Source>Carla.nCQND/Freq Decay:Output</Source>
@@ -10644,15 +12773,15 @@ UGFyYW1ldGVycwAAARZQQVJBTQABAmlkAAEMBWNoZXdfZGVwdGgAdmFsdWUAAQYFMC4yNQAAUEFSQU0A
   </Connection>
   <Connection>
    <Source>Carla.nCQND/Gain Env:Output</Source>
+   <Target>Carla.nCQND/AMS VCA Lin:Main Gain</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Gain Env:Output</Source>
    <Target>Carla.nCQND/AMS Dynamic Waves - 4 Osc:Gate</Target>
   </Connection>
   <Connection>
    <Source>Carla.nCQND/Gain Env:Output</Source>
    <Target>Carla.nCQND/AMS VCA Lin (2):Main Gain</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/Gain Env:Output</Source>
-   <Target>Carla.nCQND/AMS VCA Lin:Main Gain</Target>
   </Connection>
   <Connection>
    <Source>Carla.nCQND/Gain Env:Output</Source>
@@ -10667,16 +12796,12 @@ UGFyYW1ldGVycwAAARZQQVJBTQABAmlkAAEMBWNoZXdfZGVwdGgAdmFsdWUAAQYFMC4yNQAAUEFSQU0A
    <Target>Carla.nCQND/AMS VCA Lin (5):Main Gain</Target>
   </Connection>
   <Connection>
-   <Source>Carla.nCQND/Gain Env:Output</Source>
-   <Target>Carla.nCQND/Simple Scope CV (4 channel):In1</Target>
+   <Source>Carla.nCQND/Freq Env:Output</Source>
+   <Target>Carla.nCQND/Triangle:Exp FM</Target>
   </Connection>
   <Connection>
    <Source>Carla.nCQND/Freq Env:Output</Source>
    <Target>Carla.nCQND/Sine:Exp FM</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/Freq Env:Output</Source>
-   <Target>Carla.nCQND/Triangle:Exp FM</Target>
   </Connection>
   <Connection>
    <Source>Carla.nCQND/Freq Env:Output</Source>
@@ -10689,10 +12814,6 @@ UGFyYW1ldGVycwAAARZQQVJBTQABAmlkAAEMBWNoZXdfZGVwdGgAdmFsdWUAAQYFMC4yNQAAUEFSQU0A
   <Connection>
    <Source>Carla.nCQND/Freq Env:Output</Source>
    <Target>Carla.nCQND/AMS Dynamic Waves - 4 Osc:Exp FM</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/Freq Env:Output</Source>
-   <Target>Carla.nCQND/Simple Scope CV (4 channel):In2</Target>
   </Connection>
   <Connection>
    <Source>Carla.nCQND/MIDI to CV trigger (2):Output</Source>
@@ -10804,11 +12925,11 @@ UGFyYW1ldGVycwAAARZQQVJBTQABAmlkAAEMBWNoZXdfZGVwdGgAdmFsdWUAAQYFMC4yNQAAUEFSQU0A
   </Connection>
   <Connection>
    <Source>Carla.nCQND/Sine VCA Exp (2):Out</Source>
-   <Target>jack_mixer.nAJKK:Tom R</Target>
+   <Target>jack_mixer.nAJKK:Tom L</Target>
   </Connection>
   <Connection>
    <Source>Carla.nCQND/Sine VCA Exp (2):Out</Source>
-   <Target>jack_mixer.nAJKK:Tom L</Target>
+   <Target>jack_mixer.nAJKK:Tom R</Target>
   </Connection>
   <Connection>
    <Source>Carla.nCQND/Cymb Gain Env:Envelope Out</Source>
@@ -10824,11 +12945,11 @@ UGFyYW1ldGVycwAAARZQQVJBTQABAmlkAAEMBWNoZXdfZGVwdGgAdmFsdWUAAQYFMC4yNQAAUEFSQU0A
   </Connection>
   <Connection>
    <Source>Carla.nCQND/AMS VCA Exp (4):Out</Source>
-   <Target>jack_mixer.nAJKK:Cymb R</Target>
+   <Target>jack_mixer.nAJKK:Cymb L</Target>
   </Connection>
   <Connection>
    <Source>Carla.nCQND/AMS VCA Exp (4):Out</Source>
-   <Target>jack_mixer.nAJKK:Cymb L</Target>
+   <Target>jack_mixer.nAJKK:Cymb R</Target>
   </Connection>
   <Connection>
    <Source>Carla.nCQND/CV to Audio (2):Audio Output</Source>
@@ -10852,11 +12973,11 @@ UGFyYW1ldGVycwAAARZQQVJBTQABAmlkAAEMBWNoZXdfZGVwdGgAdmFsdWUAAQYFMC4yNQAAUEFSQU0A
   </Connection>
   <Connection>
    <Source>Carla.nCQND/AMS Mixer 2 channels:Out</Source>
-   <Target>jack_mixer.nAJKK:Snare R</Target>
+   <Target>jack_mixer.nAJKK:Snare L</Target>
   </Connection>
   <Connection>
    <Source>Carla.nCQND/AMS Mixer 2 channels:Out</Source>
-   <Target>jack_mixer.nAJKK:Snare L</Target>
+   <Target>jack_mixer.nAJKK:Snare R</Target>
   </Connection>
   <Connection>
    <Source>Carla.nCQND/Lead Osc 1:Out</Source>
@@ -10869,34 +12990,6 @@ UGFyYW1ldGVycwAAARZQQVJBTQABAmlkAAEMBWNoZXdfZGVwdGgAdmFsdWUAAQYFMC4yNQAAUEFSQU0A
   <Connection>
    <Source>Carla.nCQND/Lead Gain 1:Out</Source>
    <Target>Carla.nCQND/AMS Stereo Mixer 8 channels:In 1</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/Control to CV (5):Output</Source>
-   <Target>Carla.nCQND/Attenuverter Booster (2):CV Input</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/Control to CV (6):CV Output</Source>
-   <Target>Carla.nCQND/Attenuverter Booster (4):CV Input</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/CV_TimeInfo:Playing</Source>
-   <Target>Carla.nCQND/MIDI Channel Filter:Channel  1</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/CV_TimeInfo:BPM</Source>
-   <Target>Carla.nCQND/MIDI Generator:BPM</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/CV_TimeInfo:BPM</Source>
-   <Target>Carla.nCQND/CV meter (2):CV input</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/CV_LinearMap:Output</Source>
-   <Target>Carla.nCQND/Gain Env:Curve1</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/CV_LinearMap (2):Output</Source>
-   <Target>Carla.nCQND/Freq Env:Curve1</Target>
   </Connection>
   <Connection>
    <Source>Carla.nCQND/MIDI to CV Poly:Pitch 1</Source>
@@ -10916,35 +13009,19 @@ UGFyYW1ldGVycwAAARZQQVJBTQABAmlkAAEMBWNoZXdfZGVwdGgAdmFsdWUAAQYFMC4yNQAAUEFSQU0A
   </Connection>
   <Connection>
    <Source>Carla.nCQND/MIDI to CV Poly:Gate 1</Source>
-   <Target>Carla.nCQND/AMS VC Envelope II:Gate</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/MIDI to CV Poly:Gate 1</Source>
-   <Target>Carla.nCQND/AMS VC Envelope II:Retrigger</Target>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4:Trig/Gate</Target>
   </Connection>
   <Connection>
    <Source>Carla.nCQND/MIDI to CV Poly:Gate 2</Source>
-   <Target>Carla.nCQND/AMS VC Envelope II (2):Gate</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/MIDI to CV Poly:Gate 2</Source>
-   <Target>Carla.nCQND/AMS VC Envelope II (2):Retrigger</Target>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (2):Trig/Gate</Target>
   </Connection>
   <Connection>
    <Source>Carla.nCQND/MIDI to CV Poly:Gate 3</Source>
-   <Target>Carla.nCQND/AMS VC Envelope II (3):Gate</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/MIDI to CV Poly:Gate 3</Source>
-   <Target>Carla.nCQND/AMS VC Envelope II (3):Retrigger</Target>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (3):Trig/Gate</Target>
   </Connection>
   <Connection>
    <Source>Carla.nCQND/MIDI to CV Poly:Gate 4</Source>
-   <Target>Carla.nCQND/AMS VC Envelope II (4):Gate</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/MIDI to CV Poly:Gate 4</Source>
-   <Target>Carla.nCQND/AMS VC Envelope II (4):Retrigger</Target>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (4):Trig/Gate</Target>
   </Connection>
   <Connection>
    <Source>Carla.nCQND/Lead Osc 2:Out</Source>
@@ -10987,14 +13064,6 @@ UGFyYW1ldGVycwAAARZQQVJBTQABAmlkAAEMBWNoZXdfZGVwdGgAdmFsdWUAAQYFMC4yNQAAUEFSQU0A
    <Target>Carla.nCQND/LSP Compressor (2):Input R</Target>
   </Connection>
   <Connection>
-   <Source>Carla.nCQND/MIDI Key-Range Filter:events-out</Source>
-   <Target>Carla.nCQND/MIDI to CV Poly:events-in</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/MIDI Key-Range Filter (2):events-out</Source>
-   <Target>Carla.nCQND/MIDI to CV Poly (2):events-in</Target>
-  </Connection>
-  <Connection>
    <Source>Carla.nCQND/AMS Stereo Mixer 8 channels:Out Left</Source>
    <Target>jack_mixer.nNMOO:Lead Synth L</Target>
   </Connection>
@@ -11020,47 +13089,23 @@ UGFyYW1ldGVycwAAARZQQVJBTQABAmlkAAEMBWNoZXdfZGVwdGgAdmFsdWUAAQYFMC4yNQAAUEFSQU0A
   </Connection>
   <Connection>
    <Source>Carla.nCQND/MIDI to CV Poly (2):Gate 1</Source>
-   <Target>Carla.nCQND/AMS VC Envelope II (5):Gate</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/MIDI to CV Poly (2):Gate 1</Source>
-   <Target>Carla.nCQND/AMS VC Envelope II (5):Retrigger</Target>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (5):Trig/Gate</Target>
   </Connection>
   <Connection>
    <Source>Carla.nCQND/MIDI to CV Poly (2):Gate 2</Source>
-   <Target>Carla.nCQND/AMS VC Envelope II (6):Gate</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/MIDI to CV Poly (2):Gate 2</Source>
-   <Target>Carla.nCQND/AMS VC Envelope II (6):Retrigger</Target>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (6):Trig/Gate</Target>
   </Connection>
   <Connection>
    <Source>Carla.nCQND/MIDI to CV Poly (2):Gate 3</Source>
-   <Target>Carla.nCQND/AMS VC Envelope II (7):Gate</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/MIDI to CV Poly (2):Gate 3</Source>
-   <Target>Carla.nCQND/AMS VC Envelope II (7):Retrigger</Target>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (7):Trig/Gate</Target>
   </Connection>
   <Connection>
    <Source>Carla.nCQND/MIDI to CV Poly (2):Gate 4</Source>
-   <Target>Carla.nCQND/AMS VC Envelope II (8):Gate</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/MIDI to CV Poly (2):Gate 4</Source>
-   <Target>Carla.nCQND/AMS VC Envelope II (8):Retrigger</Target>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (8):Trig/Gate</Target>
   </Connection>
   <Connection>
    <Source>Carla.nCQND/Lead Osc 4 (2):Out</Source>
    <Target>Carla.nCQND/Lead VCF 4 (2):In</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/AMS VC Envelope II (5):Out</Source>
-   <Target>Carla.nCQND/Lead VCF 4 (2):Frequency Mod</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/AMS VC Envelope II (5):Out</Source>
-   <Target>Carla.nCQND/Lead Gain 4 (2):Main Gain</Target>
   </Connection>
   <Connection>
    <Source>Carla.nCQND/Lead VCF 4 (2):Out</Source>
@@ -11075,14 +13120,6 @@ UGFyYW1ldGVycwAAARZQQVJBTQABAmlkAAEMBWNoZXdfZGVwdGgAdmFsdWUAAQYFMC4yNQAAUEFSQU0A
    <Target>Carla.nCQND/Lead VCF 4 (3):In</Target>
   </Connection>
   <Connection>
-   <Source>Carla.nCQND/AMS VC Envelope II (6):Out</Source>
-   <Target>Carla.nCQND/Lead VCF 4 (3):Frequency Mod</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/AMS VC Envelope II (6):Out</Source>
-   <Target>Carla.nCQND/Lead Gain 4 (3):Main Gain</Target>
-  </Connection>
-  <Connection>
    <Source>Carla.nCQND/Lead VCF 4 (3):Out</Source>
    <Target>Carla.nCQND/Lead Gain 4 (3):In 1 Mod</Target>
   </Connection>
@@ -11093,14 +13130,6 @@ UGFyYW1ldGVycwAAARZQQVJBTQABAmlkAAEMBWNoZXdfZGVwdGgAdmFsdWUAAQYFMC4yNQAAUEFSQU0A
   <Connection>
    <Source>Carla.nCQND/Lead Osc 4 (4):Out</Source>
    <Target>Carla.nCQND/Lead VCF 4 (4):In</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/AMS VC Envelope II (7):Out</Source>
-   <Target>Carla.nCQND/Lead VCF 4 (4):Frequency Mod</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/AMS VC Envelope II (7):Out</Source>
-   <Target>Carla.nCQND/Lead Gain 4 (4):Main Gain</Target>
   </Connection>
   <Connection>
    <Source>Carla.nCQND/Lead VCF 4 (4):Out</Source>
@@ -11115,14 +13144,6 @@ UGFyYW1ldGVycwAAARZQQVJBTQABAmlkAAEMBWNoZXdfZGVwdGgAdmFsdWUAAQYFMC4yNQAAUEFSQU0A
    <Target>Carla.nCQND/Lead VCF 4 (5):In</Target>
   </Connection>
   <Connection>
-   <Source>Carla.nCQND/AMS VC Envelope II (8):Out</Source>
-   <Target>Carla.nCQND/Lead VCF 4 (5):Frequency Mod</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/AMS VC Envelope II (8):Out</Source>
-   <Target>Carla.nCQND/Lead Gain 4 (5):Main Gain</Target>
-  </Connection>
-  <Connection>
    <Source>Carla.nCQND/Lead VCF 4 (5):Out</Source>
    <Target>Carla.nCQND/Lead Gain 4 (5):In 1 Mod</Target>
   </Connection>
@@ -11131,168 +13152,32 @@ UGFyYW1ldGVycwAAARZQQVJBTQABAmlkAAEMBWNoZXdfZGVwdGgAdmFsdWUAAQYFMC4yNQAAUEFSQU0A
    <Target>Carla.nCQND/AMS Stereo Mixer 8 channels:In 8</Target>
   </Connection>
   <Connection>
-   <Source>Carla.nCQND/AMS VC Envelope II:Out</Source>
-   <Target>Carla.nCQND/Simple Scope (4 channel):In1</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/AMS VC Envelope II:Out</Source>
-   <Target>Carla.nCQND/Lead VCF 1:Frequency Mod</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/AMS VC Envelope II:Out</Source>
-   <Target>Carla.nCQND/Lead Gain 1:Main Gain</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/AMS VC Envelope II (2):Out</Source>
-   <Target>Carla.nCQND/Simple Scope (4 channel):In2</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/AMS VC Envelope II (2):Out</Source>
-   <Target>Carla.nCQND/Lead VCF 2:Frequency Mod</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/AMS VC Envelope II (2):Out</Source>
-   <Target>Carla.nCQND/Lead Gain 2:Main Gain</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/AMS VC Envelope II (3):Out</Source>
-   <Target>Carla.nCQND/Simple Scope (4 channel):In3</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/AMS VC Envelope II (3):Out</Source>
-   <Target>Carla.nCQND/Lead VCF 3:Frequency Mod</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/AMS VC Envelope II (3):Out</Source>
-   <Target>Carla.nCQND/Lead Gain 3:Main Gain</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/Attenuverter Booster (2):CV Output</Source>
-   <Target>Carla.nCQND/AMS VC Envelope II:Decay</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/Attenuverter Booster (2):CV Output</Source>
-   <Target>Carla.nCQND/AMS VC Envelope II (8):Decay</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/Attenuverter Booster (2):CV Output</Source>
-   <Target>Carla.nCQND/AMS VC Envelope II (7):Decay</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/Attenuverter Booster (2):CV Output</Source>
-   <Target>Carla.nCQND/AMS VC Envelope II (6):Decay</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/Attenuverter Booster (2):CV Output</Source>
-   <Target>Carla.nCQND/AMS VC Envelope II (5):Decay</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/Attenuverter Booster (2):CV Output</Source>
-   <Target>Carla.nCQND/AMS VC Envelope II (3):Decay</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/Attenuverter Booster (2):CV Output</Source>
-   <Target>Carla.nCQND/AMS VC Envelope II (2):Decay</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/Attenuverter Booster (2):CV Output</Source>
-   <Target>Carla.nCQND/AMS VC Envelope II (4):Decay</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/AMS VC Envelope II (4):Out</Source>
-   <Target>Carla.nCQND/Simple Scope (4 channel):In4</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/AMS VC Envelope II (4):Out</Source>
-   <Target>Carla.nCQND/Lead VCF 4:Frequency Mod</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/AMS VC Envelope II (4):Out</Source>
-   <Target>Carla.nCQND/Lead Gain 4:Main Gain</Target>
-  </Connection>
-  <Connection>
    <Source>Carla.nCQND/Lead Osc 3:Out</Source>
    <Target>Carla.nCQND/Lead VCF 3:In</Target>
   </Connection>
   <Connection>
-   <Source>Carla.nCQND/Attenuverter Booster (3):CV Output</Source>
-   <Target>Carla.nCQND/AMS VC Envelope II:Sustain</Target>
+   <Source>Carla.nCQND/CV_TimeInfo:Playing</Source>
+   <Target>Carla.nCQND/MIDI Channel Filter:Channel  1</Target>
   </Connection>
   <Connection>
-   <Source>Carla.nCQND/Attenuverter Booster (3):CV Output</Source>
-   <Target>Carla.nCQND/AMS VC Envelope II (8):Sustain</Target>
+   <Source>Carla.nCQND/CV_TimeInfo:BPM</Source>
+   <Target>Carla.nCQND/MIDI Generator:BPM</Target>
   </Connection>
   <Connection>
-   <Source>Carla.nCQND/Attenuverter Booster (3):CV Output</Source>
-   <Target>Carla.nCQND/AMS VC Envelope II (7):Sustain</Target>
+   <Source>Carla.nCQND/CV_TimeInfo:BPM</Source>
+   <Target>Carla.nCQND/CV meter (2):CV input</Target>
   </Connection>
   <Connection>
-   <Source>Carla.nCQND/Attenuverter Booster (3):CV Output</Source>
-   <Target>Carla.nCQND/AMS VC Envelope II (6):Sustain</Target>
+   <Source>Carla.nCQND/CV_LinearMap:Output</Source>
+   <Target>Carla.nCQND/Gain Env:Curve1</Target>
   </Connection>
   <Connection>
-   <Source>Carla.nCQND/Attenuverter Booster (3):CV Output</Source>
-   <Target>Carla.nCQND/AMS VC Envelope II (5):Sustain</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/Attenuverter Booster (3):CV Output</Source>
-   <Target>Carla.nCQND/AMS VC Envelope II (4):Sustain</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/Attenuverter Booster (3):CV Output</Source>
-   <Target>Carla.nCQND/AMS VC Envelope II (3):Sustain</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/Attenuverter Booster (3):CV Output</Source>
-   <Target>Carla.nCQND/AMS VC Envelope II (2):Sustain</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/Attenuverter Booster (4):CV Output</Source>
-   <Target>Carla.nCQND/AMS VC Envelope II:Release</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/Attenuverter Booster (4):CV Output</Source>
-   <Target>Carla.nCQND/AMS VC Envelope II (8):Release</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/Attenuverter Booster (4):CV Output</Source>
-   <Target>Carla.nCQND/AMS VC Envelope II (7):Release</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/Attenuverter Booster (4):CV Output</Source>
-   <Target>Carla.nCQND/AMS VC Envelope II (6):Release</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/Attenuverter Booster (4):CV Output</Source>
-   <Target>Carla.nCQND/AMS VC Envelope II (5):Release</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/Attenuverter Booster (4):CV Output</Source>
-   <Target>Carla.nCQND/AMS VC Envelope II (4):Release</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/Attenuverter Booster (4):CV Output</Source>
-   <Target>Carla.nCQND/AMS VC Envelope II (3):Release</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/Attenuverter Booster (4):CV Output</Source>
-   <Target>Carla.nCQND/AMS VC Envelope II (2):Release</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/Control to CV (2):CV Output</Source>
-   <Target>Carla.nCQND/Attenuverter Booster (3):CV Input</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/Control to CV (4):Output</Source>
-   <Target>Carla.nCQND/Attenuverter Booster:CV Input</Target>
+   <Source>Carla.nCQND/CV_LinearMap (2):Output</Source>
+   <Target>Carla.nCQND/Freq Env:Curve1</Target>
   </Connection>
   <Connection>
    <Source>Carla.nCQND/AMS VCA Lin:Out</Source>
    <Target>Carla.nCQND/Glame Lowpass Filter:Input</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/AMS VCA Lin (4):Out</Source>
-   <Target>Carla.nCQND/Glame Lowpass Filter (4):Input</Target>
   </Connection>
   <Connection>
    <Source>Carla.nCQND/AMS Dynamic Waves - 4 Osc:Out</Source>
@@ -11323,68 +13208,20 @@ UGFyYW1ldGVycwAAARZQQVJBTQABAmlkAAEMBWNoZXdfZGVwdGgAdmFsdWUAAQYFMC4yNQAAUEFSQU0A
    <Target>Carla.nCQND/Glame Lowpass Filter (2):Input</Target>
   </Connection>
   <Connection>
-   <Source>Carla.nCQND/MIDI Channel Filter:events-out</Source>
-   <Target>Carla.nCQND/MIDI Key-Range Filter:events-in</Target>
-  </Connection>
-  <Connection>
-   <Source>Carla.nCQND/MIDI Channel Filter:events-out</Source>
-   <Target>Carla.nCQND/MIDI Key-Range Filter (2):events-in</Target>
-  </Connection>
-  <Connection>
-   <Source>seq66:qseq66 midi out 0</Source>
-   <Target>Carla.nCQND/MIDI Simple Channel Filter:events-in</Target>
-  </Connection>
-  <Connection>
-   <Source>seq66:qseq66 midi out 0</Source>
-   <Target>Carla.nCQND/MIDI Simple Channel Filter (2):events-in</Target>
-  </Connection>
-  <Connection>
-   <Source>seq66:qseq66 midi out 0</Source>
-   <Target>Carla.nCQND/MIDI to CV (2):events-in</Target>
-  </Connection>
-  <Connection>
-   <Source>seq66:qseq66 midi out 1</Source>
-   <Target>Carla.nCQND/MIDI Simple Channel Filter (4):events-in</Target>
-  </Connection>
-  <Connection>
-   <Source>seq66:qseq66 midi out 1</Source>
-   <Target>Carla.nCQND/MIDI Simple Channel Filter (3):events-in</Target>
-  </Connection>
-  <Connection>
-   <Source>seq66:qseq66 midi out 2</Source>
-   <Target>Carla.nCQND/MIDI Simple Channel Filter (6):events-in</Target>
-  </Connection>
-  <Connection>
-   <Source>seq66:qseq66 midi out 2</Source>
-   <Target>Carla.nCQND/MIDI Simple Channel Filter (5):events-in</Target>
-  </Connection>
-  <Connection>
-   <Source>seq66:qseq66 midi out 3</Source>
-   <Target>Carla.nCQND/MIDI Simple Channel Filter (8):events-in</Target>
-  </Connection>
-  <Connection>
-   <Source>seq66:qseq66 midi out 3</Source>
-   <Target>Carla.nCQND/MIDI Simple Channel Filter (7):events-in</Target>
-  </Connection>
-  <Connection>
-   <Source>seq66:qseq66 midi out 4</Source>
-   <Target>Carla.nCQND/MIDI Simple Channel Filter (9):events-in</Target>
-  </Connection>
-  <Connection>
-   <Source>seq66:qseq66 midi out 4</Source>
-   <Target>Carla.nCQND/MIDI Simple Channel Filter (10):events-in</Target>
-  </Connection>
-  <Connection>
-   <Source>seq66:qseq66 midi out 5</Source>
-   <Target>Carla.nCQND/MIDI Simple Channel Filter (12):events-in</Target>
-  </Connection>
-  <Connection>
-   <Source>seq66:qseq66 midi out 5</Source>
-   <Target>Carla.nCQND/MIDI Simple Channel Filter (11):events-in</Target>
-  </Connection>
-  <Connection>
    <Source>Carla.nCQND/AMS VCA Lin (3):Out</Source>
    <Target>Carla.nCQND/Glame Lowpass Filter (3):Input</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/AMS VCA Lin (4):Out</Source>
+   <Target>Carla.nCQND/Glame Lowpass Filter (4):Input</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/AMS VCA Lin (5):Out</Source>
+   <Target>Carla.nCQND/Glame Lowpass Filter (5):Input</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Glame Lowpass Filter (2):Output</Source>
+   <Target>jack_mixer.nAJKK:Kick Tri</Target>
   </Connection>
   <Connection>
    <Source>Carla.nCQND/Glame Lowpass Filter (3):Output</Source>
@@ -11398,498 +13235,1029 @@ UGFyYW1ldGVycwAAARZQQVJBTQABAmlkAAEMBWNoZXdfZGVwdGgAdmFsdWUAAQYFMC4yNQAAUEFSQU0A
    <Source>Carla.nCQND/Glame Lowpass Filter (5):Output</Source>
    <Target>jack_mixer.nAJKK:Kick Mix</Target>
   </Connection>
+  <Connection>
+   <Source>Carla.nCQND/MIDI Split:MIDI Output #1</Source>
+   <Target>Carla.nCQND/MIDI to CV Poly:events-in</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/MIDI Split:MIDI Output #2</Source>
+   <Target>Carla.nCQND/MIDI to CV Poly:events-in</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/MIDI Split:MIDI Output #3</Source>
+   <Target>Carla.nCQND/MIDI to CV Poly:events-in</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/MIDI Split:MIDI Output #4</Source>
+   <Target>Carla.nCQND/MIDI to CV Poly:events-in</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/MIDI Split:MIDI Output #5</Source>
+   <Target>Carla.nCQND/MIDI to CV Poly (2):events-in</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/MIDI Split:MIDI Output #6</Source>
+   <Target>Carla.nCQND/MIDI to CV Poly (2):events-in</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/MIDI Split:MIDI Output #7</Source>
+   <Target>Carla.nCQND/MIDI to CV Poly (2):events-in</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/MIDI Split:MIDI Output #8</Source>
+   <Target>Carla.nCQND/MIDI to CV Poly (2):events-in</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/MIDI Split:MIDI Output #9</Source>
+   <Target>Carla.nCQND/MIDI to CV Poly (3):events-in</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/MIDI Split:MIDI Output #10</Source>
+   <Target>Carla.nCQND/MIDI to CV Poly (3):events-in</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/midiPolyphony:events-out</Source>
+   <Target>Carla.nCQND/MIDI Split:events-in</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Lead Osc 4 (6):Out</Source>
+   <Target>Carla.nCQND/Lead VCF 4 (6):In</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Lead Osc 4 (7):Out</Source>
+   <Target>Carla.nCQND/Lead VCF 4 (7):In</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Lead VCF 4 (6):Out</Source>
+   <Target>Carla.nCQND/Lead Gain 4 (6):In 1 Mod</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Lead Gain 4 (6):Out</Source>
+   <Target>Carla.nCQND/AMS Stereo Mixer 2 channels:In 1</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Lead Gain 4 (7):Out</Source>
+   <Target>Carla.nCQND/AMS Stereo Mixer 2 channels:In 2</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Lead VCF 4 (7):Out</Source>
+   <Target>Carla.nCQND/Lead Gain 4 (7):In 1 Mod</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/MIDI to CV Poly (3):Pitch 1</Source>
+   <Target>Carla.nCQND/Lead Osc 4 (6):Frequency</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/MIDI to CV Poly (3):Pitch 2</Source>
+   <Target>Carla.nCQND/Lead Osc 4 (7):Frequency</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/MIDI to CV Poly (3):Gate 1</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (9):Trig/Gate</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/MIDI to CV Poly (3):Gate 2</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (10):Trig/Gate</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/CV_Gate16:Output0</Source>
+   <Target>Carla.nCQND/Delay:Control</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/CV_Gate16:Output1</Source>
+   <Target>Carla.nCQND/Attack:Control</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/CV_Gate16:Output2</Source>
+   <Target>Carla.nCQND/Hold:Control</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/CV_Gate16:Output3</Source>
+   <Target>Carla.nCQND/Decay:Control</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/CV_Gate16:Output4</Source>
+   <Target>Carla.nCQND/Sustain Lev:Control</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/CV_Gate16:Output5</Source>
+   <Target>Carla.nCQND/Sustain Time:Control</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/CV_Gate16:Output6</Source>
+   <Target>Carla.nCQND/Release:Control</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Attack:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4:Decay1</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Attack:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (2):Decay1</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Attack:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (3):Decay1</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Attack:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (4):Decay1</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Attack:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (5):Decay1</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Attack:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (6):Decay1</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Attack:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (7):Decay1</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Attack:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (8):Decay1</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Attack:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (9):Decay1</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Attack:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (10):Decay1</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Decay:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4:Decay3</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Decay:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (2):Decay3</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Decay:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (3):Decay3</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Decay:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (4):Decay3</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Decay:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (5):Decay3</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Decay:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (6):Decay3</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Decay:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (7):Decay3</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Decay:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (8):Decay3</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Decay:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (9):Decay3</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Decay:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (10):Decay3</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/CV_PolyLoopEnvelope4:Output</Source>
+   <Target>Carla.nCQND/Lead VCF 1:Frequency Mod</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/CV_PolyLoopEnvelope4:Output</Source>
+   <Target>Carla.nCQND/Lead Gain 1:Main Gain</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/CV_PolyLoopEnvelope4:Output</Source>
+   <Target>Carla.nCQND/Simple Scope CV (4 channel) (2):In1</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Delay:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4:Decay0</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Delay:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (2):Decay0</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Delay:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (3):Decay0</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Delay:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (4):Decay0</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Delay:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (5):Decay0</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Delay:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (6):Decay0</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Delay:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (7):Decay0</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Delay:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (8):Decay0</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Delay:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (9):Decay0</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Delay:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (10):Decay0</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Hold:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4:Hold1</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Hold:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (2):Hold1</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Hold:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (3):Hold1</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Hold:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (4):Hold1</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Hold:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (5):Hold1</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Hold:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (6):Hold1</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Hold:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (7):Hold1</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Hold:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (8):Hold1</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Hold:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (9):Hold1</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Hold:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (10):Hold1</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Sustain Lev:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4:Level3</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Sustain Lev:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (2):Level3</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Sustain Lev:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (3):Level3</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Sustain Lev:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (4):Level3</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Sustain Lev:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (5):Level3</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Sustain Lev:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (6):Level3</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Sustain Lev:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (7):Level3</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Sustain Lev:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (8):Level3</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Sustain Lev:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (9):Level3</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Sustain Lev:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (10):Level3</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Release:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4:ReleaseTime</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Release:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (2):ReleaseTime</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Release:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (3):ReleaseTime</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Release:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (4):ReleaseTime</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Release:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (5):ReleaseTime</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Release:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (6):ReleaseTime</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Release:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (7):ReleaseTime</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Release:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (8):ReleaseTime</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Release:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (9):ReleaseTime</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Release:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (10):ReleaseTime</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/CV_PolyLoopEnvelope4 (2):Output</Source>
+   <Target>Carla.nCQND/Lead VCF 2:Frequency Mod</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/CV_PolyLoopEnvelope4 (2):Output</Source>
+   <Target>Carla.nCQND/Lead Gain 2:Main Gain</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/CV_PolyLoopEnvelope4 (2):Output</Source>
+   <Target>Carla.nCQND/Simple Scope CV (4 channel) (2):In2</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/CV_PolyLoopEnvelope4 (3):Output</Source>
+   <Target>Carla.nCQND/Lead VCF 3:Frequency Mod</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/CV_PolyLoopEnvelope4 (3):Output</Source>
+   <Target>Carla.nCQND/Lead Gain 3:Main Gain</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/CV_PolyLoopEnvelope4 (3):Output</Source>
+   <Target>Carla.nCQND/Simple Scope CV (4 channel) (2):In3</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/CV_PolyLoopEnvelope4 (4):Output</Source>
+   <Target>Carla.nCQND/Lead VCF 4:Frequency Mod</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/CV_PolyLoopEnvelope4 (4):Output</Source>
+   <Target>Carla.nCQND/Lead Gain 4:Main Gain</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/CV_PolyLoopEnvelope4 (4):Output</Source>
+   <Target>Carla.nCQND/Simple Scope CV (4 channel) (2):In4</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/CV_PolyLoopEnvelope4 (5):Output</Source>
+   <Target>Carla.nCQND/Lead VCF 4 (2):Frequency Mod</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/CV_PolyLoopEnvelope4 (5):Output</Source>
+   <Target>Carla.nCQND/Lead Gain 4 (2):Main Gain</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/CV_PolyLoopEnvelope4 (6):Output</Source>
+   <Target>Carla.nCQND/Lead VCF 4 (3):Frequency Mod</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/CV_PolyLoopEnvelope4 (6):Output</Source>
+   <Target>Carla.nCQND/Lead Gain 4 (3):Main Gain</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/CV_PolyLoopEnvelope4 (7):Output</Source>
+   <Target>Carla.nCQND/Lead VCF 4 (4):Frequency Mod</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/CV_PolyLoopEnvelope4 (7):Output</Source>
+   <Target>Carla.nCQND/Lead Gain 4 (4):Main Gain</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/CV_PolyLoopEnvelope4 (8):Output</Source>
+   <Target>Carla.nCQND/Lead VCF 4 (5):Frequency Mod</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/CV_PolyLoopEnvelope4 (8):Output</Source>
+   <Target>Carla.nCQND/Lead Gain 4 (5):Main Gain</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/CV_PolyLoopEnvelope4 (9):Output</Source>
+   <Target>Carla.nCQND/Lead VCF 4 (6):Frequency Mod</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/CV_PolyLoopEnvelope4 (9):Output</Source>
+   <Target>Carla.nCQND/Lead Gain 4 (6):Main Gain</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/CV_PolyLoopEnvelope4 (10):Output</Source>
+   <Target>Carla.nCQND/Lead VCF 4 (7):Frequency Mod</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/CV_PolyLoopEnvelope4 (10):Output</Source>
+   <Target>Carla.nCQND/Lead Gain 4 (7):Main Gain</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/AMS Stereo Mixer 2 channels:Out Left</Source>
+   <Target>jack_mixer.nNMOO:Lead Synth L</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/AMS Stereo Mixer 2 channels:Out Right</Source>
+   <Target>jack_mixer.nNMOO:Lead Synth R</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Sustain Time:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4:Hold3</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Sustain Time:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (9):Hold3</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Sustain Time:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (8):Hold3</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Sustain Time:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (7):Hold3</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Sustain Time:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (6):Hold3</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Sustain Time:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (5):Hold3</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Sustain Time:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (4):Hold3</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Sustain Time:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (3):Hold3</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Sustain Time:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (2):Hold3</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/Sustain Time:CV Output</Source>
+   <Target>Carla.nCQND/CV_PolyLoopEnvelope4 (10):Hold3</Target>
+  </Connection>
+  <Connection>
+   <Source>jack_mixer.nAJKK:Main Out L</Source>
+   <Target>Carla.nCQND/LSP Compressor:Input L</Target>
+  </Connection>
+  <Connection>
+   <Source>jack_mixer.nAJKK:Main Out R</Source>
+   <Target>Carla.nCQND/LSP Compressor:Input R</Target>
+  </Connection>
   <Positions>
-   <Position x1="7117" y1="3184" x2="9036" y2="2978">
+   <Position x1="9371" y1="3558" x2="11290" y2="3352">
     <Name>system</Name>
    </Position>
-   <Position x1="8408" y1="3203">
+   <Position x1="10662" y1="3577">
     <Name>PulseAudio JACK Sink</Name>
    </Position>
-   <Position x1="6988" y1="3709" x2="7507" y2="3744">
-    <Name>a2j</Name>
-   </Position>
-   <Position x1="7852" y1="3364">
+   <Position x1="10106" y1="3738">
     <Name>PulseAudio JACK Source</Name>
    </Position>
-   <Position x1="4243" y1="1894">
-    <Name>jack_mixer.nAJKK</Name>
+   <Position x1="9252" y1="3810" x2="9771" y2="3845">
+    <Name>a2j</Name>
    </Position>
-   <Position x1="2317" y1="1463" pluginId="11">
-    <Name>Carla.nCQND/Pluse Edge</Name>
-   </Position>
-   <Position x1="2613" y1="641" pluginId="12">
-    <Name>Carla.nCQND/Wedge Gate Open</Name>
-   </Position>
-   <Position x1="2893" y1="3428" pluginId="13">
-    <Name>Carla.nCQND/MIDI-Trigger</Name>
-   </Position>
-   <Position x1="3369" y1="3420" pluginId="14">
-    <Name>Carla.nCQND/EsPhaser</Name>
-   </Position>
-   <Position x1="3678" y1="3388" pluginId="15">
-    <Name>Carla.nCQND/x42-Autotune</Name>
-   </Position>
-   <Position x1="7585" y1="2578">
+   <Position x1="9212" y1="3092">
     <Name>jack_mixer.nNMOO</Name>
    </Position>
-   <Position x1="8461" y1="2800" pluginId="0">
-    <Name>Carla.nCQND/LSP Compressor (2)</Name>
-   </Position>
-   <Position x1="2318" y1="1375" pluginId="1">
-    <Name>Carla.nCQND/Pulse PW</Name>
-   </Position>
-   <Position x1="3338" y1="644" pluginId="2">
-    <Name>Carla.nCQND/Sine</Name>
-   </Position>
-   <Position x1="3330" y1="866" pluginId="3">
-    <Name>Carla.nCQND/Triangle</Name>
-   </Position>
-   <Position x1="3335" y1="1081" pluginId="4">
-    <Name>Carla.nCQND/Saw</Name>
-   </Position>
-   <Position x1="3332" y1="1301" pluginId="5">
-    <Name>Carla.nCQND/Pluse</Name>
-   </Position>
-   <Position x1="2848" y1="682" pluginId="6">
-    <Name>Carla.nCQND/16 Step Sequencer</Name>
-   </Position>
-   <Position x1="2324" y1="1213" pluginId="7">
-    <Name>Carla.nCQND/Semitone</Name>
-   </Position>
-   <Position x1="2311" y1="1126" pluginId="8">
-    <Name>Carla.nCQND/Exp FM Gain</Name>
-   </Position>
-   <Position x1="2318" y1="740" pluginId="9">
-    <Name>Carla.nCQND/Gain Decay</Name>
-   </Position>
-   <Position x1="2324" y1="1287" pluginId="10">
-    <Name>Carla.nCQND/Saw Edge</Name>
-   </Position>
-   <Position x1="3682" y1="3475" pluginId="16">
-    <Name>Carla.nCQND/x42-Autotune (3)</Name>
-   </Position>
-   <Position x1="4664" y1="1562" pluginId="17">
-    <Name>Carla.nCQND/MIDI Generator</Name>
-   </Position>
-   <Position x1="3144" y1="3419" pluginId="18">
-    <Name>Carla.nCQND/FDNCymbal</Name>
-   </Position>
-   <Position x1="2627" y1="3523" pluginId="19">
-    <Name>Carla.nCQND/AMS Slew Limiter</Name>
-   </Position>
-   <Position x1="2889" y1="3520" pluginId="20">
-    <Name>Carla.nCQND/AMS Hysteresis</Name>
-   </Position>
-   <Position x1="2352" y1="3462" pluginId="21">
-    <Name>Carla.nCQND/AMS VC Switch</Name>
-   </Position>
-   <Position x1="1058" y1="3110" pluginId="22">
-    <Name>Carla.nCQND/Clock Divider Faster</Name>
-   </Position>
-   <Position x1="1925" y1="1659" pluginId="23">
-    <Name>Carla.nCQND/Kick Gate</Name>
-   </Position>
-   <Position x1="1928" y1="1917" pluginId="24">
-    <Name>Carla.nCQND/Snare Gate</Name>
-   </Position>
-   <Position x1="2674" y1="1716" pluginId="25">
-    <Name>Carla.nCQND/Snare Sine</Name>
-   </Position>
-   <Position x1="2599" y1="1950" pluginId="26">
-    <Name>Carla.nCQND/Snare Noise</Name>
-   </Position>
-   <Position x1="2451" y1="1849" pluginId="27">
-    <Name>Carla.nCQND/Freq Env (2)</Name>
-   </Position>
-   <Position x1="2887" y1="1742" pluginId="28">
-    <Name>Carla.nCQND/Snare Sine Gain</Name>
-   </Position>
-   <Position x1="2887" y1="1881" pluginId="29">
-    <Name>Carla.nCQND/AMS VCA Exp (3)</Name>
-   </Position>
-   <Position x1="2157" y1="3473" pluginId="30">
-    <Name>Carla.nCQND/AMS LFO</Name>
-   </Position>
-   <Position x1="5395" y1="863" pluginId="31">
-    <Name>Carla.nCQND/Attenuverter Booster</Name>
-   </Position>
-   <Position x1="2602" y1="2096" pluginId="32">
-    <Name>Carla.nCQND/AMS Noise2 (2)</Name>
-   </Position>
-   <Position x1="2884" y1="2104" pluginId="33">
-    <Name>Carla.nCQND/AMS VCA Exp (2)</Name>
-   </Position>
-   <Position x1="1921" y1="2121" pluginId="34">
-    <Name>Carla.nCQND/Hi-hat Gate</Name>
-   </Position>
-   <Position x1="2611" y1="2163" pluginId="35">
-    <Name>Carla.nCQND/Freq Env (3)</Name>
-   </Position>
-   <Position x1="3190" y1="2105" pluginId="36">
-    <Name>Carla.nCQND/Moog High-Pass Filter 1</Name>
-   </Position>
-   <Position x1="2321" y1="975" pluginId="37">
-    <Name>Carla.nCQND/Freq Decay</Name>
-   </Position>
-   <Position x1="1914" y1="2775" pluginId="38">
-    <Name>Carla.nCQND/Cra Cymb Gate</Name>
-   </Position>
-   <Position x1="2673" y1="3426" pluginId="39">
-    <Name>Carla.nCQND/CV to Audio</Name>
-   </Position>
-   <Position x1="1990" y1="924" pluginId="40">
-    <Name>Carla.nCQND/Control of Kick</Name>
-   </Position>
-   <Position x1="2320" y1="665" pluginId="41">
-    <Name>Carla.nCQND/Gain Level</Name>
-   </Position>
-   <Position x1="2321" y1="819" pluginId="42">
-    <Name>Carla.nCQND/Gain Curve</Name>
-   </Position>
-   <Position x1="2321" y1="898" pluginId="43">
-    <Name>Carla.nCQND/Freq Level</Name>
-   </Position>
-   <Position x1="2318" y1="1051" pluginId="44">
-    <Name>Carla.nCQND/Freq Curve</Name>
-   </Position>
-   <Position x1="2893" y1="852" pluginId="45">
-    <Name>Carla.nCQND/Gain Env</Name>
-   </Position>
-   <Position x1="2900" y1="1164" pluginId="46">
-    <Name>Carla.nCQND/Freq Env</Name>
-   </Position>
-   <Position x1="1633" y1="1718" pluginId="47">
-    <Name>Carla.nCQND/MIDI to CV trigger (2)</Name>
-   </Position>
-   <Position x1="1616" y1="1967" pluginId="48">
-    <Name>Carla.nCQND/MIDI to CV trigger (4)</Name>
-   </Position>
-   <Position x1="1622" y1="2122" pluginId="49">
-    <Name>Carla.nCQND/MIDI to CV trigger (5)</Name>
-   </Position>
-   <Position x1="1621" y1="2173" pluginId="50">
-    <Name>Carla.nCQND/MIDI to CV trigger (6)</Name>
-   </Position>
-   <Position x1="1619" y1="2348" pluginId="51">
-    <Name>Carla.nCQND/MIDI to CV trigger (7)</Name>
-   </Position>
-   <Position x1="1620" y1="2398" pluginId="52">
-    <Name>Carla.nCQND/MIDI to CV trigger (8)</Name>
-   </Position>
-   <Position x1="1614" y1="2564" pluginId="53">
-    <Name>Carla.nCQND/MIDI to CV trigger (9)</Name>
-   </Position>
-   <Position x1="1285" y1="1666" pluginId="54">
-    <Name>Carla.nCQND/MIDI Simple Channel Filter</Name>
-   </Position>
-   <Position x1="1283" y1="1719" pluginId="55">
-    <Name>Carla.nCQND/MIDI Simple Channel Filter (2)</Name>
-   </Position>
-   <Position x1="1265" y1="1967" pluginId="56">
-    <Name>Carla.nCQND/MIDI Simple Channel Filter (4)</Name>
-   </Position>
-   <Position x1="1271" y1="2122" pluginId="57">
-    <Name>Carla.nCQND/MIDI Simple Channel Filter (5)</Name>
-   </Position>
-   <Position x1="1272" y1="2173" pluginId="58">
-    <Name>Carla.nCQND/MIDI Simple Channel Filter (6)</Name>
-   </Position>
-   <Position x1="1271" y1="2348" pluginId="59">
-    <Name>Carla.nCQND/MIDI Simple Channel Filter (7)</Name>
-   </Position>
-   <Position x1="1273" y1="2398" pluginId="60">
-    <Name>Carla.nCQND/MIDI Simple Channel Filter (8)</Name>
-   </Position>
-   <Position x1="1643" y1="1623" pluginId="61">
-    <Name>Carla.nCQND/MIDI to CV</Name>
-   </Position>
-   <Position x1="2639" y1="2337" pluginId="62">
-    <Name>Carla.nCQND/Gain Env (2)</Name>
-   </Position>
-   <Position x1="2636" y1="2638" pluginId="63">
-    <Name>Carla.nCQND/Freq Env (4)</Name>
-   </Position>
-   <Position x1="1615" y1="1918" pluginId="64">
-    <Name>Carla.nCQND/MIDI to CV trigger (3)</Name>
-   </Position>
-   <Position x1="1618" y1="2779" pluginId="65">
-    <Name>Carla.nCQND/MIDI to CV trigger (11)</Name>
-   </Position>
-   <Position x1="1271" y1="2564" pluginId="66">
-    <Name>Carla.nCQND/MIDI Simple Channel Filter (9)</Name>
-   </Position>
-   <Position x1="1268" y1="2618" pluginId="67">
-    <Name>Carla.nCQND/MIDI Simple Channel Filter (10)</Name>
-   </Position>
-   <Position x1="1924" y1="2344" pluginId="68">
-    <Name>Carla.nCQND/Tom Gate</Name>
-   </Position>
-   <Position x1="1266" y1="1918" pluginId="69">
-    <Name>Carla.nCQND/MIDI Simple Channel Filter (3)</Name>
-   </Position>
-   <Position x1="1617" y1="2827" pluginId="70">
-    <Name>Carla.nCQND/MIDI to CV trigger (12)</Name>
-   </Position>
-   <Position x1="1270" y1="2778" pluginId="71">
-    <Name>Carla.nCQND/MIDI Simple Channel Filter (11)</Name>
-   </Position>
-   <Position x1="2882" y1="2574" pluginId="72">
-    <Name>Carla.nCQND/Sine (2)</Name>
-   </Position>
-   <Position x1="3107" y1="2494" pluginId="73">
-    <Name>Carla.nCQND/Sine VCA Exp (2)</Name>
-   </Position>
-   <Position x1="2638" y1="3108" pluginId="74">
-    <Name>Carla.nCQND/Cymb Gain Env</Name>
-   </Position>
-   <Position x1="2712" y1="3035" pluginId="75">
-    <Name>Carla.nCQND/AMS Noise2 (3)</Name>
-   </Position>
-   <Position x1="3217" y1="3069" pluginId="76">
-    <Name>Carla.nCQND/AMS VCA Exp (4)</Name>
-   </Position>
-   <Position x1="2950" y1="3015" pluginId="77">
-    <Name>Carla.nCQND/CV to Audio (2)</Name>
-   </Position>
-   <Position x1="2891" y1="3179" pluginId="78">
-    <Name>Carla.nCQND/Sine (3)</Name>
-   </Position>
-   <Position x1="1919" y1="2572" pluginId="79">
-    <Name>Carla.nCQND/Cymb Gate</Name>
-   </Position>
-   <Position x1="1271" y1="2830" pluginId="80">
-    <Name>Carla.nCQND/MIDI Simple Channel Filter (12)</Name>
-   </Position>
-   <Position x1="1612" y1="2618" pluginId="81">
-    <Name>Carla.nCQND/MIDI to CV trigger (10)</Name>
-   </Position>
-   <Position x1="1011" y1="1324" pluginId="82">
-    <Name>Carla.nCQND/Sherlock MIDI Inspector</Name>
-   </Position>
-   <Position x1="3271" y1="1815" pluginId="83">
-    <Name>Carla.nCQND/AMS Mixer 2 channels</Name>
-   </Position>
-   <Position x1="6947" y1="744" pluginId="84">
-    <Name>Carla.nCQND/Simple Scope (4 channel)</Name>
-   </Position>
-   <Position x1="5839" y1="945" pluginId="85">
-    <Name>Carla.nCQND/Lead Osc 1</Name>
-   </Position>
-   <Position x1="6356" y1="939" pluginId="86">
-    <Name>Carla.nCQND/Lead VCF 1</Name>
-   </Position>
-   <Position x1="6601" y1="965" pluginId="87">
-    <Name>Carla.nCQND/Lead Gain 1</Name>
-   </Position>
-   <Position x1="5146" y1="976" pluginId="128">
-    <Name>Carla.nCQND/Control to CV (5)</Name>
-   </Position>
-   <Position x1="5135" y1="1151" pluginId="129">
-    <Name>Carla.nCQND/Control to CV (6)</Name>
-   </Position>
-   <Position x1="4440" y1="1525" pluginId="130">
-    <Name>Carla.nCQND/CV_TimeInfo</Name>
-   </Position>
-   <Position x1="2631" y1="1031" pluginId="131">
-    <Name>Carla.nCQND/CV_LinearMap</Name>
-   </Position>
-   <Position x1="2631" y1="1365" pluginId="132">
-    <Name>Carla.nCQND/CV_LinearMap (2)</Name>
-   </Position>
-   <Position x1="2872" y1="1564" pluginId="133">
-    <Name>Carla.nCQND/CV meter</Name>
-   </Position>
-   <Position x1="5472" y1="1389" pluginId="88">
-    <Name>Carla.nCQND/MIDI to CV Poly</Name>
-   </Position>
-   <Position x1="5826" y1="1138" pluginId="89">
-    <Name>Carla.nCQND/Lead Osc 2</Name>
-   </Position>
-   <Position x1="6354" y1="1138" pluginId="90">
-    <Name>Carla.nCQND/Lead VCF 2</Name>
-   </Position>
-   <Position x1="6600" y1="1162" pluginId="91">
-    <Name>Carla.nCQND/Lead Gain 2</Name>
-   </Position>
-   <Position x1="6348" y1="1323" pluginId="92">
-    <Name>Carla.nCQND/Lead VCF 3</Name>
-   </Position>
-   <Position x1="6601" y1="1344" pluginId="93">
-    <Name>Carla.nCQND/Lead Gain 3</Name>
-   </Position>
-   <Position x1="5833" y1="1508" pluginId="94">
-    <Name>Carla.nCQND/Lead Osc 4</Name>
-   </Position>
-   <Position x1="6350" y1="1508" pluginId="95">
-    <Name>Carla.nCQND/Lead VCF 4</Name>
-   </Position>
-   <Position x1="6598" y1="1552" pluginId="96">
-    <Name>Carla.nCQND/Lead Gain 4</Name>
-   </Position>
-   <Position x1="7898" y1="2901" pluginId="97">
-    <Name>Carla.nCQND/Dragonfly Hall Reverb</Name>
-   </Position>
-   <Position x1="5179" y1="1388" pluginId="98">
-    <Name>Carla.nCQND/MIDI Key-Range Filter</Name>
-   </Position>
-   <Position x1="5173" y1="1721" pluginId="99">
-    <Name>Carla.nCQND/MIDI Key-Range Filter (2)</Name>
-   </Position>
-   <Position x1="7092" y1="2093" pluginId="100">
-    <Name>Carla.nCQND/AMS Stereo Mixer 8 channels</Name>
-   </Position>
-   <Position x1="5469" y1="1721" pluginId="101">
-    <Name>Carla.nCQND/MIDI to CV Poly (2)</Name>
-   </Position>
-   <Position x1="5820" y1="1693" pluginId="102">
-    <Name>Carla.nCQND/Lead Osc 4 (2)</Name>
-   </Position>
-   <Position x1="6056" y1="1738" pluginId="103">
-    <Name>Carla.nCQND/AMS VC Envelope II (5)</Name>
-   </Position>
-   <Position x1="6338" y1="1695" pluginId="104">
-    <Name>Carla.nCQND/Lead VCF 4 (2)</Name>
-   </Position>
-   <Position x1="6583" y1="1724" pluginId="105">
-    <Name>Carla.nCQND/Lead Gain 4 (2)</Name>
-   </Position>
-   <Position x1="5813" y1="1874" pluginId="106">
-    <Name>Carla.nCQND/Lead Osc 4 (3)</Name>
-   </Position>
-   <Position x1="6058" y1="1921" pluginId="107">
-    <Name>Carla.nCQND/AMS VC Envelope II (6)</Name>
-   </Position>
-   <Position x1="6332" y1="1875" pluginId="108">
-    <Name>Carla.nCQND/Lead VCF 4 (3)</Name>
-   </Position>
-   <Position x1="6572" y1="1896" pluginId="109">
-    <Name>Carla.nCQND/Lead Gain 4 (3)</Name>
-   </Position>
-   <Position x1="5825" y1="2064" pluginId="110">
-    <Name>Carla.nCQND/Lead Osc 4 (4)</Name>
-   </Position>
-   <Position x1="6068" y1="2104" pluginId="111">
-    <Name>Carla.nCQND/AMS VC Envelope II (7)</Name>
-   </Position>
-   <Position x1="6343" y1="2066" pluginId="112">
-    <Name>Carla.nCQND/Lead VCF 4 (4)</Name>
-   </Position>
-   <Position x1="6584" y1="2077" pluginId="113">
-    <Name>Carla.nCQND/Lead Gain 4 (4)</Name>
-   </Position>
-   <Position x1="5826" y1="2249" pluginId="114">
-    <Name>Carla.nCQND/Lead Osc 4 (5)</Name>
-   </Position>
-   <Position x1="6068" y1="2290" pluginId="115">
-    <Name>Carla.nCQND/AMS VC Envelope II (8)</Name>
-   </Position>
-   <Position x1="6342" y1="2248" pluginId="116">
-    <Name>Carla.nCQND/Lead VCF 4 (5)</Name>
-   </Position>
-   <Position x1="6588" y1="2256" pluginId="117">
-    <Name>Carla.nCQND/Lead Gain 4 (5)</Name>
-   </Position>
-   <Position x1="6087" y1="998" pluginId="118">
-    <Name>Carla.nCQND/AMS VC Envelope II</Name>
-   </Position>
-   <Position x1="6074" y1="1183" pluginId="119">
-    <Name>Carla.nCQND/AMS VC Envelope II (2)</Name>
-   </Position>
-   <Position x1="6065" y1="1367" pluginId="120">
-    <Name>Carla.nCQND/AMS VC Envelope II (3)</Name>
-   </Position>
-   <Position x1="5383" y1="955" pluginId="121">
-    <Name>Carla.nCQND/Attenuverter Booster (2)</Name>
-   </Position>
-   <Position x1="6067" y1="1549" pluginId="122">
-    <Name>Carla.nCQND/AMS VC Envelope II (4)</Name>
-   </Position>
-   <Position x1="5830" y1="1321" pluginId="123">
-    <Name>Carla.nCQND/Lead Osc 3</Name>
-   </Position>
-   <Position x1="5380" y1="1042" pluginId="124">
-    <Name>Carla.nCQND/Attenuverter Booster (3)</Name>
-   </Position>
-   <Position x1="5379" y1="1132" pluginId="125">
-    <Name>Carla.nCQND/Attenuverter Booster (4)</Name>
-   </Position>
-   <Position x1="5133" y1="1060" pluginId="126">
-    <Name>Carla.nCQND/Control to CV (2)</Name>
-   </Position>
-   <Position x1="5141" y1="883" pluginId="127">
-    <Name>Carla.nCQND/Control to CV (4)</Name>
-   </Position>
-   <Position x1="3545" y1="701" pluginId="134">
-    <Name>Carla.nCQND/AMS VCA Lin</Name>
-   </Position>
-   <Position x1="3237" y1="1522" pluginId="135">
-    <Name>Carla.nCQND/AMS Dynamic Waves - 4 Osc</Name>
-   </Position>
-   <Position x1="7972" y1="2606" pluginId="136">
-    <Name>Carla.nCQND/CHOWTapeModel</Name>
-   </Position>
-   <Position x1="5926" y1="2582" pluginId="137">
-    <Name>Carla.nCQND/LSP Compressor</Name>
-   </Position>
-   <Position x1="4679" y1="1693" pluginId="138">
-    <Name>Carla.nCQND/CV meter (2)</Name>
-   </Position>
-   <Position x1="7610" y1="3155" pluginId="139">
-    <Name>Carla.nCQND/Simple Scope (Stereo)</Name>
-   </Position>
-   <Position x1="1912" y1="587" pluginId="140">
-    <Name>Carla.nCQND/CV_LinearMap (4)</Name>
-   </Position>
-   <Position x1="419" y1="1544" pluginId="142">
-    <Name>Carla.nCQND/AMS VC Switch (2)</Name>
-   </Position>
-   <Position x1="1663" y1="1791" pluginId="144">
-    <Name>Carla.nCQND/MIDI to CV (2)</Name>
-   </Position>
-   <Position x1="2164" y1="1711" pluginId="145">
-    <Name>Carla.nCQND/Control to CV</Name>
-   </Position>
-   <Position x1="4334" y1="857" pluginId="146">
-    <Name>Carla.nCQND/CV_DoubleFilter</Name>
-   </Position>
-   <Position x1="3826" y1="744" pluginId="147">
-    <Name>Carla.nCQND/Glame Lowpass Filter</Name>
-   </Position>
-   <Position x1="3939" y1="461" pluginId="148">
-    <Name>Carla.nCQND/Simple Scope (4 channel) (2)</Name>
-   </Position>
-   <Position x1="3547" y1="887" pluginId="149">
-    <Name>Carla.nCQND/AMS VCA Lin (2)</Name>
-   </Position>
-   <Position x1="4901" y1="1449" pluginId="150">
-    <Name>Carla.nCQND/MIDI Channel Filter</Name>
-   </Position>
-   <Position x1="538" y1="1812">
+   <Position x1="890" y1="1674">
     <Name>seq66</Name>
    </Position>
-   <Position x1="4255" y1="1050" pluginId="151">
-    <Name>Carla.nCQND/Simple Scope CV (4 channel)</Name>
+   <Position x1="10715" y1="3174" pluginId="0">
+    <Name>Carla.nCQND/LSP Compressor (2)</Name>
    </Position>
-   <Position x1="3547" y1="1098" pluginId="152">
+   <Position x1="2527" y1="1213" pluginId="1">
+    <Name>Carla.nCQND/Pulse PW</Name>
+   </Position>
+   <Position x1="3547" y1="482" pluginId="2">
+    <Name>Carla.nCQND/Sine</Name>
+   </Position>
+   <Position x1="3539" y1="704" pluginId="3">
+    <Name>Carla.nCQND/Triangle</Name>
+   </Position>
+   <Position x1="3544" y1="919" pluginId="4">
+    <Name>Carla.nCQND/Saw</Name>
+   </Position>
+   <Position x1="3541" y1="1139" pluginId="5">
+    <Name>Carla.nCQND/Pluse</Name>
+   </Position>
+   <Position x1="3057" y1="520" pluginId="6">
+    <Name>Carla.nCQND/16 Step Sequencer</Name>
+   </Position>
+   <Position x1="2533" y1="1051" pluginId="7">
+    <Name>Carla.nCQND/Semitone</Name>
+   </Position>
+   <Position x1="2520" y1="964" pluginId="8">
+    <Name>Carla.nCQND/Exp FM Gain</Name>
+   </Position>
+   <Position x1="2527" y1="578" pluginId="9">
+    <Name>Carla.nCQND/Gain Decay</Name>
+   </Position>
+   <Position x1="2533" y1="1125" pluginId="10">
+    <Name>Carla.nCQND/Saw Edge</Name>
+   </Position>
+   <Position x1="2526" y1="1301" pluginId="11">
+    <Name>Carla.nCQND/Pluse Edge</Name>
+   </Position>
+   <Position x1="2822" y1="479" pluginId="12">
+    <Name>Carla.nCQND/Wedge Gate Open</Name>
+   </Position>
+   <Position x1="3102" y1="3266" pluginId="13">
+    <Name>Carla.nCQND/MIDI-Trigger</Name>
+   </Position>
+   <Position x1="3578" y1="3258" pluginId="14">
+    <Name>Carla.nCQND/EsPhaser</Name>
+   </Position>
+   <Position x1="3887" y1="3226" pluginId="15">
+    <Name>Carla.nCQND/x42-Autotune</Name>
+   </Position>
+   <Position x1="3891" y1="3313" pluginId="16">
+    <Name>Carla.nCQND/x42-Autotune (3)</Name>
+   </Position>
+   <Position x1="644" y1="3790" pluginId="17">
+    <Name>Carla.nCQND/MIDI Generator</Name>
+   </Position>
+   <Position x1="3353" y1="3257" pluginId="18">
+    <Name>Carla.nCQND/FDNCymbal</Name>
+   </Position>
+   <Position x1="2836" y1="3361" pluginId="19">
+    <Name>Carla.nCQND/AMS Slew Limiter</Name>
+   </Position>
+   <Position x1="3098" y1="3358" pluginId="20">
+    <Name>Carla.nCQND/AMS Hysteresis</Name>
+   </Position>
+   <Position x1="2561" y1="3300" pluginId="21">
+    <Name>Carla.nCQND/AMS VC Switch</Name>
+   </Position>
+   <Position x1="12162" y1="11" pluginId="22">
+    <Name>Carla.nCQND/Clock Divider Faster</Name>
+   </Position>
+   <Position x1="2134" y1="1497" pluginId="23">
+    <Name>Carla.nCQND/Kick Gate</Name>
+   </Position>
+   <Position x1="2137" y1="1755" pluginId="24">
+    <Name>Carla.nCQND/Snare Gate</Name>
+   </Position>
+   <Position x1="2883" y1="1554" pluginId="25">
+    <Name>Carla.nCQND/Snare Sine</Name>
+   </Position>
+   <Position x1="2808" y1="1788" pluginId="26">
+    <Name>Carla.nCQND/Snare Noise</Name>
+   </Position>
+   <Position x1="2660" y1="1687" pluginId="27">
+    <Name>Carla.nCQND/Freq Env (2)</Name>
+   </Position>
+   <Position x1="3096" y1="1580" pluginId="28">
+    <Name>Carla.nCQND/Snare Sine Gain</Name>
+   </Position>
+   <Position x1="3096" y1="1719" pluginId="29">
+    <Name>Carla.nCQND/AMS VCA Exp (3)</Name>
+   </Position>
+   <Position x1="2301" y1="3204" pluginId="30">
+    <Name>Carla.nCQND/AMS LFO</Name>
+   </Position>
+   <Position x1="2811" y1="1934" pluginId="31">
+    <Name>Carla.nCQND/AMS Noise2 (2)</Name>
+   </Position>
+   <Position x1="3093" y1="1942" pluginId="32">
+    <Name>Carla.nCQND/AMS VCA Exp (2)</Name>
+   </Position>
+   <Position x1="2130" y1="1959" pluginId="33">
+    <Name>Carla.nCQND/Hi-hat Gate</Name>
+   </Position>
+   <Position x1="2820" y1="2001" pluginId="34">
+    <Name>Carla.nCQND/Freq Env (3)</Name>
+   </Position>
+   <Position x1="3399" y1="1943" pluginId="35">
+    <Name>Carla.nCQND/Moog High-Pass Filter 1</Name>
+   </Position>
+   <Position x1="2530" y1="813" pluginId="36">
+    <Name>Carla.nCQND/Freq Decay</Name>
+   </Position>
+   <Position x1="2123" y1="2613" pluginId="37">
+    <Name>Carla.nCQND/Cra Cymb Gate</Name>
+   </Position>
+   <Position x1="2882" y1="3264" pluginId="38">
+    <Name>Carla.nCQND/CV to Audio</Name>
+   </Position>
+   <Position x1="2199" y1="762" pluginId="39">
+    <Name>Carla.nCQND/Control of Kick</Name>
+   </Position>
+   <Position x1="2529" y1="503" pluginId="40">
+    <Name>Carla.nCQND/Gain Level</Name>
+   </Position>
+   <Position x1="2530" y1="657" pluginId="41">
+    <Name>Carla.nCQND/Gain Curve</Name>
+   </Position>
+   <Position x1="2530" y1="736" pluginId="42">
+    <Name>Carla.nCQND/Freq Level</Name>
+   </Position>
+   <Position x1="2527" y1="889" pluginId="43">
+    <Name>Carla.nCQND/Freq Curve</Name>
+   </Position>
+   <Position x1="3102" y1="690" pluginId="44">
+    <Name>Carla.nCQND/Gain Env</Name>
+   </Position>
+   <Position x1="3109" y1="1002" pluginId="45">
+    <Name>Carla.nCQND/Freq Env</Name>
+   </Position>
+   <Position x1="1842" y1="1556" pluginId="46">
+    <Name>Carla.nCQND/MIDI to CV trigger (2)</Name>
+   </Position>
+   <Position x1="1825" y1="1805" pluginId="47">
+    <Name>Carla.nCQND/MIDI to CV trigger (4)</Name>
+   </Position>
+   <Position x1="1831" y1="1960" pluginId="48">
+    <Name>Carla.nCQND/MIDI to CV trigger (5)</Name>
+   </Position>
+   <Position x1="1830" y1="2011" pluginId="49">
+    <Name>Carla.nCQND/MIDI to CV trigger (6)</Name>
+   </Position>
+   <Position x1="1828" y1="2186" pluginId="50">
+    <Name>Carla.nCQND/MIDI to CV trigger (7)</Name>
+   </Position>
+   <Position x1="1829" y1="2236" pluginId="51">
+    <Name>Carla.nCQND/MIDI to CV trigger (8)</Name>
+   </Position>
+   <Position x1="1823" y1="2402" pluginId="52">
+    <Name>Carla.nCQND/MIDI to CV trigger (9)</Name>
+   </Position>
+   <Position x1="1494" y1="1504" pluginId="53">
+    <Name>Carla.nCQND/MIDI Simple Channel Filter</Name>
+   </Position>
+   <Position x1="1492" y1="1557" pluginId="54">
+    <Name>Carla.nCQND/MIDI Simple Channel Filter (2)</Name>
+   </Position>
+   <Position x1="1474" y1="1805" pluginId="55">
+    <Name>Carla.nCQND/MIDI Simple Channel Filter (4)</Name>
+   </Position>
+   <Position x1="1480" y1="1960" pluginId="56">
+    <Name>Carla.nCQND/MIDI Simple Channel Filter (5)</Name>
+   </Position>
+   <Position x1="1481" y1="2011" pluginId="57">
+    <Name>Carla.nCQND/MIDI Simple Channel Filter (6)</Name>
+   </Position>
+   <Position x1="1480" y1="2186" pluginId="58">
+    <Name>Carla.nCQND/MIDI Simple Channel Filter (7)</Name>
+   </Position>
+   <Position x1="1482" y1="2236" pluginId="59">
+    <Name>Carla.nCQND/MIDI Simple Channel Filter (8)</Name>
+   </Position>
+   <Position x1="1852" y1="1461" pluginId="60">
+    <Name>Carla.nCQND/MIDI to CV</Name>
+   </Position>
+   <Position x1="2848" y1="2175" pluginId="61">
+    <Name>Carla.nCQND/Gain Env (2)</Name>
+   </Position>
+   <Position x1="2845" y1="2476" pluginId="62">
+    <Name>Carla.nCQND/Freq Env (4)</Name>
+   </Position>
+   <Position x1="1824" y1="1756" pluginId="63">
+    <Name>Carla.nCQND/MIDI to CV trigger (3)</Name>
+   </Position>
+   <Position x1="1827" y1="2617" pluginId="64">
+    <Name>Carla.nCQND/MIDI to CV trigger (11)</Name>
+   </Position>
+   <Position x1="1480" y1="2402" pluginId="65">
+    <Name>Carla.nCQND/MIDI Simple Channel Filter (9)</Name>
+   </Position>
+   <Position x1="1477" y1="2456" pluginId="66">
+    <Name>Carla.nCQND/MIDI Simple Channel Filter (10)</Name>
+   </Position>
+   <Position x1="2133" y1="2182" pluginId="67">
+    <Name>Carla.nCQND/Tom Gate</Name>
+   </Position>
+   <Position x1="1475" y1="1756" pluginId="68">
+    <Name>Carla.nCQND/MIDI Simple Channel Filter (3)</Name>
+   </Position>
+   <Position x1="1826" y1="2665" pluginId="69">
+    <Name>Carla.nCQND/MIDI to CV trigger (12)</Name>
+   </Position>
+   <Position x1="1479" y1="2616" pluginId="70">
+    <Name>Carla.nCQND/MIDI Simple Channel Filter (11)</Name>
+   </Position>
+   <Position x1="3091" y1="2412" pluginId="71">
+    <Name>Carla.nCQND/Sine (2)</Name>
+   </Position>
+   <Position x1="3580" y1="2285" pluginId="72">
+    <Name>Carla.nCQND/Sine VCA Exp (2)</Name>
+   </Position>
+   <Position x1="2847" y1="2946" pluginId="73">
+    <Name>Carla.nCQND/Cymb Gain Env</Name>
+   </Position>
+   <Position x1="2921" y1="2873" pluginId="74">
+    <Name>Carla.nCQND/AMS Noise2 (3)</Name>
+   </Position>
+   <Position x1="3426" y1="2907" pluginId="75">
+    <Name>Carla.nCQND/AMS VCA Exp (4)</Name>
+   </Position>
+   <Position x1="3159" y1="2853" pluginId="76">
+    <Name>Carla.nCQND/CV to Audio (2)</Name>
+   </Position>
+   <Position x1="3100" y1="3017" pluginId="77">
+    <Name>Carla.nCQND/Sine (3)</Name>
+   </Position>
+   <Position x1="2128" y1="2410" pluginId="78">
+    <Name>Carla.nCQND/Cymb Gate</Name>
+   </Position>
+   <Position x1="1480" y1="2668" pluginId="79">
+    <Name>Carla.nCQND/MIDI Simple Channel Filter (12)</Name>
+   </Position>
+   <Position x1="1821" y1="2456" pluginId="80">
+    <Name>Carla.nCQND/MIDI to CV trigger (10)</Name>
+   </Position>
+   <Position x1="0" y1="7557" pluginId="81">
+    <Name>Carla.nCQND/Sherlock MIDI Inspector</Name>
+   </Position>
+   <Position x1="3480" y1="1653" pluginId="82">
+    <Name>Carla.nCQND/AMS Mixer 2 channels</Name>
+   </Position>
+   <Position x1="2598" y1="3773" pluginId="83">
+    <Name>Carla.nCQND/Lead Osc 1</Name>
+   </Position>
+   <Position x1="3110" y1="3772" pluginId="84">
+    <Name>Carla.nCQND/Lead VCF 1</Name>
+   </Position>
+   <Position x1="3391" y1="3876" pluginId="85">
+    <Name>Carla.nCQND/Lead Gain 1</Name>
+   </Position>
+   <Position x1="2153" y1="3700" pluginId="86">
+    <Name>Carla.nCQND/MIDI to CV Poly</Name>
+   </Position>
+   <Position x1="2590" y1="4238" pluginId="87">
+    <Name>Carla.nCQND/Lead Osc 2</Name>
+   </Position>
+   <Position x1="3114" y1="4237" pluginId="88">
+    <Name>Carla.nCQND/Lead VCF 2</Name>
+   </Position>
+   <Position x1="3326" y1="4268" pluginId="89">
+    <Name>Carla.nCQND/Lead Gain 2</Name>
+   </Position>
+   <Position x1="3111" y1="4690" pluginId="90">
+    <Name>Carla.nCQND/Lead VCF 3</Name>
+   </Position>
+   <Position x1="3339" y1="4737" pluginId="91">
+    <Name>Carla.nCQND/Lead Gain 3</Name>
+   </Position>
+   <Position x1="2584" y1="5148" pluginId="92">
+    <Name>Carla.nCQND/Lead Osc 4</Name>
+   </Position>
+   <Position x1="3115" y1="5146" pluginId="93">
+    <Name>Carla.nCQND/Lead VCF 4</Name>
+   </Position>
+   <Position x1="3324" y1="5211" pluginId="94">
+    <Name>Carla.nCQND/Lead Gain 4</Name>
+   </Position>
+   <Position x1="10152" y1="3275" pluginId="95">
+    <Name>Carla.nCQND/Dragonfly Hall Reverb</Name>
+   </Position>
+   <Position x1="6759" y1="4457" pluginId="96">
+    <Name>Carla.nCQND/AMS Stereo Mixer 8 channels</Name>
+   </Position>
+   <Position x1="3693" y1="3696" pluginId="97">
+    <Name>Carla.nCQND/MIDI to CV Poly (2)</Name>
+   </Position>
+   <Position x1="4094" y1="3798" pluginId="98">
+    <Name>Carla.nCQND/Lead Osc 4 (2)</Name>
+   </Position>
+   <Position x1="4635" y1="3799" pluginId="99">
+    <Name>Carla.nCQND/Lead VCF 4 (2)</Name>
+   </Position>
+   <Position x1="4877" y1="3802" pluginId="100">
+    <Name>Carla.nCQND/Lead Gain 4 (2)</Name>
+   </Position>
+   <Position x1="4100" y1="4265" pluginId="101">
+    <Name>Carla.nCQND/Lead Osc 4 (3)</Name>
+   </Position>
+   <Position x1="4642" y1="4263" pluginId="102">
+    <Name>Carla.nCQND/Lead VCF 4 (3)</Name>
+   </Position>
+   <Position x1="4873" y1="4342" pluginId="103">
+    <Name>Carla.nCQND/Lead Gain 4 (3)</Name>
+   </Position>
+   <Position x1="4108" y1="4723" pluginId="104">
+    <Name>Carla.nCQND/Lead Osc 4 (4)</Name>
+   </Position>
+   <Position x1="4646" y1="4723" pluginId="105">
+    <Name>Carla.nCQND/Lead VCF 4 (4)</Name>
+   </Position>
+   <Position x1="4895" y1="4780" pluginId="106">
+    <Name>Carla.nCQND/Lead Gain 4 (4)</Name>
+   </Position>
+   <Position x1="4115" y1="5185" pluginId="107">
+    <Name>Carla.nCQND/Lead Osc 4 (5)</Name>
+   </Position>
+   <Position x1="4660" y1="5185" pluginId="108">
+    <Name>Carla.nCQND/Lead VCF 4 (5)</Name>
+   </Position>
+   <Position x1="4904" y1="5221" pluginId="109">
+    <Name>Carla.nCQND/Lead Gain 4 (5)</Name>
+   </Position>
+   <Position x1="2598" y1="4690" pluginId="110">
+    <Name>Carla.nCQND/Lead Osc 3</Name>
+   </Position>
+   <Position x1="289" y1="3785" pluginId="111">
+    <Name>Carla.nCQND/CV_TimeInfo</Name>
+   </Position>
+   <Position x1="2840" y1="869" pluginId="112">
+    <Name>Carla.nCQND/CV_LinearMap</Name>
+   </Position>
+   <Position x1="2840" y1="1203" pluginId="113">
+    <Name>Carla.nCQND/CV_LinearMap (2)</Name>
+   </Position>
+   <Position x1="3081" y1="1402" pluginId="114">
+    <Name>Carla.nCQND/CV meter</Name>
+   </Position>
+   <Position x1="3754" y1="539" pluginId="115">
+    <Name>Carla.nCQND/AMS VCA Lin</Name>
+   </Position>
+   <Position x1="3446" y1="1360" pluginId="116">
+    <Name>Carla.nCQND/AMS Dynamic Waves - 4 Osc</Name>
+   </Position>
+   <Position x1="10226" y1="2980" pluginId="117">
+    <Name>Carla.nCQND/CHOWTapeModel</Name>
+   </Position>
+   <Position x1="6597" y1="2976" pluginId="118">
+    <Name>Carla.nCQND/LSP Compressor</Name>
+   </Position>
+   <Position x1="700" y1="4079" pluginId="119">
+    <Name>Carla.nCQND/CV meter (2)</Name>
+   </Position>
+   <Position x1="9864" y1="3529" pluginId="120">
+    <Name>Carla.nCQND/Simple Scope (Stereo)</Name>
+   </Position>
+   <Position x1="2121" y1="425" pluginId="121">
+    <Name>Carla.nCQND/CV_LinearMap (4)</Name>
+   </Position>
+   <Position x1="0" y1="41" pluginId="123">
+    <Name>Carla.nCQND/AMS VC Switch (2)</Name>
+   </Position>
+   <Position x1="1815" y1="1678" pluginId="125">
+    <Name>Carla.nCQND/MIDI to CV (2)</Name>
+   </Position>
+   <Position x1="2373" y1="1549" pluginId="126">
+    <Name>Carla.nCQND/Control to CV</Name>
+   </Position>
+   <Position x1="4035" y1="582" pluginId="127">
+    <Name>Carla.nCQND/Glame Lowpass Filter</Name>
+   </Position>
+   <Position x1="4148" y1="299" pluginId="128">
+    <Name>Carla.nCQND/Simple Scope (4 channel) (2)</Name>
+   </Position>
+   <Position x1="3756" y1="725" pluginId="129">
+    <Name>Carla.nCQND/AMS VCA Lin (2)</Name>
+   </Position>
+   <Position x1="3756" y1="936" pluginId="130">
     <Name>Carla.nCQND/AMS VCA Lin (3)</Name>
    </Position>
-   <Position x1="3533" y1="1304" pluginId="153">
+   <Position x1="3742" y1="1142" pluginId="131">
     <Name>Carla.nCQND/AMS VCA Lin (4)</Name>
    </Position>
-   <Position x1="3561" y1="1522" pluginId="154">
+   <Position x1="3770" y1="1360" pluginId="132">
     <Name>Carla.nCQND/AMS VCA Lin (5)</Name>
    </Position>
-   <Position x1="3813" y1="900" pluginId="155">
+   <Position x1="4022" y1="738" pluginId="133">
     <Name>Carla.nCQND/Glame Lowpass Filter (2)</Name>
    </Position>
-   <Position x1="3817" y1="1096" pluginId="156">
+   <Position x1="4026" y1="934" pluginId="134">
     <Name>Carla.nCQND/Glame Lowpass Filter (3)</Name>
    </Position>
-   <Position x1="3816" y1="1304" pluginId="157">
+   <Position x1="4025" y1="1142" pluginId="135">
     <Name>Carla.nCQND/Glame Lowpass Filter (4)</Name>
    </Position>
-   <Position x1="3822" y1="1522" pluginId="158">
+   <Position x1="4031" y1="1360" pluginId="136">
     <Name>Carla.nCQND/Glame Lowpass Filter (5)</Name>
+   </Position>
+   <Position x1="786" y1="3643" pluginId="138">
+    <Name>Carla.nCQND/MIDI Channel Filter</Name>
+   </Position>
+   <Position x1="1294" y1="3788" pluginId="139">
+    <Name>Carla.nCQND/MIDI Split</Name>
+   </Position>
+   <Position x1="922" y1="3793" pluginId="140">
+    <Name>Carla.nCQND/midiPolyphony</Name>
+   </Position>
+   <Position x1="5509" y1="3793" pluginId="141">
+    <Name>Carla.nCQND/Lead Osc 4 (6)</Name>
+   </Position>
+   <Position x1="5505" y1="4250" pluginId="142">
+    <Name>Carla.nCQND/Lead Osc 4 (7)</Name>
+   </Position>
+   <Position x1="6034" y1="3793" pluginId="143">
+    <Name>Carla.nCQND/Lead VCF 4 (6)</Name>
+   </Position>
+   <Position x1="6273" y1="3849" pluginId="144">
+    <Name>Carla.nCQND/Lead Gain 4 (6)</Name>
+   </Position>
+   <Position x1="6278" y1="4298" pluginId="145">
+    <Name>Carla.nCQND/Lead Gain 4 (7)</Name>
+   </Position>
+   <Position x1="6027" y1="4249" pluginId="146">
+    <Name>Carla.nCQND/Lead VCF 4 (7)</Name>
+   </Position>
+   <Position x1="5161" y1="3702" pluginId="147">
+    <Name>Carla.nCQND/MIDI to CV Poly (3)</Name>
+   </Position>
+   <Position x1="1483" y1="4641" pluginId="148">
+    <Name>Carla.nCQND/CV_Gate16</Name>
+   </Position>
+   <Position x1="1845" y1="4491" pluginId="150">
+    <Name>Carla.nCQND/Attack</Name>
+   </Position>
+   <Position x1="1838" y1="4668" pluginId="151">
+    <Name>Carla.nCQND/Decay</Name>
+   </Position>
+   <Position x1="2819" y1="3810" pluginId="152">
+    <Name>Carla.nCQND/CV_PolyLoopEnvelope4</Name>
+   </Position>
+   <Position x1="1848" y1="4416" pluginId="153">
+    <Name>Carla.nCQND/Delay</Name>
+   </Position>
+   <Position x1="1842" y1="4589" pluginId="154">
+    <Name>Carla.nCQND/Hold</Name>
+   </Position>
+   <Position x1="1822" y1="4748" pluginId="155">
+    <Name>Carla.nCQND/Sustain Lev</Name>
+   </Position>
+   <Position x1="1839" y1="4920" pluginId="156">
+    <Name>Carla.nCQND/Release</Name>
+   </Position>
+   <Position x1="2813" y1="4283" pluginId="157">
+    <Name>Carla.nCQND/CV_PolyLoopEnvelope4 (2)</Name>
+   </Position>
+   <Position x1="2808" y1="4733" pluginId="158">
+    <Name>Carla.nCQND/CV_PolyLoopEnvelope4 (3)</Name>
+   </Position>
+   <Position x1="2811" y1="5191" pluginId="159">
+    <Name>Carla.nCQND/CV_PolyLoopEnvelope4 (4)</Name>
+   </Position>
+   <Position x1="4322" y1="3845" pluginId="160">
+    <Name>Carla.nCQND/CV_PolyLoopEnvelope4 (5)</Name>
+   </Position>
+   <Position x1="4329" y1="4308" pluginId="161">
+    <Name>Carla.nCQND/CV_PolyLoopEnvelope4 (6)</Name>
+   </Position>
+   <Position x1="4342" y1="4764" pluginId="162">
+    <Name>Carla.nCQND/CV_PolyLoopEnvelope4 (7)</Name>
+   </Position>
+   <Position x1="4342" y1="5228" pluginId="163">
+    <Name>Carla.nCQND/CV_PolyLoopEnvelope4 (8)</Name>
+   </Position>
+   <Position x1="5737" y1="3835" pluginId="164">
+    <Name>Carla.nCQND/CV_PolyLoopEnvelope4 (9)</Name>
+   </Position>
+   <Position x1="5728" y1="4294" pluginId="165">
+    <Name>Carla.nCQND/CV_PolyLoopEnvelope4 (10)</Name>
+   </Position>
+   <Position x1="6759" y1="4665" pluginId="166">
+    <Name>Carla.nCQND/AMS Stereo Mixer 2 channels</Name>
+   </Position>
+   <Position x1="1827" y1="4832" pluginId="167">
+    <Name>Carla.nCQND/Sustain Time</Name>
+   </Position>
+   <Position x1="3478" y1="4010" pluginId="168">
+    <Name>Carla.nCQND/Simple Scope CV (4 channel) (2)</Name>
+   </Position>
+   <Position x1="4625" y1="2109">
+    <Name>jack_mixer.nAJKK</Name>
+   </Position>
+   <Position x1="969" y1="3981" pluginId="169">
+    <Name>Carla.nCQND/MIDI Note Transpose</Name>
    </Position>
   </Positions>
  </ExternalPatchbay>

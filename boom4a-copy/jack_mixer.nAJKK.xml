@@ -1,15 +1,15 @@
 <?xml version="1.0" ?>
-<jack_mixer geometry="1908x518" paned_position="1684" visible="True">
-	<input_channel name="Kick Sine" type="mono" volume="-10.554815" balance="0.000000" out_mute="False" volume_midi_cc="11" balance_midi_cc="12" mute_midi_cc="13" solo_midi_cc="14"/>
-	<input_channel name="Kick Tri" type="mono" volume="-7.673520" balance="0.000000" out_mute="False" volume_midi_cc="38" balance_midi_cc="39" mute_midi_cc="40" solo_midi_cc="41"/>
-	<input_channel name="Kick Saw" type="mono" volume="-inf" balance="0.000000" out_mute="False" volume_midi_cc="42" balance_midi_cc="43" mute_midi_cc="44" solo_midi_cc="45"/>
-	<input_channel name="Kick Pulse" type="mono" volume="-inf" balance="0.000000" out_mute="False" volume_midi_cc="46" balance_midi_cc="47" mute_midi_cc="48" solo_midi_cc="49"/>
-	<input_channel name="Kick Mix" type="mono" volume="-inf" balance="0.000000" out_mute="False" volume_midi_cc="50" balance_midi_cc="51" mute_midi_cc="52" solo_midi_cc="53"/>
-	<input_channel name="Snare" type="stereo" volume="-inf" balance="0.000000" out_mute="False" volume_midi_cc="15" balance_midi_cc="16" mute_midi_cc="17" solo_midi_cc="18"/>
-	<input_channel name="Hi-hat" type="stereo" volume="-inf" balance="0.000000" out_mute="False" volume_midi_cc="19" balance_midi_cc="20" mute_midi_cc="21" solo_midi_cc="22"/>
-	<input_channel name="Tom" type="stereo" volume="-inf" balance="0.000000" out_mute="False" volume_midi_cc="23" balance_midi_cc="24" mute_midi_cc="25" solo_midi_cc="26"/>
-	<input_channel name="Cymb" type="stereo" volume="-inf" balance="0.000000" out_mute="False" volume_midi_cc="27" balance_midi_cc="28" mute_midi_cc="29" solo_midi_cc="30"/>
-	<input_channel name="Cymb Cray" type="stereo" volume="-inf" balance="0.000000" out_mute="False" volume_midi_cc="31" balance_midi_cc="32" mute_midi_cc="33" solo_midi_cc="34"/>
+<jack_mixer geometry="1908x518" paned_position="1614" visible="True">
+	<input_channel name="Kick Sine" wide="True" type="mono" volume="-7.495309" balance="0.000000" out_mute="False" volume_midi_cc="11" balance_midi_cc="12" mute_midi_cc="13" solo_midi_cc="14"/>
+	<input_channel name="Kick Tri" wide="True" type="mono" volume="-11.773274" balance="0.000000" out_mute="False" volume_midi_cc="38" balance_midi_cc="39" mute_midi_cc="40" solo_midi_cc="41"/>
+	<input_channel name="Kick Saw" wide="True" type="mono" volume="-inf" balance="0.000000" out_mute="False" volume_midi_cc="42" balance_midi_cc="43" mute_midi_cc="44" solo_midi_cc="45"/>
+	<input_channel name="Kick Pulse" wide="True" type="mono" volume="-inf" balance="0.000000" out_mute="False" volume_midi_cc="46" balance_midi_cc="47" mute_midi_cc="48" solo_midi_cc="49"/>
+	<input_channel name="Kick Mix" wide="True" type="mono" volume="-inf" balance="0.000000" out_mute="False" volume_midi_cc="50" balance_midi_cc="51" mute_midi_cc="52" solo_midi_cc="53"/>
+	<input_channel name="Snare" wide="True" type="stereo" volume="-inf" balance="0.000000" out_mute="False" volume_midi_cc="15" balance_midi_cc="16" mute_midi_cc="17" solo_midi_cc="18"/>
+	<input_channel name="Hi-hat" wide="True" type="stereo" volume="-inf" balance="0.000000" out_mute="False" volume_midi_cc="19" balance_midi_cc="20" mute_midi_cc="21" solo_midi_cc="22"/>
+	<input_channel name="Tom" wide="True" type="stereo" volume="-inf" balance="0.000000" out_mute="False" volume_midi_cc="23" balance_midi_cc="24" mute_midi_cc="25" solo_midi_cc="26"/>
+	<input_channel name="Cymb" wide="True" type="stereo" volume="-inf" balance="0.000000" out_mute="False" volume_midi_cc="27" balance_midi_cc="28" mute_midi_cc="29" solo_midi_cc="30"/>
+	<input_channel name="Cymb Cray" wide="True" type="stereo" volume="-inf" balance="0.000000" out_mute="False" volume_midi_cc="31" balance_midi_cc="32" mute_midi_cc="33" solo_midi_cc="34"/>
 	<output_channel name="Kick Send" type="stereo" color="rgba(0,0,0,0)" volume="-inf" balance="0.000000" out_mute="False" volume_midi_cc="54" balance_midi_cc="55" mute_midi_cc="56"/>
 	<output_channel name="Main Out" type="stereo" color="rgba(0,0,0,0)" volume="-4.952664" balance="0.000000" out_mute="False" volume_midi_cc="35" balance_midi_cc="36" mute_midi_cc="37"/>
 	<gui_factory default_meter_scale="K14" default_slider_scale="linear_70dB" vumeter_color_scheme="default" vumeter_color="#ccccb3b30000" use_custom_widgets="False" midi_behavior_mode="0"/>
