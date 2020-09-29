@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
-<jack_mixer geometry="152x71" paned_position="101" visible="True">
-	<input_channel name="Kick" type="stereo" volume="0.000000" balance="0.000000" out_mute="False" volume_midi_cc="11" balance_midi_cc="12" mute_midi_cc="13" solo_midi_cc="14"/>
+<jack_mixer geometry="1006x608" paned_position="666" visible="True">
+	<input_channel name="Kick" type="stereo" volume="-inf" balance="0.000000" out_mute="False" volume_midi_cc="11" balance_midi_cc="12" mute_midi_cc="13" solo_midi_cc="14"/>
 	<input_channel name="Snare" type="stereo" volume="-inf" balance="0.000000" out_mute="False" volume_midi_cc="15" balance_midi_cc="16" mute_midi_cc="17" solo_midi_cc="18"/>
 	<input_channel name="Hi-hat" type="stereo" volume="-inf" balance="0.000000" out_mute="False" volume_midi_cc="19" balance_midi_cc="20" mute_midi_cc="21" solo_midi_cc="22"/>
 	<input_channel name="Tom" type="stereo" volume="-inf" balance="0.000000" out_mute="False" volume_midi_cc="23" balance_midi_cc="24" mute_midi_cc="25" solo_midi_cc="26"/>
