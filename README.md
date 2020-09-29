@@ -29,11 +29,12 @@ For Arch Linux users:
 * https://aur.archlinux.org/packages/njl.lv2-git
 * https://aur.archlinux.org/packages/bsequencer-git
 * https://aur.archlinux.org/packages/screcord.lv2-git
+* https://aur.archlinux.org/packages/polylenticular.lv2-git
 
 ## Videos
 * [Modular Synth in Carla with LV2 plugins](https://www.youtube.com/playlist?list=PLi4842O5fEfKwAKxqBCZJs3cFP78ggsd9) - YouTube playlist
 
 ## Screenshots
-![boom3.png](https://user-images.githubusercontent.com/108225/87382010-e61de180-c58d-11ea-802d-96027df92776.jpg)
+![boom5.png](https://user-images.githubusercontent.com/108225/88390396-295b2a00-cdb0-11ea-90e6-833f88bd2840.png)
 
 + [older](https://github.com/mxmilkiib/carla-modular-synth-tests#screenshots) [screenshots](https://github.com/mxmilkiib/carla-modular-synth-tests/issues/1)
