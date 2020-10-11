@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<jack_mixer geometry="1908x519" paned_position="1765" visible="True">
+<jack_mixer geometry="1908x519" paned_position="1779" visible="True">
 	<input_channel name="Kick Sine" type="mono" volume="0.000000" balance="0.000000" wide="True" out_mute="False" volume_midi_cc="11" balance_midi_cc="12" mute_midi_cc="13" solo_midi_cc="14"/>
 	<input_channel name="Kick Tri" type="mono" volume="-inf" balance="0.000000" wide="True" out_mute="False" volume_midi_cc="38" balance_midi_cc="39" mute_midi_cc="40" solo_midi_cc="41"/>
 	<input_channel name="Kick Saw" type="mono" volume="-inf" balance="0.000000" wide="True" out_mute="False" volume_midi_cc="42" balance_midi_cc="43" mute_midi_cc="44" solo_midi_cc="45"/>

@@ -1508,35 +1508,6 @@
   </Data>
  </Plugin>
 
- <!-- Clock Divider -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>Clock Divider Faster</Name>
-   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-clock-divider</URI>
-  </Info>
-
-  <Data>
-   <Active>No</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Mode</Name>
-    <Symbol>Mode</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>PluginEnabled</Name>
-    <Symbol>PluginEnabled</Symbol>
-    <Value>1</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
  <!-- CV Gate -->
  <Plugin>
   <Info>
@@ -7509,135 +7480,163 @@
 
    <Parameter>
     <Index>6</Index>
+    <Name>Bass</Name>
+    <Symbol>bass</Symbol>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Treble</Name>
+    <Symbol>treble</Symbol>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
     <Name>Drive</Name>
     <Symbol>drive</Symbol>
     <Value>0.5</Value>
    </Parameter>
 
    <Parameter>
-    <Index>7</Index>
+    <Index>9</Index>
     <Name>Saturation</Name>
     <Symbol>saturation</Symbol>
     <Value>0.5</Value>
    </Parameter>
 
    <Parameter>
-    <Index>8</Index>
+    <Index>10</Index>
     <Name>Bias</Name>
     <Symbol>bias</Symbol>
     <Value>0.5</Value>
    </Parameter>
 
    <Parameter>
-    <Index>9</Index>
+    <Index>11</Index>
     <Name>Mode</Name>
     <Symbol>mode</Symbol>
     <Value>0</Value>
    </Parameter>
 
    <Parameter>
-    <Index>10</Index>
+    <Index>12</Index>
     <Name>Oversampling</Name>
     <Symbol>oversampling</Symbol>
     <Value>0.25</Value>
    </Parameter>
 
    <Parameter>
-    <Index>11</Index>
+    <Index>13</Index>
     <Name>Speed [ips]</Name>
     <Symbol>speed__ips_</Symbol>
     <Value>0.5</Value>
    </Parameter>
 
    <Parameter>
-    <Index>12</Index>
+    <Index>14</Index>
     <Name>Spacing [cm]</Name>
     <Symbol>spacing__cm_</Symbol>
     <Value>0</Value>
    </Parameter>
 
    <Parameter>
-    <Index>13</Index>
+    <Index>15</Index>
     <Name>Thickness [cm]</Name>
     <Symbol>thickness__cm_</Symbol>
     <Value>0</Value>
    </Parameter>
 
    <Parameter>
-    <Index>14</Index>
+    <Index>16</Index>
     <Name>Gap</Name>
     <Symbol>gap</Symbol>
     <Value>0</Value>
    </Parameter>
 
    <Parameter>
-    <Index>15</Index>
+    <Index>17</Index>
     <Name>Rate</Name>
     <Symbol>rate</Symbol>
     <Value>0.439999997615814</Value>
    </Parameter>
 
    <Parameter>
-    <Index>16</Index>
+    <Index>18</Index>
     <Name>Depth</Name>
     <Symbol>depth</Symbol>
     <Value>0.799999952316284</Value>
    </Parameter>
 
    <Parameter>
-    <Index>17</Index>
+    <Index>19</Index>
     <Name>Rate</Name>
     <Symbol>rate_2</Symbol>
     <Value>0.5</Value>
    </Parameter>
 
    <Parameter>
-    <Index>18</Index>
+    <Index>20</Index>
     <Name>Depth</Name>
     <Symbol>depth_2</Symbol>
     <Value>0.799999952316284</Value>
    </Parameter>
 
    <Parameter>
-    <Index>19</Index>
+    <Index>21</Index>
     <Name>Depth</Name>
     <Symbol>depth_3</Symbol>
     <Value>0</Value>
    </Parameter>
 
    <Parameter>
-    <Index>20</Index>
+    <Index>22</Index>
     <Name>Amount</Name>
     <Symbol>amount</Symbol>
     <Value>0</Value>
    </Parameter>
 
    <Parameter>
-    <Index>21</Index>
+    <Index>23</Index>
     <Name>Variance</Name>
     <Symbol>variance</Symbol>
     <Value>0</Value>
    </Parameter>
 
    <Parameter>
-    <Index>22</Index>
+    <Index>24</Index>
     <Name>Depth</Name>
     <Symbol>depth_4</Symbol>
     <Value>0.25</Value>
    </Parameter>
 
    <Parameter>
-    <Index>23</Index>
+    <Index>25</Index>
     <Name>Freq</Name>
     <Symbol>freq</Symbol>
     <Value>0.598800003528595</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>26</Index>
+    <Name>Variance</Name>
+    <Symbol>variance_2</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>27</Index>
+    <Name>Mix Group</Name>
+    <Symbol>mix_group</Symbol>
+    <Value>0</Value>
    </Parameter>
 
    <CustomData>
     <Type>http://lv2plug.in/ns/ext/atom#Chunk</Type>
     <Key>urn:juce:stateBinary</Key>
     <Value>
-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
+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
     </Value>
    </CustomData>
   </Data>
@@ -7970,28 +7969,6 @@ UGFyYW1ldGVycwAAARdQQVJBTQABAmlkAAEMBWNoZXdfZGVwdGgAdmFsdWUAAQYFMC4yNQAAUEFSQU0A
     <Name>mulInt</Name>
     <Symbol>mulInt</Symbol>
     <Value>134</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
- <!-- AMS VC Switch -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>AMS VC Switch (2)</Name>
-   <URI>http://github.com/blablack/ams-lv2/vcswitch</URI>
-  </Info>
-
-  <Data>
-   <Active>No</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Switch Level</Name>
-    <Symbol>switchLevel</Symbol>
-    <Value>0.5</Value>
    </Parameter>
   </Data>
  </Plugin>
@@ -12153,48 +12130,6 @@ UGFyYW1ldGVycwAAARdQQVJBTQABAmlkAAEMBWNoZXdfZGVwdGgAdmFsdWUAAQYFMC4yNQAAUEFSQU0A
   </Data>
  </Plugin>
 
- <!-- Syncrose Granular Synthesizer -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>Syncrose Granular Synthesizer</Name>
-   <URI>http://kneit.in/plugins/syncrose</URI>
-  </Info>
-
-  <Data>
-   <Active>No</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x3f0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Start</Name>
-    <Symbol>start</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Step</Name>
-    <Symbol>step</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>gain</Name>
-    <Symbol>http://lv2plug.in/ns/ext/parameters#gain</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <CustomData>
-    <Type>http://lv2plug.in/ns/ext/atom#Path</Type>
-    <Key>http://kneit.in/plugins/syncrose#sample</Key>
-    <Value>clip.wav</Value>
-   </CustomData>
-  </Data>
- </Plugin>
-
  <!-- Simple Scope (4 channel) -->
  <Plugin>
   <Info>
@@ -12350,49 +12285,6 @@ UGFyYW1ldGVycwAAARdQQVJBTQABAmlkAAEMBWNoZXdfZGVwdGgAdmFsdWUAAQYFMC4yNQAAUEFSQU0A
     <Name>Resonance Gain</Name>
     <Symbol>resonanceGain</Symbol>
     <Value>0</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
- <!-- CV_LinearMap -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>CV_LinearMap (5)</Name>
-   <URI>https://github.com/ryukau/LV2Plugins/tree/master/CV_LinearMap</URI>
-  </Info>
-
-  <Data>
-   <Active>No</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x4</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>addFrac</Name>
-    <Symbol>addFrac</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>addInt</Name>
-    <Symbol>addInt</Symbol>
-    <Value>128</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>mulFrac</Name>
-    <Symbol>mulFrac</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>mulInt</Name>
-    <Symbol>mulInt</Symbol>
-    <Value>128</Value>
    </Parameter>
   </Data>
  </Plugin>
@@ -14918,7 +14810,7 @@ UGFyYW1ldGVycwAAARdQQVJBTQABAmlkAAEMBWNoZXdfZGVwdGgAdmFsdWUAAQYFMC4yNQAAUEFSQU0A
  <Plugin>
   <Info>
    <Type>LV2</Type>
-   <Name>CV_Gate16 (3)</Name>
+   <Name>CV_Gate16 1.16th Delay</Name>
    <URI>https://github.com/ryukau/LV2Plugins/tree/master/CV_Gate16</URI>
   </Info>
 
@@ -15286,49 +15178,6 @@ UGFyYW1ldGVycwAAARdQQVJBTQABAmlkAAEMBWNoZXdfZGVwdGgAdmFsdWUAAQYFMC4yNQAAUEFSQU0A
   </Data>
  </Plugin>
 
- <!-- CV Changed -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>CV Changed</Name>
-   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-change</URI>
-  </Info>
-
-  <Data>
-   <Active>No</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Mode</Name>
-    <Symbol>Mode</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Hold Time Short</Name>
-    <Symbol>HoldTimeShortMode</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>HoldTimeLong</Name>
-    <Symbol>HoldTimeLong</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>PluginEnabled</Name>
-    <Symbol>PluginEnabled</Symbol>
-    <Value>1</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
  <!-- Simple Scope CV (4 channel) -->
  <Plugin>
   <Info>
@@ -15463,24 +15312,52 @@ UGFyYW1ldGVycwAAARdQQVJBTQABAmlkAAEMBWNoZXdfZGVwdGgAdmFsdWUAAQYFMC4yNQAAUEFSQU0A
 
  <ExternalPatchbay>
   <Connection>
-   <Source>system:capture_1</Source>
-   <Target>PulseAudio JACK Source:front-left</Target>
+   <Source>seq66:qseq66 midi out 0</Source>
+   <Target>Carla.nCQND/MIDI Simple Channel Filter:events-in</Target>
   </Connection>
   <Connection>
-   <Source>system:capture_2</Source>
-   <Target>PulseAudio JACK Source:front-right</Target>
+   <Source>seq66:qseq66 midi out 0</Source>
+   <Target>Carla.nCQND/MIDI Simple Channel Filter (2):events-in</Target>
   </Connection>
   <Connection>
-   <Source>PulseAudio JACK Sink:front-left</Source>
-   <Target>system:playback_1</Target>
+   <Source>seq66:qseq66 midi out 1</Source>
+   <Target>Carla.nCQND/MIDI Simple Channel Filter (3):events-in</Target>
   </Connection>
   <Connection>
-   <Source>PulseAudio JACK Sink:front-right</Source>
-   <Target>system:playback_2</Target>
+   <Source>seq66:qseq66 midi out 1</Source>
+   <Target>Carla.nCQND/MIDI Simple Channel Filter (4):events-in</Target>
   </Connection>
   <Connection>
-   <Source>Carla.nCQND/AMS VC Switch:Out 1</Source>
-   <Target>Carla.nCQND/AMS Slew Limiter:In</Target>
+   <Source>seq66:qseq66 midi out 2</Source>
+   <Target>Carla.nCQND/MIDI Simple Channel Filter (5):events-in</Target>
+  </Connection>
+  <Connection>
+   <Source>seq66:qseq66 midi out 2</Source>
+   <Target>Carla.nCQND/MIDI Simple Channel Filter (6):events-in</Target>
+  </Connection>
+  <Connection>
+   <Source>seq66:qseq66 midi out 3</Source>
+   <Target>Carla.nCQND/MIDI Simple Channel Filter (7):events-in</Target>
+  </Connection>
+  <Connection>
+   <Source>seq66:qseq66 midi out 3</Source>
+   <Target>Carla.nCQND/MIDI Simple Channel Filter (8):events-in</Target>
+  </Connection>
+  <Connection>
+   <Source>seq66:qseq66 midi out 4</Source>
+   <Target>Carla.nCQND/MIDI Simple Channel Filter (9):events-in</Target>
+  </Connection>
+  <Connection>
+   <Source>seq66:qseq66 midi out 4</Source>
+   <Target>Carla.nCQND/MIDI Simple Channel Filter (10):events-in</Target>
+  </Connection>
+  <Connection>
+   <Source>seq66:qseq66 midi out 5</Source>
+   <Target>Carla.nCQND/MIDI Simple Channel Filter (11):events-in</Target>
+  </Connection>
+  <Connection>
+   <Source>seq66:qseq66 midi out 5</Source>
+   <Target>Carla.nCQND/MIDI Simple Channel Filter (12):events-in</Target>
   </Connection>
   <Connection>
    <Source>jack_mixer.nNMOO:Reverb Buss L</Source>
@@ -15573,6 +15450,10 @@ UGFyYW1ldGVycwAAARdQQVJBTQABAmlkAAEMBWNoZXdfZGVwdGgAdmFsdWUAAQYFMC4yNQAAUEFSQU0A
   <Connection>
    <Source>Carla.nCQND/AMS Hysteresis:Out</Source>
    <Target>Carla.nCQND/FDNCymbal:retriggerTime</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla.nCQND/AMS VC Switch:Out 1</Source>
+   <Target>Carla.nCQND/AMS Slew Limiter:In</Target>
   </Connection>
   <Connection>
    <Source>Carla.nCQND/Kick Gate:CV Output</Source>
@@ -16105,38 +15986,6 @@ UGFyYW1ldGVycwAAARdQQVJBTQABAmlkAAEMBWNoZXdfZGVwdGgAdmFsdWUAAQYFMC4yNQAAUEFSQU0A
   <Connection>
    <Source>Carla.nCQND/LSP Compressor:Output R</Source>
    <Target>jack_mixer.nNMOO:Drums R</Target>
-  </Connection>
-  <Connection>
-   <Source>seq66:qseq66 midi out 0</Source>
-   <Target>Carla.nCQND/MIDI Simple Channel Filter (3):events-in</Target>
-  </Connection>
-  <Connection>
-   <Source>seq66:qseq66 midi out 0</Source>
-   <Target>Carla.nCQND/MIDI Simple Channel Filter (4):events-in</Target>
-  </Connection>
-  <Connection>
-   <Source>seq66:qseq66 midi out 1</Source>
-   <Target>Carla.nCQND/MIDI Simple Channel Filter (5):events-in</Target>
-  </Connection>
-  <Connection>
-   <Source>seq66:qseq66 midi out 1</Source>
-   <Target>Carla.nCQND/MIDI Simple Channel Filter (6):events-in</Target>
-  </Connection>
-  <Connection>
-   <Source>seq66:qseq66 midi out 2</Source>
-   <Target>Carla.nCQND/MIDI Simple Channel Filter (7):events-in</Target>
-  </Connection>
-  <Connection>
-   <Source>seq66:qseq66 midi out 2</Source>
-   <Target>Carla.nCQND/MIDI Simple Channel Filter (8):events-in</Target>
-  </Connection>
-  <Connection>
-   <Source>seq66:qseq66 midi out 3</Source>
-   <Target>Carla.nCQND/MIDI Simple Channel Filter (9):events-in</Target>
-  </Connection>
-  <Connection>
-   <Source>seq66:qseq66 midi out 3</Source>
-   <Target>Carla.nCQND/MIDI Simple Channel Filter (10):events-in</Target>
   </Connection>
   <Connection>
    <Source>Carla.nCQND/CV_LinearMap (4):Output</Source>
@@ -16719,14 +16568,6 @@ UGFyYW1ldGVycwAAARdQQVJBTQABAmlkAAEMBWNoZXdfZGVwdGgAdmFsdWUAAQYFMC4yNQAAUEFSQU0A
    <Target>Carla.nCQND/Octave:Control</Target>
   </Connection>
   <Connection>
-   <Source>seq66:qseq66 midi out 4</Source>
-   <Target>Carla.nCQND/MIDI Simple Channel Filter (11):events-in</Target>
-  </Connection>
-  <Connection>
-   <Source>seq66:qseq66 midi out 4</Source>
-   <Target>Carla.nCQND/MIDI Simple Channel Filter (12):events-in</Target>
-  </Connection>
-  <Connection>
    <Source>Carla.nCQND/Moog Low-Pass Filter 4:Output</Source>
    <Target>jack_mixer.nNMOO:Lead Synth L</Target>
   </Connection>
@@ -16812,7 +16653,7 @@ UGFyYW1ldGVycwAAARdQQVJBTQABAmlkAAEMBWNoZXdfZGVwdGgAdmFsdWUAAQYFMC4yNQAAUEFSQU0A
   </Connection>
   <Connection>
    <Source>Carla.nCQND/Clock Divider:ClockOut8</Source>
-   <Target>Carla.nCQND/CV_Gate16 (3):Gate0</Target>
+   <Target>Carla.nCQND/CV_Gate16 1.16th Delay:Gate0</Target>
   </Connection>
   <Connection>
    <Source>Carla.nCQND/Control to CV Interpolator:Interpolated Output</Source>
@@ -16851,67 +16692,67 @@ UGFyYW1ldGVycwAAARdQQVJBTQABAmlkAAEMBWNoZXdfZGVwdGgAdmFsdWUAAQYFMC4yNQAAUEFSQU0A
    <Target>Carla.nCQND/CV_LongAllpass:Feedback</Target>
   </Connection>
   <Connection>
-   <Source>Carla.nCQND/CV_Gate16 (3):Output0</Source>
+   <Source>Carla.nCQND/CV_Gate16 1.16th Delay:Output0</Source>
    <Target>Carla.nCQND/Simple Scope CV (4 channel) (3):In1</Target>
   </Connection>
   <Connection>
-   <Source>Carla.nCQND/CV_Gate16 (3):Output1</Source>
+   <Source>Carla.nCQND/CV_Gate16 1.16th Delay:Output1</Source>
    <Target>Carla.nCQND/Simple Scope CV (4 channel) (3):In1</Target>
   </Connection>
   <Connection>
-   <Source>Carla.nCQND/CV_Gate16 (3):Output2</Source>
+   <Source>Carla.nCQND/CV_Gate16 1.16th Delay:Output2</Source>
    <Target>Carla.nCQND/Simple Scope CV (4 channel) (3):In1</Target>
   </Connection>
   <Connection>
-   <Source>Carla.nCQND/CV_Gate16 (3):Output3</Source>
+   <Source>Carla.nCQND/CV_Gate16 1.16th Delay:Output3</Source>
    <Target>Carla.nCQND/Simple Scope CV (4 channel) (3):In1</Target>
   </Connection>
   <Connection>
-   <Source>Carla.nCQND/CV_Gate16 (3):Output4</Source>
+   <Source>Carla.nCQND/CV_Gate16 1.16th Delay:Output4</Source>
    <Target>Carla.nCQND/Simple Scope CV (4 channel) (3):In1</Target>
   </Connection>
   <Connection>
-   <Source>Carla.nCQND/CV_Gate16 (3):Output5</Source>
+   <Source>Carla.nCQND/CV_Gate16 1.16th Delay:Output5</Source>
    <Target>Carla.nCQND/Simple Scope CV (4 channel) (3):In1</Target>
   </Connection>
   <Connection>
-   <Source>Carla.nCQND/CV_Gate16 (3):Output6</Source>
+   <Source>Carla.nCQND/CV_Gate16 1.16th Delay:Output6</Source>
    <Target>Carla.nCQND/Simple Scope CV (4 channel) (3):In1</Target>
   </Connection>
   <Connection>
-   <Source>Carla.nCQND/CV_Gate16 (3):Output7</Source>
+   <Source>Carla.nCQND/CV_Gate16 1.16th Delay:Output7</Source>
    <Target>Carla.nCQND/Simple Scope CV (4 channel) (3):In1</Target>
   </Connection>
   <Connection>
-   <Source>Carla.nCQND/CV_Gate16 (3):Output8</Source>
+   <Source>Carla.nCQND/CV_Gate16 1.16th Delay:Output8</Source>
    <Target>Carla.nCQND/Simple Scope CV (4 channel) (3):In1</Target>
   </Connection>
   <Connection>
-   <Source>Carla.nCQND/CV_Gate16 (3):Output9</Source>
+   <Source>Carla.nCQND/CV_Gate16 1.16th Delay:Output9</Source>
    <Target>Carla.nCQND/Simple Scope CV (4 channel) (3):In1</Target>
   </Connection>
   <Connection>
-   <Source>Carla.nCQND/CV_Gate16 (3):Output10</Source>
+   <Source>Carla.nCQND/CV_Gate16 1.16th Delay:Output10</Source>
    <Target>Carla.nCQND/Simple Scope CV (4 channel) (3):In1</Target>
   </Connection>
   <Connection>
-   <Source>Carla.nCQND/CV_Gate16 (3):Output11</Source>
+   <Source>Carla.nCQND/CV_Gate16 1.16th Delay:Output11</Source>
    <Target>Carla.nCQND/Simple Scope CV (4 channel) (3):In1</Target>
   </Connection>
   <Connection>
-   <Source>Carla.nCQND/CV_Gate16 (3):Output12</Source>
+   <Source>Carla.nCQND/CV_Gate16 1.16th Delay:Output12</Source>
    <Target>Carla.nCQND/Simple Scope CV (4 channel) (3):In1</Target>
   </Connection>
   <Connection>
-   <Source>Carla.nCQND/CV_Gate16 (3):Output13</Source>
+   <Source>Carla.nCQND/CV_Gate16 1.16th Delay:Output13</Source>
    <Target>Carla.nCQND/Simple Scope CV (4 channel) (3):In1</Target>
   </Connection>
   <Connection>
-   <Source>Carla.nCQND/CV_Gate16 (3):Output14</Source>
+   <Source>Carla.nCQND/CV_Gate16 1.16th Delay:Output14</Source>
    <Target>Carla.nCQND/Simple Scope CV (4 channel) (3):In1</Target>
   </Connection>
   <Connection>
-   <Source>Carla.nCQND/CV_Gate16 (3):Output15</Source>
+   <Source>Carla.nCQND/CV_Gate16 1.16th Delay:Output15</Source>
    <Target>Carla.nCQND/Simple Scope CV (4 channel) (3):In1</Target>
   </Connection>
   <Connection>
@@ -16919,617 +16760,605 @@ UGFyYW1ldGVycwAAARdQQVJBTQABAmlkAAEMBWNoZXdfZGVwdGgAdmFsdWUAAQYFMC4yNQAAUEFSQU0A
    <Target>jack_mixer.nAJKK:Kick Sine</Target>
   </Connection>
   <Positions>
-   <Position x1="9318" y1="4928" x2="10218" y2="4606">
+   <Position x1="9271" y1="4111" x2="10171" y2="3789">
     <Name>system</Name>
    </Position>
-   <Position x1="8685" y1="4811">
-    <Name>PulseAudio JACK Sink</Name>
-   </Position>
-   <Position x1="9514" y1="4933">
-    <Name>PulseAudio JACK Source</Name>
-   </Position>
-   <Position x1="8324" y1="4242">
+   <Position x1="8277" y1="3425">
     <Name>jack_mixer.nNMOO</Name>
-   </Position>
-   <Position x1="2790" y1="3587" pluginId="17">
-    <Name>Carla.nCQND/AMS VC Switch</Name>
-   </Position>
-   <Position x1="12162" y1="0" pluginId="18">
-    <Name>Carla.nCQND/Clock Divider Faster</Name>
-   </Position>
-   <Position x1="4854" y1="2396">
-    <Name>jack_mixer.nAJKK</Name>
-   </Position>
-   <Position x1="9643" y1="4428" pluginId="0">
-    <Name>Carla.nCQND/LSP Compressor (2)</Name>
-   </Position>
-   <Position x1="2756" y1="1500" pluginId="1">
-    <Name>Carla.nCQND/Pulse PW</Name>
-   </Position>
-   <Position x1="3768" y1="1415" pluginId="2">
-    <Name>Carla.nCQND/Pluse</Name>
-   </Position>
-   <Position x1="2762" y1="1338" pluginId="3">
-    <Name>Carla.nCQND/Semitone</Name>
-   </Position>
-   <Position x1="2749" y1="1251" pluginId="4">
-    <Name>Carla.nCQND/Exp FM Gain</Name>
-   </Position>
-   <Position x1="2756" y1="865" pluginId="5">
-    <Name>Carla.nCQND/Gain Decay</Name>
-   </Position>
-   <Position x1="2762" y1="1412" pluginId="6">
-    <Name>Carla.nCQND/Saw Edge</Name>
-   </Position>
-   <Position x1="2782" y1="1603" pluginId="7">
-    <Name>Carla.nCQND/Pluse Edge</Name>
-   </Position>
-   <Position x1="2207" y1="486" pluginId="8">
-    <Name>Carla.nCQND/Wedge Gate Open</Name>
-   </Position>
-   <Position x1="3331" y1="3553" pluginId="9">
-    <Name>Carla.nCQND/MIDI-Trigger</Name>
-   </Position>
-   <Position x1="3807" y1="3545" pluginId="10">
-    <Name>Carla.nCQND/EsPhaser</Name>
-   </Position>
-   <Position x1="4116" y1="3513" pluginId="11">
-    <Name>Carla.nCQND/x42-Autotune</Name>
-   </Position>
-   <Position x1="4120" y1="3600" pluginId="12">
-    <Name>Carla.nCQND/x42-Autotune (3)</Name>
-   </Position>
-   <Position x1="978" y1="4134" pluginId="13">
-    <Name>Carla.nCQND/MIDI Generator</Name>
-   </Position>
-   <Position x1="3582" y1="3544" pluginId="14">
-    <Name>Carla.nCQND/FDNCymbal</Name>
-   </Position>
-   <Position x1="3065" y1="3648" pluginId="15">
-    <Name>Carla.nCQND/AMS Slew Limiter</Name>
-   </Position>
-   <Position x1="3327" y1="3645" pluginId="16">
-    <Name>Carla.nCQND/AMS Hysteresis</Name>
-   </Position>
-   <Position x1="2415" y1="1757" pluginId="19">
-    <Name>Carla.nCQND/Kick Gate</Name>
-   </Position>
-   <Position x1="2411" y1="2063" pluginId="20">
-    <Name>Carla.nCQND/Snare Gate</Name>
-   </Position>
-   <Position x1="3072" y1="1838" pluginId="21">
-    <Name>Carla.nCQND/Snare Sine</Name>
-   </Position>
-   <Position x1="2983" y1="2074" pluginId="22">
-    <Name>Carla.nCQND/Snare Noise</Name>
-   </Position>
-   <Position x1="2773" y1="1953" pluginId="23">
-    <Name>Carla.nCQND/Freq Env (2)</Name>
-   </Position>
-   <Position x1="3325" y1="1867" pluginId="24">
-    <Name>Carla.nCQND/Snare Sine Gain</Name>
-   </Position>
-   <Position x1="3325" y1="2006" pluginId="25">
-    <Name>Carla.nCQND/AMS VCA Exp (3)</Name>
-   </Position>
-   <Position x1="2530" y1="3491" pluginId="26">
-    <Name>Carla.nCQND/AMS LFO</Name>
-   </Position>
-   <Position x1="3039" y1="2192" pluginId="27">
-    <Name>Carla.nCQND/AMS Noise2 (2)</Name>
-   </Position>
-   <Position x1="3314" y1="2221" pluginId="28">
-    <Name>Carla.nCQND/AMS VCA Exp (2)</Name>
-   </Position>
-   <Position x1="2368" y1="2230" pluginId="29">
-    <Name>Carla.nCQND/Hi-hat Gate</Name>
-   </Position>
-   <Position x1="3049" y1="2288" pluginId="30">
-    <Name>Carla.nCQND/Freq Env (3)</Name>
-   </Position>
-   <Position x1="3757" y1="2253" pluginId="31">
-    <Name>Carla.nCQND/Moog High-Pass Filter 1</Name>
-   </Position>
-   <Position x1="2759" y1="1100" pluginId="32">
-    <Name>Carla.nCQND/Freq Decay</Name>
-   </Position>
-   <Position x1="2352" y1="2900" pluginId="33">
-    <Name>Carla.nCQND/Cra Cymb Gate</Name>
-   </Position>
-   <Position x1="3111" y1="3551" pluginId="34">
-    <Name>Carla.nCQND/CV to Audio</Name>
-   </Position>
-   <Position x1="2063" y1="1013" pluginId="35">
-    <Name>Carla.nCQND/Control of Kick</Name>
-   </Position>
-   <Position x1="2758" y1="790" pluginId="36">
-    <Name>Carla.nCQND/Gain Level</Name>
-   </Position>
-   <Position x1="2759" y1="944" pluginId="37">
-    <Name>Carla.nCQND/Gain Curve</Name>
-   </Position>
-   <Position x1="2758" y1="1030" pluginId="38">
-    <Name>Carla.nCQND/Freq Level</Name>
-   </Position>
-   <Position x1="2756" y1="1176" pluginId="39">
-    <Name>Carla.nCQND/Freq Curve</Name>
-   </Position>
-   <Position x1="3229" y1="856" pluginId="40">
-    <Name>Carla.nCQND/Gain Env</Name>
-   </Position>
-   <Position x1="3243" y1="1201" pluginId="41">
-    <Name>Carla.nCQND/Freq Env</Name>
-   </Position>
-   <Position x1="2071" y1="1847" pluginId="42">
-    <Name>Carla.nCQND/MIDI to CV trigger (2)</Name>
-   </Position>
-   <Position x1="2029" y1="2130" pluginId="43">
-    <Name>Carla.nCQND/MIDI to CV trigger (4)</Name>
-   </Position>
-   <Position x1="2050" y1="2238" pluginId="44">
-    <Name>Carla.nCQND/MIDI to CV trigger (5)</Name>
-   </Position>
-   <Position x1="2059" y1="2298" pluginId="45">
-    <Name>Carla.nCQND/MIDI to CV trigger (6)</Name>
-   </Position>
-   <Position x1="2057" y1="2473" pluginId="46">
-    <Name>Carla.nCQND/MIDI to CV trigger (7)</Name>
-   </Position>
-   <Position x1="2058" y1="2523" pluginId="47">
-    <Name>Carla.nCQND/MIDI to CV trigger (8)</Name>
-   </Position>
-   <Position x1="2052" y1="2689" pluginId="48">
-    <Name>Carla.nCQND/MIDI to CV trigger (9)</Name>
-   </Position>
-   <Position x1="1723" y1="1791" pluginId="49">
-    <Name>Carla.nCQND/MIDI Simple Channel Filter</Name>
-   </Position>
-   <Position x1="1721" y1="1844" pluginId="50">
-    <Name>Carla.nCQND/MIDI Simple Channel Filter (2)</Name>
-   </Position>
-   <Position x1="1714" y1="2131" pluginId="51">
-    <Name>Carla.nCQND/MIDI Simple Channel Filter (4)</Name>
-   </Position>
-   <Position x1="1709" y1="2247" pluginId="52">
-    <Name>Carla.nCQND/MIDI Simple Channel Filter (5)</Name>
-   </Position>
-   <Position x1="1710" y1="2298" pluginId="53">
-    <Name>Carla.nCQND/MIDI Simple Channel Filter (6)</Name>
-   </Position>
-   <Position x1="1709" y1="2473" pluginId="54">
-    <Name>Carla.nCQND/MIDI Simple Channel Filter (7)</Name>
-   </Position>
-   <Position x1="1711" y1="2523" pluginId="55">
-    <Name>Carla.nCQND/MIDI Simple Channel Filter (8)</Name>
-   </Position>
-   <Position x1="2081" y1="1748" pluginId="56">
-    <Name>Carla.nCQND/MIDI to CV</Name>
-   </Position>
-   <Position x1="3077" y1="2462" pluginId="57">
-    <Name>Carla.nCQND/Gain Env (2)</Name>
-   </Position>
-   <Position x1="3074" y1="2763" pluginId="58">
-    <Name>Carla.nCQND/Freq Env (4)</Name>
-   </Position>
-   <Position x1="2053" y1="2043" pluginId="59">
-    <Name>Carla.nCQND/MIDI to CV trigger (3)</Name>
-   </Position>
-   <Position x1="2056" y1="2904" pluginId="60">
-    <Name>Carla.nCQND/MIDI to CV trigger (11)</Name>
-   </Position>
-   <Position x1="1709" y1="2689" pluginId="61">
-    <Name>Carla.nCQND/MIDI Simple Channel Filter (9)</Name>
-   </Position>
-   <Position x1="1706" y1="2743" pluginId="62">
-    <Name>Carla.nCQND/MIDI Simple Channel Filter (10)</Name>
-   </Position>
-   <Position x1="2362" y1="2469" pluginId="63">
-    <Name>Carla.nCQND/Tom Gate</Name>
-   </Position>
-   <Position x1="1704" y1="2043" pluginId="64">
-    <Name>Carla.nCQND/MIDI Simple Channel Filter (3)</Name>
-   </Position>
-   <Position x1="2055" y1="2952" pluginId="65">
-    <Name>Carla.nCQND/MIDI to CV trigger (12)</Name>
-   </Position>
-   <Position x1="1708" y1="2903" pluginId="66">
-    <Name>Carla.nCQND/MIDI Simple Channel Filter (11)</Name>
-   </Position>
-   <Position x1="3320" y1="2699" pluginId="67">
-    <Name>Carla.nCQND/Sine (2)</Name>
-   </Position>
-   <Position x1="3809" y1="2572" pluginId="68">
-    <Name>Carla.nCQND/Sine VCA Exp (2)</Name>
-   </Position>
-   <Position x1="3076" y1="3233" pluginId="69">
-    <Name>Carla.nCQND/Cymb Gain Env</Name>
-   </Position>
-   <Position x1="3150" y1="3160" pluginId="70">
-    <Name>Carla.nCQND/AMS Noise2 (3)</Name>
-   </Position>
-   <Position x1="3655" y1="3194" pluginId="71">
-    <Name>Carla.nCQND/AMS VCA Exp (4)</Name>
-   </Position>
-   <Position x1="3388" y1="3140" pluginId="72">
-    <Name>Carla.nCQND/CV to Audio (2)</Name>
-   </Position>
-   <Position x1="3329" y1="3304" pluginId="73">
-    <Name>Carla.nCQND/Sine (3)</Name>
-   </Position>
-   <Position x1="2357" y1="2697" pluginId="74">
-    <Name>Carla.nCQND/Cymb Gate</Name>
-   </Position>
-   <Position x1="1709" y1="2955" pluginId="75">
-    <Name>Carla.nCQND/MIDI Simple Channel Filter (12)</Name>
-   </Position>
-   <Position x1="2050" y1="2743" pluginId="76">
-    <Name>Carla.nCQND/MIDI to CV trigger (10)</Name>
-   </Position>
-   <Position x1="3709" y1="1940" pluginId="77">
-    <Name>Carla.nCQND/AMS Mixer 2 channels</Name>
-   </Position>
-   <Position x1="2820" y1="4119" pluginId="78">
-    <Name>Carla.nCQND/Lead Osc 1</Name>
-   </Position>
-   <Position x1="3418" y1="4075" pluginId="79">
-    <Name>Carla.nCQND/Lead VCF 1</Name>
-   </Position>
-   <Position x1="3679" y1="4133" pluginId="80">
-    <Name>Carla.nCQND/Lead Gain 1</Name>
-   </Position>
-   <Position x1="2382" y1="3987" pluginId="81">
-    <Name>Carla.nCQND/MIDI to CV Poly</Name>
-   </Position>
-   <Position x1="2819" y1="4525" pluginId="82">
-    <Name>Carla.nCQND/Lead Osc 2</Name>
-   </Position>
-   <Position x1="3343" y1="4524" pluginId="83">
-    <Name>Carla.nCQND/Lead VCF 2</Name>
-   </Position>
-   <Position x1="3555" y1="4555" pluginId="84">
-    <Name>Carla.nCQND/Lead Gain 2</Name>
-   </Position>
-   <Position x1="3340" y1="4977" pluginId="85">
-    <Name>Carla.nCQND/Lead VCF 3</Name>
-   </Position>
-   <Position x1="3568" y1="5024" pluginId="86">
-    <Name>Carla.nCQND/Lead Gain 3</Name>
-   </Position>
-   <Position x1="2813" y1="5435" pluginId="87">
-    <Name>Carla.nCQND/Lead Osc 4</Name>
-   </Position>
-   <Position x1="3344" y1="5433" pluginId="88">
-    <Name>Carla.nCQND/Lead VCF 4</Name>
-   </Position>
-   <Position x1="3553" y1="5498" pluginId="89">
-    <Name>Carla.nCQND/Lead Gain 4</Name>
-   </Position>
-   <Position x1="9080" y1="4529" pluginId="90">
-    <Name>Carla.nCQND/Dragonfly Hall Reverb</Name>
-   </Position>
-   <Position x1="7034" y1="4743" pluginId="91">
-    <Name>Carla.nCQND/AMS Stereo Mixer 8 channels</Name>
-   </Position>
-   <Position x1="3922" y1="3983" pluginId="92">
-    <Name>Carla.nCQND/MIDI to CV Poly (2)</Name>
-   </Position>
-   <Position x1="4323" y1="4085" pluginId="93">
-    <Name>Carla.nCQND/Lead Osc 4 (2)</Name>
-   </Position>
-   <Position x1="4864" y1="4086" pluginId="94">
-    <Name>Carla.nCQND/Lead VCF 4 (2)</Name>
-   </Position>
-   <Position x1="5106" y1="4089" pluginId="95">
-    <Name>Carla.nCQND/Lead Gain 4 (2)</Name>
-   </Position>
-   <Position x1="4329" y1="4552" pluginId="96">
-    <Name>Carla.nCQND/Lead Osc 4 (3)</Name>
-   </Position>
-   <Position x1="4871" y1="4550" pluginId="97">
-    <Name>Carla.nCQND/Lead VCF 4 (3)</Name>
-   </Position>
-   <Position x1="5102" y1="4629" pluginId="98">
-    <Name>Carla.nCQND/Lead Gain 4 (3)</Name>
-   </Position>
-   <Position x1="4337" y1="5010" pluginId="99">
-    <Name>Carla.nCQND/Lead Osc 4 (4)</Name>
-   </Position>
-   <Position x1="4875" y1="5010" pluginId="100">
-    <Name>Carla.nCQND/Lead VCF 4 (4)</Name>
-   </Position>
-   <Position x1="5124" y1="5067" pluginId="101">
-    <Name>Carla.nCQND/Lead Gain 4 (4)</Name>
-   </Position>
-   <Position x1="4344" y1="5472" pluginId="102">
-    <Name>Carla.nCQND/Lead Osc 4 (5)</Name>
-   </Position>
-   <Position x1="4889" y1="5472" pluginId="103">
-    <Name>Carla.nCQND/Lead VCF 4 (5)</Name>
-   </Position>
-   <Position x1="5133" y1="5508" pluginId="104">
-    <Name>Carla.nCQND/Lead Gain 4 (5)</Name>
-   </Position>
-   <Position x1="2827" y1="4977" pluginId="105">
-    <Name>Carla.nCQND/Lead Osc 3</Name>
-   </Position>
-   <Position x1="370" y1="4048" pluginId="106">
-    <Name>Carla.nCQND/CV_TimeInfo</Name>
-   </Position>
-   <Position x1="2990" y1="1015" pluginId="107">
-    <Name>Carla.nCQND/CV_LinearMap</Name>
-   </Position>
-   <Position x1="2970" y1="1300" pluginId="108">
-    <Name>Carla.nCQND/CV_LinearMap (2)</Name>
-   </Position>
-   <Position x1="3983" y1="826" pluginId="109">
-    <Name>Carla.nCQND/AMS VCA Lin</Name>
-   </Position>
-   <Position x1="3675" y1="1647" pluginId="110">
-    <Name>Carla.nCQND/AMS Dynamic Waves - 4 Osc</Name>
-   </Position>
-   <Position x1="9154" y1="4234" pluginId="111">
-    <Name>Carla.nCQND/CHOWTapeModel</Name>
-   </Position>
-   <Position x1="6826" y1="3263" pluginId="112">
-    <Name>Carla.nCQND/LSP Compressor</Name>
-   </Position>
-   <Position x1="929" y1="4366" pluginId="113">
-    <Name>Carla.nCQND/CV meter (2)</Name>
-   </Position>
-   <Position x1="2477" y1="1293" pluginId="114">
-    <Name>Carla.nCQND/CV_LinearMap (4)</Name>
-   </Position>
-   <Position x1="8" y1="0" pluginId="115">
-    <Name>Carla.nCQND/AMS VC Switch (2)</Name>
-   </Position>
-   <Position x1="2057" y1="1937" pluginId="116">
-    <Name>Carla.nCQND/MIDI to CV (2)</Name>
-   </Position>
-   <Position x1="2602" y1="1836" pluginId="117">
-    <Name>Carla.nCQND/Control to CV</Name>
-   </Position>
-   <Position x1="4901" y1="645" pluginId="118">
-    <Name>Carla.nCQND/Simple Scope (4 channel) (2)</Name>
-   </Position>
-   <Position x1="3985" y1="1012" pluginId="119">
-    <Name>Carla.nCQND/AMS VCA Lin (2)</Name>
-   </Position>
-   <Position x1="3992" y1="1186" pluginId="120">
-    <Name>Carla.nCQND/AMS VCA Lin (3)</Name>
-   </Position>
-   <Position x1="3971" y1="1429" pluginId="121">
-    <Name>Carla.nCQND/AMS VCA Lin (4)</Name>
-   </Position>
-   <Position x1="3999" y1="1647" pluginId="122">
-    <Name>Carla.nCQND/AMS VCA Lin (5)</Name>
-   </Position>
-   <Position x1="4251" y1="1025" pluginId="123">
-    <Name>Carla.nCQND/Glame Lowpass Filter (2)</Name>
-   </Position>
-   <Position x1="4255" y1="1221" pluginId="124">
-    <Name>Carla.nCQND/Glame Lowpass Filter (3)</Name>
-   </Position>
-   <Position x1="4254" y1="1429" pluginId="125">
-    <Name>Carla.nCQND/Glame Lowpass Filter (4)</Name>
-   </Position>
-   <Position x1="4260" y1="1647" pluginId="126">
-    <Name>Carla.nCQND/Glame Lowpass Filter (5)</Name>
-   </Position>
-   <Position x1="954" y1="3950" pluginId="127">
-    <Name>Carla.nCQND/MIDI Channel Filter</Name>
-   </Position>
-   <Position x1="1543" y1="4147" pluginId="128">
-    <Name>Carla.nCQND/MIDI Split</Name>
-   </Position>
-   <Position x1="1251" y1="4113" pluginId="129">
-    <Name>Carla.nCQND/midiPolyphony</Name>
-   </Position>
-   <Position x1="5738" y1="4080" pluginId="130">
-    <Name>Carla.nCQND/Lead Osc 4 (6)</Name>
-   </Position>
-   <Position x1="5734" y1="4537" pluginId="131">
-    <Name>Carla.nCQND/Lead Osc 4 (7)</Name>
-   </Position>
-   <Position x1="6263" y1="4080" pluginId="132">
-    <Name>Carla.nCQND/Lead VCF 4 (6)</Name>
-   </Position>
-   <Position x1="6502" y1="4136" pluginId="133">
-    <Name>Carla.nCQND/Lead Gain 4 (6)</Name>
-   </Position>
-   <Position x1="6507" y1="4585" pluginId="134">
-    <Name>Carla.nCQND/Lead Gain 4 (7)</Name>
-   </Position>
-   <Position x1="6256" y1="4536" pluginId="135">
-    <Name>Carla.nCQND/Lead VCF 4 (7)</Name>
-   </Position>
-   <Position x1="5390" y1="3989" pluginId="136">
-    <Name>Carla.nCQND/MIDI to CV Poly (3)</Name>
-   </Position>
-   <Position x1="1550" y1="4887" pluginId="137">
-    <Name>Carla.nCQND/CV_Gate16</Name>
-   </Position>
-   <Position x1="2074" y1="4778" pluginId="138">
-    <Name>Carla.nCQND/Attack</Name>
-   </Position>
-   <Position x1="2067" y1="4955" pluginId="139">
-    <Name>Carla.nCQND/Decay</Name>
-   </Position>
-   <Position x1="3029" y1="4110" pluginId="140">
-    <Name>Carla.nCQND/CV_PolyLoopEnvelope4</Name>
-   </Position>
-   <Position x1="2077" y1="4703" pluginId="141">
-    <Name>Carla.nCQND/Delay</Name>
-   </Position>
-   <Position x1="2071" y1="4876" pluginId="142">
-    <Name>Carla.nCQND/Hold</Name>
-   </Position>
-   <Position x1="2051" y1="5035" pluginId="143">
-    <Name>Carla.nCQND/Sustain Lev</Name>
-   </Position>
-   <Position x1="2074" y1="5213" pluginId="144">
-    <Name>Carla.nCQND/Release</Name>
-   </Position>
-   <Position x1="3042" y1="4570" pluginId="145">
-    <Name>Carla.nCQND/CV_PolyLoopEnvelope4 (2)</Name>
-   </Position>
-   <Position x1="3037" y1="5020" pluginId="146">
-    <Name>Carla.nCQND/CV_PolyLoopEnvelope4 (3)</Name>
-   </Position>
-   <Position x1="3040" y1="5478" pluginId="147">
-    <Name>Carla.nCQND/CV_PolyLoopEnvelope4 (4)</Name>
-   </Position>
-   <Position x1="4551" y1="4132" pluginId="148">
-    <Name>Carla.nCQND/CV_PolyLoopEnvelope4 (5)</Name>
-   </Position>
-   <Position x1="4562" y1="4585" pluginId="149">
-    <Name>Carla.nCQND/CV_PolyLoopEnvelope4 (6)</Name>
-   </Position>
-   <Position x1="4571" y1="5051" pluginId="150">
-    <Name>Carla.nCQND/CV_PolyLoopEnvelope4 (7)</Name>
-   </Position>
-   <Position x1="4571" y1="5515" pluginId="151">
-    <Name>Carla.nCQND/CV_PolyLoopEnvelope4 (8)</Name>
-   </Position>
-   <Position x1="5966" y1="4122" pluginId="152">
-    <Name>Carla.nCQND/CV_PolyLoopEnvelope4 (9)</Name>
-   </Position>
-   <Position x1="5957" y1="4581" pluginId="153">
-    <Name>Carla.nCQND/CV_PolyLoopEnvelope4 (10)</Name>
-   </Position>
-   <Position x1="7041" y1="5024" pluginId="154">
-    <Name>Carla.nCQND/AMS Stereo Mixer 2 channels</Name>
-   </Position>
-   <Position x1="2056" y1="5119" pluginId="155">
-    <Name>Carla.nCQND/Sustain Time</Name>
-   </Position>
-   <Position x1="3871" y1="4368" pluginId="156">
-    <Name>Carla.nCQND/Simple Scope CV (4 channel) (2)</Name>
-   </Position>
-   <Position x1="1198" y1="4284" pluginId="157">
-    <Name>Carla.nCQND/MIDI Note Transpose</Name>
-   </Position>
-   <Position x1="2076" y1="5326" pluginId="158">
-    <Name>Carla.nCQND/Octave</Name>
-   </Position>
-   <Position x1="1830" y1="5324" pluginId="159">
-    <Name>Carla.nCQND/CV_LinearMap (3)</Name>
-   </Position>
-   <Position x1="7544" y1="4484" pluginId="160">
-    <Name>Carla.nCQND/Moog Low-Pass Filter 4</Name>
-   </Position>
-   <Position x1="7688" y1="4698" pluginId="161">
-    <Name>Carla.nCQND/Moog Low-Pass Filter 4 (2)</Name>
-   </Position>
-   <Position x1="3827" y1="4701" pluginId="162">
-    <Name>Carla.nCQND/CV_RateLimiter</Name>
-   </Position>
-   <Position x1="2863" y1="3884" pluginId="163">
-    <Name>Carla.nCQND/AMS VCO3</Name>
-   </Position>
-   <Position x1="3437" y1="3851" pluginId="164">
-    <Name>Carla.nCQND/AMS VCF</Name>
-   </Position>
-   <Position x1="4119" y1="3787" pluginId="166">
-    <Name>Carla.nCQND/Simple Scope (4 channel)</Name>
-   </Position>
-   <Position x1="3672" y1="3896" pluginId="167">
-    <Name>Carla.nCQND/Lead Gain 1 (2)</Name>
-   </Position>
-   <Position x1="3313" y1="4252" pluginId="168">
-    <Name>Carla.nCQND/AMS VCF (2)</Name>
-   </Position>
-   <Position x1="936" y1="3723" pluginId="170">
-    <Name>Carla.nCQND/CV meter (3)</Name>
-   </Position>
-   <Position x1="1611" y1="4568" pluginId="171">
-    <Name>Carla.nCQND/CV_LinearADSREnvelope</Name>
-   </Position>
-   <Position x1="875" y1="2818" pluginId="172">
-    <Name>Carla.nCQND/DAHDSR Envelope (Linear A, Exponential DR)</Name>
-   </Position>
-   <Position x1="944" y1="2677" pluginId="173">
-    <Name>Carla.nCQND/MIDI Pattern</Name>
-   </Position>
-   <Position x1="2472" y1="802" pluginId="174">
-    <Name>Carla.nCQND/Range Translator</Name>
-   </Position>
-   <Position x1="3740" y1="668" pluginId="175">
-    <Name>Carla.nCQND/Simple Scope CV (4 channel)</Name>
-   </Position>
-   <Position x1="2444" y1="888" pluginId="176">
-    <Name>Carla.nCQND/Range Translator (2)</Name>
-   </Position>
-   <Position x1="2457" y1="968" pluginId="177">
-    <Name>Carla.nCQND/Range Translator (3)</Name>
-   </Position>
-   <Position x1="2457" y1="1187" pluginId="178">
-    <Name>Carla.nCQND/Range Translator (4)</Name>
-   </Position>
-   <Position x1="2449" y1="1106" pluginId="179">
-    <Name>Carla.nCQND/Range Translator (5)</Name>
-   </Position>
-   <Position x1="3764" y1="833" pluginId="180">
-    <Name>Carla.nCQND/AMS VCO3 (2)</Name>
-   </Position>
-   <Position x1="3728" y1="1011" pluginId="181">
-    <Name>Carla.nCQND/AMS VCO3 (3)</Name>
-   </Position>
-   <Position x1="3740" y1="1218" pluginId="182">
-    <Name>Carla.nCQND/AMS VCO3 (4)</Name>
-   </Position>
-   <Position x1="3474" y1="1023" pluginId="183">
-    <Name>Carla.nCQND/CV_Multiply</Name>
-   </Position>
-   <Position x1="481" y1="1359" pluginId="184">
-    <Name>Carla.nCQND/CV Clock</Name>
-   </Position>
-   <Position x1="736" y1="1393" pluginId="185">
-    <Name>Carla.nCQND/Clock Divider</Name>
-   </Position>
-   <Position x1="1680" y1="1918" pluginId="186">
-    <Name>Carla.nCQND/Simple Scope CV (4 channel) (3)</Name>
-   </Position>
-   <Position x1="923" y1="1986" pluginId="187">
-    <Name>Carla.nCQND/Control to CV Interpolator</Name>
-   </Position>
-   <Position x1="229" y1="1304" pluginId="188">
-    <Name>Carla.nCQND/CV_TimeInfo (2)</Name>
-   </Position>
-   <Position x1="1573" y1="1014" pluginId="189">
-    <Name>Carla.nCQND/CV_NestedLongAllpass</Name>
-   </Position>
-   <Position x1="2187" y1="2378" pluginId="190">
-    <Name>Carla.nCQND/Control to CV Interpolator (2)</Name>
-   </Position>
-   <Position x1="2811" y1="2275" pluginId="191">
-    <Name>Carla.nCQND/CV_LongAllpass</Name>
-   </Position>
-   <Position x1="2575" y1="2368" pluginId="192">
-    <Name>Carla.nCQND/CV_Gate16 (2)</Name>
-   </Position>
-   <Position x1="1025" y1="1086" pluginId="193">
-    <Name>Carla.nCQND/32 Step Sequencer</Name>
-   </Position>
-   <Position x1="1001" y1="1196" pluginId="194">
-    <Name>Carla.nCQND/AMS Sequencer - 32 Steps</Name>
-   </Position>
-   <Position x1="1016" y1="1646" pluginId="195">
-    <Name>Carla.nCQND/CV_Gate16 (3)</Name>
-   </Position>
-   <Position x1="1608" y1="1125" pluginId="197">
-    <Name>Carla.nCQND/Simple Scope CV (4 channel) (4)</Name>
-   </Position>
-   <Position x1="725" y1="1682" pluginId="198">
-    <Name>Carla.nCQND/CV_NaiveDelay</Name>
-   </Position>
-   <Position x1="4312" y1="827" pluginId="199">
-    <Name>Carla.nCQND/Diode Ladder LPF</Name>
-   </Position>
-   <Position x1="554" y1="1210" pluginId="200">
-    <Name>Carla.nCQND/CV meter</Name>
    </Position>
    <Position x1="855" y1="2217">
     <Name>seq66</Name>
+   </Position>
+   <Position x1="5056" y1="2375">
+    <Name>jack_mixer.nAJKK</Name>
+   </Position>
+   <Position x1="9596" y1="3611">
+    <Name>Carla.nCQND/LSP Compressor (2)</Name>
+   </Position>
+   <Position x1="2756" y1="1500">
+    <Name>Carla.nCQND/Pulse PW</Name>
+   </Position>
+   <Position x1="3768" y1="1415">
+    <Name>Carla.nCQND/Pluse</Name>
+   </Position>
+   <Position x1="2762" y1="1338">
+    <Name>Carla.nCQND/Semitone</Name>
+   </Position>
+   <Position x1="2749" y1="1251">
+    <Name>Carla.nCQND/Exp FM Gain</Name>
+   </Position>
+   <Position x1="2756" y1="865">
+    <Name>Carla.nCQND/Gain Decay</Name>
+   </Position>
+   <Position x1="2762" y1="1412">
+    <Name>Carla.nCQND/Saw Edge</Name>
+   </Position>
+   <Position x1="2782" y1="1603">
+    <Name>Carla.nCQND/Pluse Edge</Name>
+   </Position>
+   <Position x1="2207" y1="486">
+    <Name>Carla.nCQND/Wedge Gate Open</Name>
+   </Position>
+   <Position x1="3331" y1="3553">
+    <Name>Carla.nCQND/MIDI-Trigger</Name>
+   </Position>
+   <Position x1="3807" y1="3545">
+    <Name>Carla.nCQND/EsPhaser</Name>
+   </Position>
+   <Position x1="4116" y1="3513">
+    <Name>Carla.nCQND/x42-Autotune</Name>
+   </Position>
+   <Position x1="4120" y1="3600">
+    <Name>Carla.nCQND/x42-Autotune (3)</Name>
+   </Position>
+   <Position x1="978" y1="4134">
+    <Name>Carla.nCQND/MIDI Generator</Name>
+   </Position>
+   <Position x1="3582" y1="3544">
+    <Name>Carla.nCQND/FDNCymbal</Name>
+   </Position>
+   <Position x1="3065" y1="3648">
+    <Name>Carla.nCQND/AMS Slew Limiter</Name>
+   </Position>
+   <Position x1="3327" y1="3645">
+    <Name>Carla.nCQND/AMS Hysteresis</Name>
+   </Position>
+   <Position x1="2790" y1="3587">
+    <Name>Carla.nCQND/AMS VC Switch</Name>
+   </Position>
+   <Position x1="2415" y1="1757">
+    <Name>Carla.nCQND/Kick Gate</Name>
+   </Position>
+   <Position x1="2411" y1="2063">
+    <Name>Carla.nCQND/Snare Gate</Name>
+   </Position>
+   <Position x1="3072" y1="1838">
+    <Name>Carla.nCQND/Snare Sine</Name>
+   </Position>
+   <Position x1="2983" y1="2074">
+    <Name>Carla.nCQND/Snare Noise</Name>
+   </Position>
+   <Position x1="2773" y1="1953">
+    <Name>Carla.nCQND/Freq Env (2)</Name>
+   </Position>
+   <Position x1="3325" y1="1867">
+    <Name>Carla.nCQND/Snare Sine Gain</Name>
+   </Position>
+   <Position x1="3325" y1="2006">
+    <Name>Carla.nCQND/AMS VCA Exp (3)</Name>
+   </Position>
+   <Position x1="2530" y1="3491">
+    <Name>Carla.nCQND/AMS LFO</Name>
+   </Position>
+   <Position x1="3039" y1="2192">
+    <Name>Carla.nCQND/AMS Noise2 (2)</Name>
+   </Position>
+   <Position x1="3314" y1="2221">
+    <Name>Carla.nCQND/AMS VCA Exp (2)</Name>
+   </Position>
+   <Position x1="2368" y1="2230">
+    <Name>Carla.nCQND/Hi-hat Gate</Name>
+   </Position>
+   <Position x1="3049" y1="2288">
+    <Name>Carla.nCQND/Freq Env (3)</Name>
+   </Position>
+   <Position x1="3757" y1="2253">
+    <Name>Carla.nCQND/Moog High-Pass Filter 1</Name>
+   </Position>
+   <Position x1="2759" y1="1100">
+    <Name>Carla.nCQND/Freq Decay</Name>
+   </Position>
+   <Position x1="2352" y1="2900">
+    <Name>Carla.nCQND/Cra Cymb Gate</Name>
+   </Position>
+   <Position x1="3111" y1="3551">
+    <Name>Carla.nCQND/CV to Audio</Name>
+   </Position>
+   <Position x1="2063" y1="1013">
+    <Name>Carla.nCQND/Control of Kick</Name>
+   </Position>
+   <Position x1="2758" y1="790">
+    <Name>Carla.nCQND/Gain Level</Name>
+   </Position>
+   <Position x1="2759" y1="944">
+    <Name>Carla.nCQND/Gain Curve</Name>
+   </Position>
+   <Position x1="2758" y1="1030">
+    <Name>Carla.nCQND/Freq Level</Name>
+   </Position>
+   <Position x1="2756" y1="1176">
+    <Name>Carla.nCQND/Freq Curve</Name>
+   </Position>
+   <Position x1="3229" y1="856">
+    <Name>Carla.nCQND/Gain Env</Name>
+   </Position>
+   <Position x1="3243" y1="1201">
+    <Name>Carla.nCQND/Freq Env</Name>
+   </Position>
+   <Position x1="2071" y1="1847">
+    <Name>Carla.nCQND/MIDI to CV trigger (2)</Name>
+   </Position>
+   <Position x1="2029" y1="2130">
+    <Name>Carla.nCQND/MIDI to CV trigger (4)</Name>
+   </Position>
+   <Position x1="2050" y1="2238">
+    <Name>Carla.nCQND/MIDI to CV trigger (5)</Name>
+   </Position>
+   <Position x1="2059" y1="2298">
+    <Name>Carla.nCQND/MIDI to CV trigger (6)</Name>
+   </Position>
+   <Position x1="2057" y1="2473">
+    <Name>Carla.nCQND/MIDI to CV trigger (7)</Name>
+   </Position>
+   <Position x1="2058" y1="2523">
+    <Name>Carla.nCQND/MIDI to CV trigger (8)</Name>
+   </Position>
+   <Position x1="2052" y1="2689">
+    <Name>Carla.nCQND/MIDI to CV trigger (9)</Name>
+   </Position>
+   <Position x1="1723" y1="1791">
+    <Name>Carla.nCQND/MIDI Simple Channel Filter</Name>
+   </Position>
+   <Position x1="1721" y1="1844">
+    <Name>Carla.nCQND/MIDI Simple Channel Filter (2)</Name>
+   </Position>
+   <Position x1="1714" y1="2131">
+    <Name>Carla.nCQND/MIDI Simple Channel Filter (4)</Name>
+   </Position>
+   <Position x1="1709" y1="2247">
+    <Name>Carla.nCQND/MIDI Simple Channel Filter (5)</Name>
+   </Position>
+   <Position x1="1710" y1="2298">
+    <Name>Carla.nCQND/MIDI Simple Channel Filter (6)</Name>
+   </Position>
+   <Position x1="1709" y1="2473">
+    <Name>Carla.nCQND/MIDI Simple Channel Filter (7)</Name>
+   </Position>
+   <Position x1="1711" y1="2523">
+    <Name>Carla.nCQND/MIDI Simple Channel Filter (8)</Name>
+   </Position>
+   <Position x1="2081" y1="1748">
+    <Name>Carla.nCQND/MIDI to CV</Name>
+   </Position>
+   <Position x1="3077" y1="2462">
+    <Name>Carla.nCQND/Gain Env (2)</Name>
+   </Position>
+   <Position x1="3074" y1="2763">
+    <Name>Carla.nCQND/Freq Env (4)</Name>
+   </Position>
+   <Position x1="2053" y1="2043">
+    <Name>Carla.nCQND/MIDI to CV trigger (3)</Name>
+   </Position>
+   <Position x1="2056" y1="2904">
+    <Name>Carla.nCQND/MIDI to CV trigger (11)</Name>
+   </Position>
+   <Position x1="1709" y1="2689">
+    <Name>Carla.nCQND/MIDI Simple Channel Filter (9)</Name>
+   </Position>
+   <Position x1="1706" y1="2743">
+    <Name>Carla.nCQND/MIDI Simple Channel Filter (10)</Name>
+   </Position>
+   <Position x1="2362" y1="2469">
+    <Name>Carla.nCQND/Tom Gate</Name>
+   </Position>
+   <Position x1="1704" y1="2043">
+    <Name>Carla.nCQND/MIDI Simple Channel Filter (3)</Name>
+   </Position>
+   <Position x1="2055" y1="2952">
+    <Name>Carla.nCQND/MIDI to CV trigger (12)</Name>
+   </Position>
+   <Position x1="1708" y1="2903">
+    <Name>Carla.nCQND/MIDI Simple Channel Filter (11)</Name>
+   </Position>
+   <Position x1="3320" y1="2699">
+    <Name>Carla.nCQND/Sine (2)</Name>
+   </Position>
+   <Position x1="3809" y1="2572">
+    <Name>Carla.nCQND/Sine VCA Exp (2)</Name>
+   </Position>
+   <Position x1="3076" y1="3233">
+    <Name>Carla.nCQND/Cymb Gain Env</Name>
+   </Position>
+   <Position x1="3150" y1="3160">
+    <Name>Carla.nCQND/AMS Noise2 (3)</Name>
+   </Position>
+   <Position x1="3655" y1="3194">
+    <Name>Carla.nCQND/AMS VCA Exp (4)</Name>
+   </Position>
+   <Position x1="3388" y1="3140">
+    <Name>Carla.nCQND/CV to Audio (2)</Name>
+   </Position>
+   <Position x1="3329" y1="3304">
+    <Name>Carla.nCQND/Sine (3)</Name>
+   </Position>
+   <Position x1="2357" y1="2697">
+    <Name>Carla.nCQND/Cymb Gate</Name>
+   </Position>
+   <Position x1="1709" y1="2955">
+    <Name>Carla.nCQND/MIDI Simple Channel Filter (12)</Name>
+   </Position>
+   <Position x1="2050" y1="2743">
+    <Name>Carla.nCQND/MIDI to CV trigger (10)</Name>
+   </Position>
+   <Position x1="3709" y1="1940">
+    <Name>Carla.nCQND/AMS Mixer 2 channels</Name>
+   </Position>
+   <Position x1="2820" y1="4119">
+    <Name>Carla.nCQND/Lead Osc 1</Name>
+   </Position>
+   <Position x1="3418" y1="4075">
+    <Name>Carla.nCQND/Lead VCF 1</Name>
+   </Position>
+   <Position x1="3679" y1="4133">
+    <Name>Carla.nCQND/Lead Gain 1</Name>
+   </Position>
+   <Position x1="2382" y1="3987">
+    <Name>Carla.nCQND/MIDI to CV Poly</Name>
+   </Position>
+   <Position x1="2819" y1="4525">
+    <Name>Carla.nCQND/Lead Osc 2</Name>
+   </Position>
+   <Position x1="3343" y1="4524">
+    <Name>Carla.nCQND/Lead VCF 2</Name>
+   </Position>
+   <Position x1="3555" y1="4555">
+    <Name>Carla.nCQND/Lead Gain 2</Name>
+   </Position>
+   <Position x1="3340" y1="4977">
+    <Name>Carla.nCQND/Lead VCF 3</Name>
+   </Position>
+   <Position x1="3568" y1="5024">
+    <Name>Carla.nCQND/Lead Gain 3</Name>
+   </Position>
+   <Position x1="2813" y1="5435">
+    <Name>Carla.nCQND/Lead Osc 4</Name>
+   </Position>
+   <Position x1="3344" y1="5433">
+    <Name>Carla.nCQND/Lead VCF 4</Name>
+   </Position>
+   <Position x1="3553" y1="5498">
+    <Name>Carla.nCQND/Lead Gain 4</Name>
+   </Position>
+   <Position x1="9033" y1="3712">
+    <Name>Carla.nCQND/Dragonfly Hall Reverb</Name>
+   </Position>
+   <Position x1="7034" y1="4743">
+    <Name>Carla.nCQND/AMS Stereo Mixer 8 channels</Name>
+   </Position>
+   <Position x1="3922" y1="3983">
+    <Name>Carla.nCQND/MIDI to CV Poly (2)</Name>
+   </Position>
+   <Position x1="4323" y1="4085">
+    <Name>Carla.nCQND/Lead Osc 4 (2)</Name>
+   </Position>
+   <Position x1="4864" y1="4086">
+    <Name>Carla.nCQND/Lead VCF 4 (2)</Name>
+   </Position>
+   <Position x1="5106" y1="4089">
+    <Name>Carla.nCQND/Lead Gain 4 (2)</Name>
+   </Position>
+   <Position x1="4329" y1="4552">
+    <Name>Carla.nCQND/Lead Osc 4 (3)</Name>
+   </Position>
+   <Position x1="4871" y1="4550">
+    <Name>Carla.nCQND/Lead VCF 4 (3)</Name>
+   </Position>
+   <Position x1="5102" y1="4629">
+    <Name>Carla.nCQND/Lead Gain 4 (3)</Name>
+   </Position>
+   <Position x1="4337" y1="5010">
+    <Name>Carla.nCQND/Lead Osc 4 (4)</Name>
+   </Position>
+   <Position x1="4875" y1="5010">
+    <Name>Carla.nCQND/Lead VCF 4 (4)</Name>
+   </Position>
+   <Position x1="5124" y1="5067">
+    <Name>Carla.nCQND/Lead Gain 4 (4)</Name>
+   </Position>
+   <Position x1="4344" y1="5472">
+    <Name>Carla.nCQND/Lead Osc 4 (5)</Name>
+   </Position>
+   <Position x1="4889" y1="5472">
+    <Name>Carla.nCQND/Lead VCF 4 (5)</Name>
+   </Position>
+   <Position x1="5133" y1="5508">
+    <Name>Carla.nCQND/Lead Gain 4 (5)</Name>
+   </Position>
+   <Position x1="2827" y1="4977">
+    <Name>Carla.nCQND/Lead Osc 3</Name>
+   </Position>
+   <Position x1="370" y1="4048">
+    <Name>Carla.nCQND/CV_TimeInfo</Name>
+   </Position>
+   <Position x1="2990" y1="1015">
+    <Name>Carla.nCQND/CV_LinearMap</Name>
+   </Position>
+   <Position x1="2970" y1="1300">
+    <Name>Carla.nCQND/CV_LinearMap (2)</Name>
+   </Position>
+   <Position x1="3983" y1="826">
+    <Name>Carla.nCQND/AMS VCA Lin</Name>
+   </Position>
+   <Position x1="3675" y1="1647">
+    <Name>Carla.nCQND/AMS Dynamic Waves - 4 Osc</Name>
+   </Position>
+   <Position x1="9107" y1="3417">
+    <Name>Carla.nCQND/CHOWTapeModel</Name>
+   </Position>
+   <Position x1="6826" y1="3263">
+    <Name>Carla.nCQND/LSP Compressor</Name>
+   </Position>
+   <Position x1="929" y1="4366">
+    <Name>Carla.nCQND/CV meter (2)</Name>
+   </Position>
+   <Position x1="2477" y1="1293">
+    <Name>Carla.nCQND/CV_LinearMap (4)</Name>
+   </Position>
+   <Position x1="2057" y1="1937">
+    <Name>Carla.nCQND/MIDI to CV (2)</Name>
+   </Position>
+   <Position x1="2602" y1="1836">
+    <Name>Carla.nCQND/Control to CV</Name>
+   </Position>
+   <Position x1="4901" y1="645">
+    <Name>Carla.nCQND/Simple Scope (4 channel) (2)</Name>
+   </Position>
+   <Position x1="3985" y1="1012">
+    <Name>Carla.nCQND/AMS VCA Lin (2)</Name>
+   </Position>
+   <Position x1="3992" y1="1186">
+    <Name>Carla.nCQND/AMS VCA Lin (3)</Name>
+   </Position>
+   <Position x1="3971" y1="1429">
+    <Name>Carla.nCQND/AMS VCA Lin (4)</Name>
+   </Position>
+   <Position x1="3999" y1="1647">
+    <Name>Carla.nCQND/AMS VCA Lin (5)</Name>
+   </Position>
+   <Position x1="4251" y1="1025">
+    <Name>Carla.nCQND/Glame Lowpass Filter (2)</Name>
+   </Position>
+   <Position x1="4255" y1="1221">
+    <Name>Carla.nCQND/Glame Lowpass Filter (3)</Name>
+   </Position>
+   <Position x1="4254" y1="1429">
+    <Name>Carla.nCQND/Glame Lowpass Filter (4)</Name>
+   </Position>
+   <Position x1="4260" y1="1647">
+    <Name>Carla.nCQND/Glame Lowpass Filter (5)</Name>
+   </Position>
+   <Position x1="954" y1="3950">
+    <Name>Carla.nCQND/MIDI Channel Filter</Name>
+   </Position>
+   <Position x1="1543" y1="4147">
+    <Name>Carla.nCQND/MIDI Split</Name>
+   </Position>
+   <Position x1="1251" y1="4113">
+    <Name>Carla.nCQND/midiPolyphony</Name>
+   </Position>
+   <Position x1="5738" y1="4080">
+    <Name>Carla.nCQND/Lead Osc 4 (6)</Name>
+   </Position>
+   <Position x1="5734" y1="4537">
+    <Name>Carla.nCQND/Lead Osc 4 (7)</Name>
+   </Position>
+   <Position x1="6263" y1="4080">
+    <Name>Carla.nCQND/Lead VCF 4 (6)</Name>
+   </Position>
+   <Position x1="6502" y1="4136">
+    <Name>Carla.nCQND/Lead Gain 4 (6)</Name>
+   </Position>
+   <Position x1="6507" y1="4585">
+    <Name>Carla.nCQND/Lead Gain 4 (7)</Name>
+   </Position>
+   <Position x1="6256" y1="4536">
+    <Name>Carla.nCQND/Lead VCF 4 (7)</Name>
+   </Position>
+   <Position x1="5390" y1="3989">
+    <Name>Carla.nCQND/MIDI to CV Poly (3)</Name>
+   </Position>
+   <Position x1="1550" y1="4887">
+    <Name>Carla.nCQND/CV_Gate16</Name>
+   </Position>
+   <Position x1="2074" y1="4778">
+    <Name>Carla.nCQND/Attack</Name>
+   </Position>
+   <Position x1="2067" y1="4955">
+    <Name>Carla.nCQND/Decay</Name>
+   </Position>
+   <Position x1="3029" y1="4110">
+    <Name>Carla.nCQND/CV_PolyLoopEnvelope4</Name>
+   </Position>
+   <Position x1="2077" y1="4703">
+    <Name>Carla.nCQND/Delay</Name>
+   </Position>
+   <Position x1="2071" y1="4876">
+    <Name>Carla.nCQND/Hold</Name>
+   </Position>
+   <Position x1="2051" y1="5035">
+    <Name>Carla.nCQND/Sustain Lev</Name>
+   </Position>
+   <Position x1="2074" y1="5213">
+    <Name>Carla.nCQND/Release</Name>
+   </Position>
+   <Position x1="3042" y1="4570">
+    <Name>Carla.nCQND/CV_PolyLoopEnvelope4 (2)</Name>
+   </Position>
+   <Position x1="3037" y1="5020">
+    <Name>Carla.nCQND/CV_PolyLoopEnvelope4 (3)</Name>
+   </Position>
+   <Position x1="3040" y1="5478">
+    <Name>Carla.nCQND/CV_PolyLoopEnvelope4 (4)</Name>
+   </Position>
+   <Position x1="4551" y1="4132">
+    <Name>Carla.nCQND/CV_PolyLoopEnvelope4 (5)</Name>
+   </Position>
+   <Position x1="4562" y1="4585">
+    <Name>Carla.nCQND/CV_PolyLoopEnvelope4 (6)</Name>
+   </Position>
+   <Position x1="4571" y1="5051">
+    <Name>Carla.nCQND/CV_PolyLoopEnvelope4 (7)</Name>
+   </Position>
+   <Position x1="4571" y1="5515">
+    <Name>Carla.nCQND/CV_PolyLoopEnvelope4 (8)</Name>
+   </Position>
+   <Position x1="5966" y1="4122">
+    <Name>Carla.nCQND/CV_PolyLoopEnvelope4 (9)</Name>
+   </Position>
+   <Position x1="5957" y1="4581">
+    <Name>Carla.nCQND/CV_PolyLoopEnvelope4 (10)</Name>
+   </Position>
+   <Position x1="7041" y1="5024">
+    <Name>Carla.nCQND/AMS Stereo Mixer 2 channels</Name>
+   </Position>
+   <Position x1="2056" y1="5119">
+    <Name>Carla.nCQND/Sustain Time</Name>
+   </Position>
+   <Position x1="3871" y1="4368">
+    <Name>Carla.nCQND/Simple Scope CV (4 channel) (2)</Name>
+   </Position>
+   <Position x1="1198" y1="4284">
+    <Name>Carla.nCQND/MIDI Note Transpose</Name>
+   </Position>
+   <Position x1="2076" y1="5326">
+    <Name>Carla.nCQND/Octave</Name>
+   </Position>
+   <Position x1="1830" y1="5324">
+    <Name>Carla.nCQND/CV_LinearMap (3)</Name>
+   </Position>
+   <Position x1="7544" y1="4484">
+    <Name>Carla.nCQND/Moog Low-Pass Filter 4</Name>
+   </Position>
+   <Position x1="7688" y1="4698">
+    <Name>Carla.nCQND/Moog Low-Pass Filter 4 (2)</Name>
+   </Position>
+   <Position x1="3827" y1="4701">
+    <Name>Carla.nCQND/CV_RateLimiter</Name>
+   </Position>
+   <Position x1="2863" y1="3884">
+    <Name>Carla.nCQND/AMS VCO3</Name>
+   </Position>
+   <Position x1="3437" y1="3851">
+    <Name>Carla.nCQND/AMS VCF</Name>
+   </Position>
+   <Position x1="4119" y1="3787">
+    <Name>Carla.nCQND/Simple Scope (4 channel)</Name>
+   </Position>
+   <Position x1="3672" y1="3896">
+    <Name>Carla.nCQND/Lead Gain 1 (2)</Name>
+   </Position>
+   <Position x1="3313" y1="4252">
+    <Name>Carla.nCQND/AMS VCF (2)</Name>
+   </Position>
+   <Position x1="936" y1="3723">
+    <Name>Carla.nCQND/CV meter (3)</Name>
+   </Position>
+   <Position x1="1611" y1="4568">
+    <Name>Carla.nCQND/CV_LinearADSREnvelope</Name>
+   </Position>
+   <Position x1="875" y1="2818">
+    <Name>Carla.nCQND/DAHDSR Envelope (Linear A, Exponential DR)</Name>
+   </Position>
+   <Position x1="944" y1="2677">
+    <Name>Carla.nCQND/MIDI Pattern</Name>
+   </Position>
+   <Position x1="2472" y1="802">
+    <Name>Carla.nCQND/Range Translator</Name>
+   </Position>
+   <Position x1="3740" y1="668">
+    <Name>Carla.nCQND/Simple Scope CV (4 channel)</Name>
+   </Position>
+   <Position x1="2444" y1="888">
+    <Name>Carla.nCQND/Range Translator (2)</Name>
+   </Position>
+   <Position x1="2457" y1="968">
+    <Name>Carla.nCQND/Range Translator (3)</Name>
+   </Position>
+   <Position x1="2457" y1="1187">
+    <Name>Carla.nCQND/Range Translator (4)</Name>
+   </Position>
+   <Position x1="2449" y1="1106">
+    <Name>Carla.nCQND/Range Translator (5)</Name>
+   </Position>
+   <Position x1="3764" y1="833">
+    <Name>Carla.nCQND/AMS VCO3 (2)</Name>
+   </Position>
+   <Position x1="3728" y1="1011">
+    <Name>Carla.nCQND/AMS VCO3 (3)</Name>
+   </Position>
+   <Position x1="3740" y1="1218">
+    <Name>Carla.nCQND/AMS VCO3 (4)</Name>
+   </Position>
+   <Position x1="3474" y1="1023">
+    <Name>Carla.nCQND/CV_Multiply</Name>
+   </Position>
+   <Position x1="481" y1="1359">
+    <Name>Carla.nCQND/CV Clock</Name>
+   </Position>
+   <Position x1="759" y1="1367">
+    <Name>Carla.nCQND/Clock Divider</Name>
+   </Position>
+   <Position x1="1361" y1="1689">
+    <Name>Carla.nCQND/Simple Scope CV (4 channel) (3)</Name>
+   </Position>
+   <Position x1="923" y1="1986">
+    <Name>Carla.nCQND/Control to CV Interpolator</Name>
+   </Position>
+   <Position x1="229" y1="1304">
+    <Name>Carla.nCQND/CV_TimeInfo (2)</Name>
+   </Position>
+   <Position x1="1123" y1="957">
+    <Name>Carla.nCQND/CV_NestedLongAllpass</Name>
+   </Position>
+   <Position x1="2187" y1="2378">
+    <Name>Carla.nCQND/Control to CV Interpolator (2)</Name>
+   </Position>
+   <Position x1="2811" y1="2275">
+    <Name>Carla.nCQND/CV_LongAllpass</Name>
+   </Position>
+   <Position x1="2575" y1="2368">
+    <Name>Carla.nCQND/CV_Gate16 (2)</Name>
+   </Position>
+   <Position x1="1137" y1="1031">
+    <Name>Carla.nCQND/32 Step Sequencer</Name>
+   </Position>
+   <Position x1="1122" y1="1127">
+    <Name>Carla.nCQND/AMS Sequencer - 32 Steps</Name>
+   </Position>
+   <Position x1="1444" y1="1027">
+    <Name>Carla.nCQND/Simple Scope CV (4 channel) (4)</Name>
+   </Position>
+   <Position x1="724" y1="1618">
+    <Name>Carla.nCQND/CV_NaiveDelay</Name>
+   </Position>
+   <Position x1="4312" y1="827">
+    <Name>Carla.nCQND/Diode Ladder LPF</Name>
+   </Position>
+   <Position x1="741" y1="1767">
+    <Name>Carla.nCQND/CV meter</Name>
+   </Position>
+   <Position x1="1002" y1="1538" pluginId="191">
+    <Name>Carla.nCQND/CV_Gate16 1.16th Delay</Name>
    </Position>
   </Positions>
  </ExternalPatchbay>

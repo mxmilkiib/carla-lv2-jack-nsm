@@ -41,22 +41,22 @@ Carla.nCQND/CV to Audio (2):Audio Output |> Carla.nCQND/AMS VCA Exp (4):In 1
 Carla.nCQND/CV to Audio:Audio Output     |> Carla.nCQND/MIDI-Trigger:Input audio source
 Carla.nCQND/CV_Gate16 (2):Output0        |> Carla.nCQND/CV_LongAllpass:Time
 Carla.nCQND/CV_Gate16 (2):Output1        |> Carla.nCQND/CV_LongAllpass:Feedback
-Carla.nCQND/CV_Gate16 (3):Output0        |> Carla.nCQND/Simple Scope CV (4 channel) (3):In1
-Carla.nCQND/CV_Gate16 (3):Output1        |> Carla.nCQND/Simple Scope CV (4 channel) (3):In1
-Carla.nCQND/CV_Gate16 (3):Output10       |> Carla.nCQND/Simple Scope CV (4 channel) (3):In1
-Carla.nCQND/CV_Gate16 (3):Output11       |> Carla.nCQND/Simple Scope CV (4 channel) (3):In1
-Carla.nCQND/CV_Gate16 (3):Output12       |> Carla.nCQND/Simple Scope CV (4 channel) (3):In1
-Carla.nCQND/CV_Gate16 (3):Output13       |> Carla.nCQND/Simple Scope CV (4 channel) (3):In1
-Carla.nCQND/CV_Gate16 (3):Output14       |> Carla.nCQND/Simple Scope CV (4 channel) (3):In1
-Carla.nCQND/CV_Gate16 (3):Output15       |> Carla.nCQND/Simple Scope CV (4 channel) (3):In1
-Carla.nCQND/CV_Gate16 (3):Output2        |> Carla.nCQND/Simple Scope CV (4 channel) (3):In1
-Carla.nCQND/CV_Gate16 (3):Output3        |> Carla.nCQND/Simple Scope CV (4 channel) (3):In1
-Carla.nCQND/CV_Gate16 (3):Output4        |> Carla.nCQND/Simple Scope CV (4 channel) (3):In1
-Carla.nCQND/CV_Gate16 (3):Output5        |> Carla.nCQND/Simple Scope CV (4 channel) (3):In1
-Carla.nCQND/CV_Gate16 (3):Output6        |> Carla.nCQND/Simple Scope CV (4 channel) (3):In1
-Carla.nCQND/CV_Gate16 (3):Output7        |> Carla.nCQND/Simple Scope CV (4 channel) (3):In1
-Carla.nCQND/CV_Gate16 (3):Output8        |> Carla.nCQND/Simple Scope CV (4 channel) (3):In1
-Carla.nCQND/CV_Gate16 (3):Output9        |> Carla.nCQND/Simple Scope CV (4 channel) (3):In1
+Carla.nCQND/CV_Gate16 1.16th Delay:Output0 |> Carla.nCQND/Simple Scope CV (4 channel) (3):In1
+Carla.nCQND/CV_Gate16 1.16th Delay:Output1 |> Carla.nCQND/Simple Scope CV (4 channel) (3):In1
+Carla.nCQND/CV_Gate16 1.16th Delay:Output10 |> Carla.nCQND/Simple Scope CV (4 channel) (3):In1
+Carla.nCQND/CV_Gate16 1.16th Delay:Output11 |> Carla.nCQND/Simple Scope CV (4 channel) (3):In1
+Carla.nCQND/CV_Gate16 1.16th Delay:Output12 |> Carla.nCQND/Simple Scope CV (4 channel) (3):In1
+Carla.nCQND/CV_Gate16 1.16th Delay:Output13 |> Carla.nCQND/Simple Scope CV (4 channel) (3):In1
+Carla.nCQND/CV_Gate16 1.16th Delay:Output14 |> Carla.nCQND/Simple Scope CV (4 channel) (3):In1
+Carla.nCQND/CV_Gate16 1.16th Delay:Output15 |> Carla.nCQND/Simple Scope CV (4 channel) (3):In1
+Carla.nCQND/CV_Gate16 1.16th Delay:Output2 |> Carla.nCQND/Simple Scope CV (4 channel) (3):In1
+Carla.nCQND/CV_Gate16 1.16th Delay:Output3 |> Carla.nCQND/Simple Scope CV (4 channel) (3):In1
+Carla.nCQND/CV_Gate16 1.16th Delay:Output4 |> Carla.nCQND/Simple Scope CV (4 channel) (3):In1
+Carla.nCQND/CV_Gate16 1.16th Delay:Output5 |> Carla.nCQND/Simple Scope CV (4 channel) (3):In1
+Carla.nCQND/CV_Gate16 1.16th Delay:Output6 |> Carla.nCQND/Simple Scope CV (4 channel) (3):In1
+Carla.nCQND/CV_Gate16 1.16th Delay:Output7 |> Carla.nCQND/Simple Scope CV (4 channel) (3):In1
+Carla.nCQND/CV_Gate16 1.16th Delay:Output8 |> Carla.nCQND/Simple Scope CV (4 channel) (3):In1
+Carla.nCQND/CV_Gate16 1.16th Delay:Output9 |> Carla.nCQND/Simple Scope CV (4 channel) (3):In1
 Carla.nCQND/CV_Gate16:Output0            |> Carla.nCQND/Delay:Control
 Carla.nCQND/CV_Gate16:Output1            |> Carla.nCQND/Attack:Control
 Carla.nCQND/CV_Gate16:Output2            |> Carla.nCQND/Hold:Control
@@ -105,7 +105,7 @@ Carla.nCQND/CV_TimeInfo:BPM              |> Carla.nCQND/CV meter (2):CV input
 Carla.nCQND/CV_TimeInfo:BPM              |> Carla.nCQND/CV meter (3):CV input
 Carla.nCQND/CV_TimeInfo:Playing          |> Carla.nCQND/MIDI Channel Filter:Channel  1
 Carla.nCQND/Clock Divider:ClockOut4      |> Carla.nCQND/Kick Gate:CV Input
-Carla.nCQND/Clock Divider:ClockOut8      |> Carla.nCQND/CV_Gate16 (3):Gate0
+Carla.nCQND/Clock Divider:ClockOut8      |> Carla.nCQND/CV_Gate16 1.16th Delay:Gate0
 Carla.nCQND/Control of Kick:Output0      |> Carla.nCQND/Range Translator:Input
 Carla.nCQND/Control of Kick:Output1      |> Carla.nCQND/Range Translator (2):Input
 Carla.nCQND/Control of Kick:Output11     |> Carla.nCQND/CV_LinearMap (4):Input
@@ -342,23 +342,21 @@ Carla.nCQND/Tom Gate:CV Output           |> Carla.nCQND/Gain Env (2):Trig/Gate
 Carla.nCQND/midiPolyphony:events-out     |> Carla.nCQND/MIDI Split:events-in
 Carla.nCQND/x42-Autotune (3):Output      |> jack_mixer.nAJKK:Cymb Cray R
 Carla.nCQND/x42-Autotune:Output          |> jack_mixer.nAJKK:Cymb Cray L
-PulseAudio JACK Sink:front-left          |> system:playback_1
-PulseAudio JACK Sink:front-right         |> system:playback_2
 jack_mixer.nAJKK:Main Out L              |> Carla.nCQND/LSP Compressor:Input L
 jack_mixer.nAJKK:Main Out R              |> Carla.nCQND/LSP Compressor:Input R
 jack_mixer.nNMOO:Main Out L              |> Carla.nCQND/LSP Compressor (2):Input L
 jack_mixer.nNMOO:Main Out R              |> Carla.nCQND/LSP Compressor (2):Input R
 jack_mixer.nNMOO:Reverb Buss L           |> Carla.nCQND/Dragonfly Hall Reverb:Audio Input 1
 jack_mixer.nNMOO:Reverb Buss R           |> Carla.nCQND/Dragonfly Hall Reverb:Audio Input 2
-seq66:qseq66 midi out 0                  |> Carla.nCQND/MIDI Simple Channel Filter (3):events-in
-seq66:qseq66 midi out 0                  |> Carla.nCQND/MIDI Simple Channel Filter (4):events-in
-seq66:qseq66 midi out 1                  |> Carla.nCQND/MIDI Simple Channel Filter (5):events-in
-seq66:qseq66 midi out 1                  |> Carla.nCQND/MIDI Simple Channel Filter (6):events-in
-seq66:qseq66 midi out 2                  |> Carla.nCQND/MIDI Simple Channel Filter (7):events-in
-seq66:qseq66 midi out 2                  |> Carla.nCQND/MIDI Simple Channel Filter (8):events-in
-seq66:qseq66 midi out 3                  |> Carla.nCQND/MIDI Simple Channel Filter (10):events-in
-seq66:qseq66 midi out 3                  |> Carla.nCQND/MIDI Simple Channel Filter (9):events-in
-seq66:qseq66 midi out 4                  |> Carla.nCQND/MIDI Simple Channel Filter (11):events-in
-seq66:qseq66 midi out 4                  |> Carla.nCQND/MIDI Simple Channel Filter (12):events-in
-system:capture_1                         |> PulseAudio JACK Source:front-left
-system:capture_2                         |> PulseAudio JACK Source:front-right
+seq66:qseq66 midi out 0                  |> Carla.nCQND/MIDI Simple Channel Filter (2):events-in
+seq66:qseq66 midi out 0                  |> Carla.nCQND/MIDI Simple Channel Filter:events-in
+seq66:qseq66 midi out 1                  |> Carla.nCQND/MIDI Simple Channel Filter (3):events-in
+seq66:qseq66 midi out 1                  |> Carla.nCQND/MIDI Simple Channel Filter (4):events-in
+seq66:qseq66 midi out 2                  |> Carla.nCQND/MIDI Simple Channel Filter (5):events-in
+seq66:qseq66 midi out 2                  |> Carla.nCQND/MIDI Simple Channel Filter (6):events-in
+seq66:qseq66 midi out 3                  |> Carla.nCQND/MIDI Simple Channel Filter (7):events-in
+seq66:qseq66 midi out 3                  |> Carla.nCQND/MIDI Simple Channel Filter (8):events-in
+seq66:qseq66 midi out 4                  |> Carla.nCQND/MIDI Simple Channel Filter (10):events-in
+seq66:qseq66 midi out 4                  |> Carla.nCQND/MIDI Simple Channel Filter (9):events-in
+seq66:qseq66 midi out 5                  |> Carla.nCQND/MIDI Simple Channel Filter (11):events-in
+seq66:qseq66 midi out 5                  |> Carla.nCQND/MIDI Simple Channel Filter (12):events-in
