@@ -32,7 +32,7 @@ For Arch Linux users:
 * https://aur.archlinux.org/packages/polylenticular.lv2-git
 * https://aur.archlinux.org/packages/poly.lv2-git/
 
-## Videos
+## Screencasts
 * [Modular Synth in Carla with LV2 plugins](https://www.youtube.com/playlist?list=PLi4842O5fEfKwAKxqBCZJs3cFP78ggsd9) - YouTube playlist
 
 ## Screenshots
